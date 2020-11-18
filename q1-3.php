@@ -6,9 +6,12 @@
   </head>
   <body>
     <div class="bodywrapper">
-      <div class="bgwrapper">
+      <div class="bgwrapper3">
           <!--baggrund to biledder, i et grid, det ene over det andet, brug z indeks, og øverste billed hus-->
-          <div class="paperwrapper">
+          <div class="paperwrapper2">
+            <div class="counterwrapper">
+              <p>1/7</p>
+            </div>
             <div class="headingwrapper">
               <h1>Velkommen, <br>
               hvor mange bliver I?</h1>
@@ -26,10 +29,10 @@
             </ul>
             </div>
             <div class="btnwrapper3">
-           <a href="house2.php"> <button type="button" name="btn-start">Tilbage</button> </a>
+           <a href="house2.php"> <button type="button" class="tilbage btn-style" name="btn-tilbage">Tilbage</button> </a>
           </div>
             <div class="btnwrapper2">
-           <a href="q2-4.php"> <button type="button" name="btn-start">Videre</button> </a>
+           <a href="q2-4.php"> <button type="button" class="videre btn-style" name="btn-videre">Videre</button> </a>
           </div>
 
           </div>

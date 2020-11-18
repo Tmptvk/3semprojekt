@@ -8,13 +8,13 @@
     <div class="bodywrapper">
       <div class="bgwrapper">
         <div class="logowrapper">
-          <img src="media/papas-papbar-logo.png" alt="Papas Papbar Logo">
+          <img class="papalogo" src="media/papas-papbar-logo.png" alt="Papas Papbar Logo">
         </div>
         <div class="headingwrapper">
           <h1>Gamepicker</h1>
         </div>
         <div class="btnwrapper">
-       <a href="house2.php"> <button type="button" name="btn-start">Start</button> </a>
+       <a href="house2.php"> <button class="btn-style" type="button" name="btn-start">Start</button> </a>
       </div>
       </div>
     </div>

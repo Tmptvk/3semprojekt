@@ -6,7 +6,7 @@
   </head>
   <body>
     <div class="bodywrapper">
-      <div class="bgwrapper">
+      <div class="bgwrapper2">
           <!--baggrund to biledder, i et grid, det ene over det andet, brug z indeks, og øverste billed hus-->
           <div class="paperwrapper">
             <div class="headingwrapper">
@@ -22,7 +22,7 @@
               </p>
             </div>
             <div class="btnwrapper2">
-           <a href="q1-3.php"> <button type="button" name="btn-start">Videre</button> </a>
+           <a href="q1-3.php">  <button class="btn-style" type="button" name="btn-start">Videre</button> </a>
           </div>
           </div>
       </div>
