@@ -17,7 +17,7 @@
             </div>
             <div class="txtwrapperit">
               <p>
-                Et par spil er nu klar, <br>
+                Et par spil er nu klar,
                 til at blive spillet i min bar. <br>
                 Vil du gøre dit ønske mere klart, <br>
                 er guruen en go' kammerat!
