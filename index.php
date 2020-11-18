@@ -5,6 +5,16 @@
     <title></title>
   </head>
   <body>
-
+    <div class="bodywrapper">
+      <div class="bgwrapper">
+        <div class="logowrapper">
+        </div>
+        <div class="headingwrapper">
+        </div>
+        <div class="btnwrapper">
+       <a href="house2.php"> <button type="button" name="btn-start">Start</button> </a>
+      </div>
+      </div>
+    </div>
   </body>
 </html>
