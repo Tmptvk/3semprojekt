@@ -2,17 +2,19 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  text-decoration: none; }
+  text-decoration: none;
+  font-family: bree, sans-serif;
+  color: #391f17; }
   * .bodywrapper {
     display: grid;
     grid-template-columns: 100%;
     background-color: #511f18;
     height: 100vh; }
     * .bodywrapper .bgwrapper {
-      grid-row: 1/12;
+      grid-row: 1/6;
       grid-column: 1/2;
       background-image: url("../media/bgindex.png");
-      background-size: 100%;
+      background-size: cover;
       height: 100%;
       width: 100%;
       background-repeat: no-repeat;

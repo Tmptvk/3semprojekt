@@ -5,6 +5,8 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
+  font-family: $pri-font;
+  color: $col-brown;
 
   .bodywrapper {
     display: grid;
@@ -12,10 +14,10 @@
     background-color: #511f18;
     height: 100vh;
     .bgwrapper{
-      grid-row: 1/12;
+      grid-row: 1/6;
       grid-column: 1/2;
       background-image: url('../media/bgindex.png');
-      background-size: 100%;
+      background-size: cover;
       height: 100%;
       width: 100%;
       background-repeat: no-repeat;

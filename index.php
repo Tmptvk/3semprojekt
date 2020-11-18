@@ -8,6 +8,7 @@
     <div class="bodywrapper">
       <div class="bgwrapper">
         <div class="logowrapper">
+          <img src="media/papas-papbar-logo.png" alt="Papas Papbar Logo">
         </div>
         <div class="headingwrapper">
           <h1>Gamepicker</h1>
