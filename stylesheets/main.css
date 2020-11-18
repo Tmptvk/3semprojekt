@@ -1,18 +1,21 @@
-.bodywrapper {
-  display: grid;
-  grid-template-columns: 100%;
-  background-color: blue;
-  grid-template-rows: repeat(9, 200px); }
-  .bodywrapper .bgwrapper {
-    grid-row: 1/6;
-    grid-column: 1/2;
-    background-image: url("");
-    background-size: 100%;
-    height: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
+* {
+  margin: 0;
+  padding: 0; }
+  * .bodywrapper {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 50px; }
+    background-color: #511f18;
+    grid-template-rows: repeat(9, 200px); }
+    * .bodywrapper .bgwrapper {
+      grid-row: 1/12;
+      grid-column: 1/2;
+      background-image: url("../media/bgindex.png");
+      background-size: 100%;
+      height: 100%;
+      width: 100%;
+      background-repeat: no-repeat;
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 50px; }
 
 /*# sourceMappingURL=main.css.map */
