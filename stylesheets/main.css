@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 100%;
   background-color: blue;
-  grid-template-rows: 50px; }
+  grid-template-rows: repeat(9, 200px); }
   .bodywrapper .bgwrapper {
     grid-row: 1/6;
     grid-column: 1/2;
