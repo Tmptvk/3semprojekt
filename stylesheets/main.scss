@@ -1,0 +1,29 @@
+@import "var";
+
+.bodywrapper {
+  display: grid;
+  grid-template-columns: 100%;
+  background-color: blue;
+  grid-template-rows: 50px; 
+  .bgwrapper{
+    grid-row: 1/6;
+    grid-column: 1/2;
+    background-image: url('');
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50px;
+    .logowrapper{
+    }
+    .headingwrapper{
+
+    }
+    .btnwrapper{
+
+    }
+  }
+
+}
