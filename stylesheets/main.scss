@@ -145,6 +145,12 @@
             margin-top: 20px;
           }
         }
+        .txtwrapperit{
+          font-style: italic;
+          font-size: $ptxsize;
+
+        }
+
         .selectwrapper{
           grid-row: 3/5;
           grid-column: 2/4;
@@ -170,7 +176,89 @@
         }
 
       }
+
+      .paperwrapper3{
+        @extend .paperwrapper2;
+
+        .txtwrapperit{
+          font-style: italic;
+          font-size: $ptxsize;
+
+        }
+
+        .selectwrapper{
+          grid-row: 4/5;
+          margin-top: 0;
+          ul{
+            li{
+              margin-bottom: 5%;
+            }
+
+          }
+        }
+      }
     }
 
+    .bgwrapper4{
+      @extend .bgwrapper3;
+      .Cecilia{
+        grid-column: 1/2;
+        grid-row: 1/4;
+        margin-left: 20px;
+        margin-top: 70%;
+        img{
+          max-width: 130%;
+        }
+      }
+      .Malik{
+        grid-column: 2/3;
+        grid-row: 2/4;
+        img{
+          max-width: 130%;
+        }
+
+      }
+      .Sarah{
+        grid-column: 3/4;
+        grid-row: 2/4;
+        margin-left: 10%;
+        img{
+          max-width: 100%;
+        }
+
+      }
+      grid-template-columns: 33.3% 33.3% 33.3%;
+      background-image: url('../media/Red-big.png');
+      .paperwrapper4{
+        grid-column: 1/4;
+        @extend .paperwrapper3;
+        .selectwrapper{
+          grid-row: 3/5;
+          margin-top: 10%;
+        }
+      }
+    }
+
+    .paperwrapper5{
+      @extend .paperwrapper4;
+
+    }
+
+    .bgwrapper3 {
+      .paperwrapper6{
+        @extend .paperwrapper2;
+        .btnwrapper2 {
+          a {
+            button{
+              font-size: 1.05rem;
+            }
+          }
+        }
+        .displaywrapper{
+          grid-row: 5/7;
+          grid-column: 1/2;
+        }
+      }
+    }
   }
 }

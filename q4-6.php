@@ -6,9 +6,12 @@
   </head>
   <body>
     <div class="bodywrapper">
-      <div class="bgwrapper">
+      <div class="bgwrapper3">
           <!--baggrund to biledder, i et grid, det ene over det andet, brug z indeks, og øverste billed hus-->
-          <div class="paperwrapper">
+          <div class="paperwrapper3">
+            <div class="counterwrapper">
+              <p>4/7</p>
+            </div>
             <div class="headingwrapper">
               <h1>To veje</h1>
             </div>
@@ -29,10 +32,10 @@
             </ul>
             </div>
             <div class="btnwrapper3">
-           <a href="q3-5.php"> <button type="button" name="btn-start">Tilbage</button> </a>
+           <a href="q3-5.php"> <button type="button" class="tilbage btn-style" name="btn-start">Tilbage</button> </a>
           </div>
             <div class="btnwrapper2">
-           <a href="q5-7.php"> <button type="button" name="btn-start">Videre</button> </a>
+           <a href="q5-7.php"> <button type="button" class="videre btn-style" name="btn-start">Videre</button> </a>
           </div>
 
           </div>
