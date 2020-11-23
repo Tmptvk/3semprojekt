@@ -5,6 +5,7 @@
     <title></title>
   </head>
   <body>
+  <form  action="q4-6.php" method="post">
     <div class="bodywrapper">
       <div class="bgwrapper3">
           <!--baggrund to biledder, i et grid, det ene over det andet, brug z indeks, og øverste billed hus-->
@@ -17,9 +18,9 @@
             </div>
             <div class="selectwrapper">
             <ul>
-              <li id="q3-1" class="listyle">Alle imod alle.</li>
-              <li id="q3-2" class="listyle">Hold imod hold.</li>
-              <li id="q3-3" class="listyle">Alle imod spillet.</li>
+              <li id="q3-1"> <input type ="checkbox" name="amount[1]" >Alle imod alle</li>
+              <li id="q3-2"> <input type ="checkbox" name="amount[2]" > Hold mod hold</li>
+              <li id="q3-3"> <input type ="checkbox" name="amount[3]" >Alle imod spillet</li>
 
             </ul>
             </div>
@@ -33,5 +34,6 @@
           </div>
       </div>
     </div>
+  </form>
   </body>
 </html>

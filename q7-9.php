@@ -5,6 +5,7 @@
     <title></title>
   </head>
   <body>
+    <form  action="final-10.php" method="post">
     <div class="bodywrapper">
       <div class="bgwrapper4">
           <!--baggrund to biledder, i et grid, det ene over det andet, brug z indeks, og øverste billed hus-->
@@ -32,9 +33,9 @@
             </div>
             <div class="selectwrapper">
             <ul>
-              <li id="q7-1" class="listyle">Lige ud af vejen </li>
-              <li id="q7-2" class="listyle">Lidt op ad bakke</li>
-              <li id="q7-3" class="listyle">Helt op af bakke</li>
+              <li id="q7-1"> <input type ="checkbox" name="amount[1]" >Lige ud af vejen</li>
+              <li id="q7-2"> <input type ="checkbox" name="amount[2]" >Lidt op af bakke</li>
+              <li id="q7-3"> <input type ="checkbox" name="amount[3]" >Helt op af bakke</li>
 
 
 

@@ -5,6 +5,7 @@
     <title></title>
   </head>
   <body>
+    <form  action="q6-8.php" method="post">
     <div class="bodywrapper">
       <div class="bgwrapper4">
           <!--baggrund to biledder, i et grid, det ene over det andet, brug z indeks, og øverste billed hus-->
@@ -31,9 +32,9 @@
             </div>
             <div class="selectwrapper">
             <ul>
-              <li id="q5-1" class="listyle">Cecilia den Trygsomme</li>
-              <li id="q5-2" class="listyle">Maalik den Modige</li>
-              <li id="q5-3" class="listyle">Sarah den Gådefulde</li>
+              <li id="q5-1"> <input type ="checkbox" name="amount[1]" >Cecilia den Trygsomme</li>
+              <li id="q5-1"> <input type ="checkbox" name="amount[2]" >Maalik den Modige</li>
+              <li id="q5-1"> <input type ="checkbox" name="amount[3]" >Sarah den Gådefulde</li>
 
             </ul>
             </div>
@@ -47,5 +48,6 @@
           </div>
       </div>
     </div>
+  </form>
   </body>
 </html>

@@ -5,6 +5,7 @@
     <title></title>
   </head>
   <body>
+    <form  action="q5-7.php" method="post">
     <div class="bodywrapper">
       <div class="bgwrapper3">
           <!--baggrund to biledder, i et grid, det ene over det andet, brug z indeks, og øverste billed hus-->
@@ -25,8 +26,8 @@
             </div>
             <div class="selectwrapper">
             <ul>
-              <li id="q4-1" class="listyle">Yeees! Giv mig et spil!</li>
-              <li id="q4-2" class="listyle">Jeg vil gerne snakke med en Guru først.</li>
+              <li id="q4-1"> <input type ="checkbox" name="amount[1]" >Yeees! Giv mig et spil!</li>
+              <li id="q4-2"> <input type ="checkbox" name="amount[2]" >Jeg vil snakke med en Guru først</li>
 
 
             </ul>
@@ -41,5 +42,6 @@
           </div>
       </div>
     </div>
+  </form>
   </body>
 </html>
