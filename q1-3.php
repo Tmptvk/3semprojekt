@@ -32,7 +32,7 @@ print_r($_POST);
               <li id="q1-7" class="listyle">7</li>
               <li id="q1-8" class="listyle">8</li>
               <li> <input type ="checkbox" name="amount[1]" ></li>
-              <li> <input type ="checkbox" name="amount[2]" ></li>
+              <li> <input type ="checkbox" name="amount[2]" >8</li>
             </ul>
             </div>
             <div class="btnwrapper3">
