@@ -218,14 +218,16 @@
           }
           .listwrapper2{
             @extend .listwrapper;
+
+            input:checked ~ .underline {
+              background-image: url('../media/ikon1.png');
+             }
+
             .underline{
               left: 30%;
               width: 150px;
             }
-            .listwrapper input:checked ~ .underline {
-              background-image: url('../media/ikon1.png');
 
-            }
           }
         }
 
