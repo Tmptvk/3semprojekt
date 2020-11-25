@@ -166,12 +166,10 @@
 }
 * .bodywrapper .bgwrapper3 .paperwrapper2 .selectwrapper .underline, * .bodywrapper .bgwrapper4 .paperwrapper2 .selectwrapper .underline, * .bodywrapper .bgwrapper3 .paperwrapper3 .selectwrapper .underline, * .bodywrapper .bgwrapper4 .paperwrapper3 .selectwrapper .underline, * .bodywrapper .bgwrapper4 .paperwrapper4 .selectwrapper .underline, * .bodywrapper .bgwrapper4 .paperwrapper5 .selectwrapper .underline, * .bodywrapper .bgwrapper3 .paperwrapper6 .selectwrapper .underline, * .bodywrapper .bgwrapper4 .paperwrapper6 .selectwrapper .underline {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 28px;
+  left: 45%;
   height: 25px;
-  width: 25px;
-  background-color: #eee;
-  border-radius: 50%;
+  width: 60px;
 }
 * .bodywrapper .bgwrapper3 .paperwrapper2 .selectwrapper .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper2 .selectwrapper .underline:after, * .bodywrapper .bgwrapper3 .paperwrapper3 .selectwrapper .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper3 .selectwrapper .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper4 .selectwrapper .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper5 .selectwrapper .underline:after, * .bodywrapper .bgwrapper3 .paperwrapper6 .selectwrapper .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper6 .selectwrapper .underline:after {
   content: "";
@@ -179,18 +177,12 @@
   display: none;
 }
 * .bodywrapper .bgwrapper3 .paperwrapper2 .selectwrapper .listwrapper input:checked ~ .underline, * .bodywrapper .bgwrapper4 .paperwrapper2 .selectwrapper .listwrapper input:checked ~ .underline, * .bodywrapper .bgwrapper3 .paperwrapper3 .selectwrapper .listwrapper input:checked ~ .underline, * .bodywrapper .bgwrapper4 .paperwrapper3 .selectwrapper .listwrapper input:checked ~ .underline, * .bodywrapper .bgwrapper4 .paperwrapper4 .selectwrapper .listwrapper input:checked ~ .underline, * .bodywrapper .bgwrapper4 .paperwrapper5 .selectwrapper .listwrapper input:checked ~ .underline, * .bodywrapper .bgwrapper3 .paperwrapper6 .selectwrapper .listwrapper input:checked ~ .underline, * .bodywrapper .bgwrapper4 .paperwrapper6 .selectwrapper .listwrapper input:checked ~ .underline {
-  background-color: #2196F3;
+  background-image: url("../media/ikon1.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 * .bodywrapper .bgwrapper3 .paperwrapper2 .selectwrapper .listwrapper input:checked ~ .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper2 .selectwrapper .listwrapper input:checked ~ .underline:after, * .bodywrapper .bgwrapper3 .paperwrapper3 .selectwrapper .listwrapper input:checked ~ .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper3 .selectwrapper .listwrapper input:checked ~ .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper4 .selectwrapper .listwrapper input:checked ~ .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper5 .selectwrapper .listwrapper input:checked ~ .underline:after, * .bodywrapper .bgwrapper3 .paperwrapper6 .selectwrapper .listwrapper input:checked ~ .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper6 .selectwrapper .listwrapper input:checked ~ .underline:after {
   display: block;
-}
-* .bodywrapper .bgwrapper3 .paperwrapper2 .selectwrapper .listwrapper .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper2 .selectwrapper .listwrapper .underline:after, * .bodywrapper .bgwrapper3 .paperwrapper3 .selectwrapper .listwrapper .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper3 .selectwrapper .listwrapper .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper4 .selectwrapper .listwrapper .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper5 .selectwrapper .listwrapper .underline:after, * .bodywrapper .bgwrapper3 .paperwrapper6 .selectwrapper .listwrapper .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper6 .selectwrapper .listwrapper .underline:after {
-  top: 9px;
-  left: 9px;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: white;
 }
 * .bodywrapper .bgwrapper3 .paperwrapper2 .selectwrapper label li, * .bodywrapper .bgwrapper4 .paperwrapper2 .selectwrapper label li, * .bodywrapper .bgwrapper3 .paperwrapper3 .selectwrapper label li, * .bodywrapper .bgwrapper4 .paperwrapper3 .selectwrapper label li, * .bodywrapper .bgwrapper4 .paperwrapper4 .selectwrapper label li, * .bodywrapper .bgwrapper4 .paperwrapper5 .selectwrapper label li, * .bodywrapper .bgwrapper3 .paperwrapper6 .selectwrapper label li, * .bodywrapper .bgwrapper4 .paperwrapper6 .selectwrapper label li {
   padding-bottom: 7px;
