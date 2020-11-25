@@ -42,7 +42,7 @@
            <a href="q4-6.php"> <button class="tilbage btn-style" type="button" name="btn-start">Tilbage</button> </a>
           </div>
             <div class="btnwrapper2">
-           <a href="q6-8.php"> <button type="button" class="videre btn-style" name="btn-start">Videre</button> </a>
+              <input type ="submit" class="videre btn-style" name="btn-videre" value="Videre">
           </div>
 
           </div>

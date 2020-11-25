@@ -25,7 +25,7 @@
               </p>
             </div>
             <div class="displaywrapper">
-            <!-- husk at designe denne del i xd først-->
+              
             </div>
             <div class="btnwrapper3">
            <a href="q7-9.php"> <button  class="tilbage btn-style" type="button" name="btn-start">Tilbage</button> </a>

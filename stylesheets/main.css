@@ -20,11 +20,11 @@
       background-repeat: no-repeat;
       display: grid;
       grid-template-columns: 10% 80% 10%;
-      grid-template-rows: 50% 20% 10%;
+      grid-template-rows: 60% 10% 10%;
       align-items: center;
       text-align: center; }
       * .bodywrapper .bgwrapper .logowrapper {
-        grid-column: 2/3;
+        grid-column: 1/4;
         grid-row: 1/2;
         display: grid;
         grid-template-columns: 100%;
@@ -32,10 +32,12 @@
         * .bodywrapper .bgwrapper .logowrapper .papalogo {
           grid-row: 3/5;
           grid-column: 1/2;
-          max-width: 300px; }
+          max-width: 366px;
+          display: grid; }
       * .bodywrapper .bgwrapper .headingwrapper {
         grid-column: 2/3;
-        grid-row: 2/3; }
+        grid-row: 2/3;
+        font-size: 0.7rem; }
       * .bodywrapper .bgwrapper .btnwrapper {
         grid-row: 3/4;
         grid-column: 2/3; }
@@ -80,6 +82,8 @@
         * .bodywrapper .bgwrapper2 .paperwrapper .headingwrapper, * .bodywrapper .bgwrapper3 .paperwrapper .headingwrapper, * .bodywrapper .bgwrapper4 .paperwrapper .headingwrapper, * .bodywrapper .bgwrapper3 .paperwrapper2 .headingwrapper, * .bodywrapper .bgwrapper4 .paperwrapper2 .headingwrapper, * .bodywrapper .bgwrapper3 .paperwrapper3 .headingwrapper, * .bodywrapper .bgwrapper4 .paperwrapper3 .headingwrapper, * .bodywrapper .bgwrapper4 .paperwrapper4 .headingwrapper, * .bodywrapper .bgwrapper4 .paperwrapper5 .headingwrapper, * .bodywrapper .bgwrapper3 .paperwrapper6 .headingwrapper, * .bodywrapper .bgwrapper4 .paperwrapper6 .headingwrapper {
           grid-column: 2/4;
           grid-row: 2/3; }
+          * .bodywrapper .bgwrapper2 .paperwrapper .headingwrapper h1, * .bodywrapper .bgwrapper3 .paperwrapper .headingwrapper h1, * .bodywrapper .bgwrapper4 .paperwrapper .headingwrapper h1, * .bodywrapper .bgwrapper3 .paperwrapper2 .headingwrapper h1, * .bodywrapper .bgwrapper4 .paperwrapper2 .headingwrapper h1, * .bodywrapper .bgwrapper3 .paperwrapper3 .headingwrapper h1, * .bodywrapper .bgwrapper4 .paperwrapper3 .headingwrapper h1, * .bodywrapper .bgwrapper4 .paperwrapper4 .headingwrapper h1, * .bodywrapper .bgwrapper4 .paperwrapper5 .headingwrapper h1, * .bodywrapper .bgwrapper3 .paperwrapper6 .headingwrapper h1, * .bodywrapper .bgwrapper4 .paperwrapper6 .headingwrapper h1 {
+            font-size: 1.5rem; }
         * .bodywrapper .bgwrapper2 .paperwrapper .txtwrapperit, * .bodywrapper .bgwrapper3 .paperwrapper .txtwrapperit, * .bodywrapper .bgwrapper4 .paperwrapper .txtwrapperit, * .bodywrapper .bgwrapper3 .paperwrapper2 .txtwrapperit, * .bodywrapper .bgwrapper4 .paperwrapper2 .txtwrapperit, * .bodywrapper .bgwrapper3 .paperwrapper3 .txtwrapperit, * .bodywrapper .bgwrapper4 .paperwrapper3 .txtwrapperit, * .bodywrapper .bgwrapper4 .paperwrapper4 .txtwrapperit, * .bodywrapper .bgwrapper4 .paperwrapper5 .txtwrapperit, * .bodywrapper .bgwrapper3 .paperwrapper6 .txtwrapperit, * .bodywrapper .bgwrapper4 .paperwrapper6 .txtwrapperit {
           grid-column: 2/4;
           grid-row: 3/4; }

@@ -8,6 +8,8 @@
   font-family: $pri-font;
   color: $col-brown;
 
+
+
   .bodywrapper {
     display: grid;
     grid-template-columns: 100%;
@@ -23,11 +25,11 @@
       background-repeat: no-repeat;
       display: grid;
       grid-template-columns: 10% 80% 10%;
-      grid-template-rows: 50% 20% 10%;
+      grid-template-rows: 60% 10% 10%;
       align-items: center;
       text-align: center;
       .logowrapper{
-        grid-column: 2/3;
+        grid-column: 1/4;
         grid-row: 1/2;
         display: grid;
         grid-template-columns: 100%;
@@ -35,12 +37,14 @@
         .papalogo{
           grid-row: 3/5;
           grid-column: 1/2;
-          max-width: 300px;
+          max-width: 366px;
+          display: grid;
         }
       }
       .headingwrapper{
         grid-column: 2/3;
         grid-row: 2/3;
+        font-size: 0.7rem;
 
       }
       .btnwrapper{
@@ -95,6 +99,9 @@
         .headingwrapper{
           grid-column: 2/4;
           grid-row: 2/3;
+          h1 {
+            font-size: $heading;
+          }
         }
 
         .txtwrapperit{
