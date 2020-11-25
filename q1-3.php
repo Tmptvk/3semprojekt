@@ -25,14 +25,14 @@ print_r($_POST);
             </div>
             <div class="selectwrapper">
             <ul>
-            <label class="listwrapper"> <li id="q1-1"> <input type ="radio" value="1" name="select-q1" >1</li> </label>
-            <label class="listwrapper"> <li id="q1-2"> <input type ="radio" value="2" name="select-q1" >2</li> </label>
-            <label class="listwrapper"> <li id="q1-3"> <input type ="radio" value="3" name="select-q1" >3</li> </label>
-            <label class="listwrapper"> <li id="q1-4"> <input type ="radio" value="4" name="select-q1" >4</li> </label>
-            <label class="listwrapper"> <li id="q1-5"> <input type ="radio" value="5" name="select-q1" >5</li> </label>
-            <label class="listwrapper"> <li id="q1-6"> <input type ="radio" value="6" name="select-q1" >6</li> </label>
-            <label class="listwrapper"> <li id="q1-7"> <input type ="radio" value="7" name="select-q1" >7</li> </label>
-            <label class="listwrapper"> <li id="q1-8"> <input type ="radio" value="8" name="select-q1" >8</li> </label>
+            <label class="listwrapper">1<input id="q1-1" type ="radio" value="1" name="select-q1" ><span class="underline"></span> </label>
+            <label class="listwrapper">2<input id="q1-2" type ="radio" value="1" name="select-q1" ><span class="underline"></span> </label>
+            <label class="listwrapper">3<input id="q1-3" type ="radio" value="1" name="select-q1" ><span class="underline"></span> </label>
+            <label class="listwrapper">4<input id="q1-4" type ="radio" value="1" name="select-q1" ><span class="underline"></span> </label>
+            <label class="listwrapper">5<input id="q1-5" type ="radio" value="1" name="select-q1" ><span class="underline"></span> </label>
+            <label class="listwrapper">6<input id="q1-6" type ="radio" value="1" name="select-q1" ><span class="underline"></span> </label>
+            <label class="listwrapper">7<input id="q1-7" type ="radio" value="1" name="select-q1" ><span class="underline"></span> </label>
+            <label class="listwrapper">8<input id="q1-8" type ="radio" value="1" name="select-q1" ><span class="underline"></span> </label>
             </ul>
             </div>
             <div class="btnwrapper3">

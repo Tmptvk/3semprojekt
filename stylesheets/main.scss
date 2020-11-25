@@ -161,8 +161,70 @@
           grid-row: 3/5;
           grid-column: 2/4;
           overflow-x: scroll;
-          margin-top: 20%;
+          margin-top: 10%;
+
+          .listwrapper{
+          display: block;
+          position: relative;
+          padding-left: 35px;
+          margin-bottom: 12px;
+          cursor: pointer;
+          font-size: 22px;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
         }
+
+          .listwrapper input {
+          position: absolute;
+          opacity: 0;
+          cursor: pointer;
+          }
+
+          .underline {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #eee;
+            border-radius: 50%;
+          }
+
+          .underline:after {
+          content: "";
+          position: absolute;
+          display: none;
+          }
+
+          .listwrapper input:checked ~ .underline {
+            background-color: #2196F3;
+          }
+
+
+          .listwrapper input:checked ~ .underline:after {
+            display: block;
+          }
+
+          .listwrapper .underline:after {
+           	top: 9px;
+          	left: 9px;
+          	width: 8px;
+          	height: 8px;
+          	border-radius: 50%;
+          	background: white;
+          }
+
+          label li{
+            padding-bottom: 7px;
+          }
+        }
+
+
+
+
+
 
         .btnwrapper2{
           margin-top: 20px;
