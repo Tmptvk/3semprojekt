@@ -1,6 +1,8 @@
+<!--
 <?php
 print_r($_POST);
 ?>
+-->
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -23,14 +25,14 @@ print_r($_POST);
             </div>
             <div class="selectwrapper">
             <ul>
-              <li id="q1-1"> <input type ="checkbox" name="amount[1]" >1</li>
-              <li id="q1-2"> <input type ="checkbox" name="amount[2]" >2</li>
-              <li id="q1-3"> <input type ="checkbox" name="amount[3]" >3</li>
-              <li id="q1-4"> <input type ="checkbox" name="amount[4]" >4</li>
-              <li id="q1-5"> <input type ="checkbox" name="amount[5]" >5</li>
-              <li id="q1-6"> <input type ="checkbox" name="amount[6]" >6</li>
-              <li id="q1-7"> <input type ="checkbox" name="amount[7]" >7</li>
-              <li id="q1-8"> <input type ="checkbox" name="amount[8]" >8</li>
+            <label class="listwrapper">1<input id="q1-1" type ="radio" value="1" name="select-q1" ><span class="underline"></span> </label>
+            <label class="listwrapper">2<input id="q1-2" type ="radio" value="1" name="select-q1" ><span class="underline"></span> </label>
+            <label class="listwrapper">3<input id="q1-3" type ="radio" value="1" name="select-q1" ><span class="underline"></span> </label>
+            <label class="listwrapper">4<input id="q1-4" type ="radio" value="1" name="select-q1" ><span class="underline"></span> </label>
+            <label class="listwrapper">5<input id="q1-5" type ="radio" value="1" name="select-q1" ><span class="underline"></span> </label>
+            <label class="listwrapper">6<input id="q1-6" type ="radio" value="1" name="select-q1" ><span class="underline"></span> </label>
+            <label class="listwrapper">7<input id="q1-7" type ="radio" value="1" name="select-q1" ><span class="underline"></span> </label>
+            <label class="listwrapper">8<input id="q1-8" type ="radio" value="1" name="select-q1" ><span class="underline"></span> </label>
             </ul>
             </div>
             <div class="btnwrapper3">
