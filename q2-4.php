@@ -20,10 +20,10 @@
             </div>
             <div class="selectwrapper">
             <ul>
-              <label class="listwrapper"> <li id="q2-1"> <input type ="checkbox" name="amount[1]" > Under 30 .min</li> </label>
-              <label class="listwrapper"> <li id="q2-2"> <input type ="checkbox" name="amount[2]" >30 - 60 .min</li> </label>
-              <label class="listwrapper"> <li id="q2-3"> <input type ="checkbox" name="amount[3]" >60 - 120 .min</li> </label>
-              <label class="listwrapper"> <li id="q2-4"> <input type ="checkbox" name="amount[4]" >Over 120 .min</li> </label>
+              <label class="listwrapper2">Under 30 min.<input id="q2-1" type ="radio" value="1" name="select-q2" ><span class="underline"></span> </label>
+              <label class="listwrapper2">30 - 60 min.<input id="q2-2" type ="radio" value="1" name="select-q2" ><span class="underline"></span> </label>
+              <label class="listwrapper2">60 -120 min.<input id="q2-3" type ="radio" value="1" name="select-q2" ><span class="underline"></span> </label>
+              <label class="listwrapper2">Over 120 min.<input id="q2-4" type ="radio" value="1" name="select-q2" ><span class="underline"></span> </label>
             </ul>
             </div>
             <div class="btnwrapper3">
