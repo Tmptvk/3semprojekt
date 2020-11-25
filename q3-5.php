@@ -18,9 +18,9 @@
             </div>
             <div class="selectwrapper">
             <ul>
-              <label class="listwrapper3">Alle imod alle .<input id="q3-1" type ="radio" value="1" name="select-q3" ><span class="underline"></span> </label>
-              <label class="listwrapper3">Hold imod hold<input id="q3-2" type ="radio" value="1" name="select-q3" ><span class="underline"></span> </label>
-              <label class="listwrapper3">Alle imod spillet<input id="q3-3" type ="radio" value="1" name="select-q3" ><span class="underline"></span> </label>
+              <label class="listwrapper3">Alle imod alle .<input id="q3-1" type ="checkbox" value="1" name="select-q3" ><span class="underline"></span> </label>
+              <label class="listwrapper3">Hold imod hold<input id="q3-2" type ="checkbox" value="1" name="select-q3" ><span class="underline"></span> </label>
+              <label class="listwrapper3">Alle imod spillet<input id="q3-3" type ="checkbox" value="1" name="select-q3" ><span class="underline"></span> </label>
 
             </ul>
             </div>

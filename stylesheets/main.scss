@@ -378,6 +378,8 @@
 
     .bgwrapper4{
       @extend .bgwrapper3;
+
+
       .Cecilia{
         grid-column: 1/2;
         grid-row: 1/4;
@@ -404,8 +406,10 @@
         }
 
       }
+
       grid-template-columns: 33.3% 33.3% 33.3%;
       background-image: url('../media/Red-big.png');
+      transition: background-image 1s ease-in-out;
       .paperwrapper4{
         grid-column: 1/4;
         @extend .paperwrapper3;

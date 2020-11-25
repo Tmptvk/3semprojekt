@@ -3,6 +3,7 @@
   <head>
     <?php include 'psecs/head.php';?>
     <title></title>
+        <script defer src="javascript/guruselect.js" charset="utf-8"></script>
   </head>
   <body>
     <form  action="q6-8.php" method="post">

@@ -292,6 +292,7 @@
 * .bodywrapper .bgwrapper4 {
   grid-template-columns: 33.3% 33.3% 33.3%;
   background-image: url("../media/Red-big.png");
+  transition: background-image 1s ease-in-out;
 }
 * .bodywrapper .bgwrapper4 .Cecilia {
   grid-column: 1/2;

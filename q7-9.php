@@ -2,6 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <?php include 'psecs/head.php';?>
+    <script defer src="javascript/li2.js" charset="utf-8"></script>
+
     <title></title>
   </head>
   <body>
@@ -33,9 +35,9 @@
             </div>
             <div class="selectwrapper">
             <ul>
-              <label class="listwrapper3">Lige ud af vejen<input id="q7-1" type ="radio" value="1" name="select-q7" ><span class="underline"></span> </label>
-              <label class="listwrapper3">Lidt op af bakke<input id="q7-2" type ="radio" value="1" name="select-q7" ><span class="underline"></span> </label>
-              <label class="listwrapper3">Helt op af bakke<input id="q7-3" type ="radio" value="1" name="select-q7" ><span class="underline"></span> </label>
+              <label id="q7-1" class="listwrapper3">Lige ud af vejen<input  type ="checkbox" value="1" name="select-q7" ><span class="underline"></span> </label>
+              <label id="q7-2" class="listwrapper3">Lidt op af bakke<input  type ="checkbox" value="1" name="select-q7" ><span class="underline"></span> </label>
+              <label id="q7-3" class="listwrapper3">Helt op af bakke<input type ="checkbox" value="1" name="select-q7" ><span class="underline"></span> </label>
 
 
 

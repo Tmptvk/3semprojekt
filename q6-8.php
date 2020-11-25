@@ -3,6 +3,7 @@
   <head>
     <?php include 'psecs/head.php';?>
     <title></title>
+    <script defer src="javascript/li.js" charset="utf-8"></script>
   </head>
   <body>
     <form  action="q7-9.php" method="post">
@@ -30,15 +31,15 @@
               </p>
             </div>
             <div class="selectwrapper">
-            <ul>
+            <ul id="ul-on">
               <!--RETTE UNDERLINE LÆNGDE VIS DET KAN NÅET I RETTE UGERNE-->
-              <label class="listwrapper3">Fantasy<input id="q6-1" type ="radio" value="1" name="select-q6" ><span class="underline"></span> </label>
-              <label class="listwrapper3">Horror<input id="q6-2" type ="radio" value="1" name="select-q6" ><span class="underline"></span> </label>
-              <label class="listwrapper3">Sci-fi<input id="q6-3" type ="radio" value="1" name="select-q6" ><span class="underline"></span> </label>
-              <label class="listwrapper3">Puzzle<input id="q6-4" type ="radio" value="1" name="select-q6" ><span class="underline"></span> </label>
-              <label class="listwrapper3">Trivia<input id="q6-5" type ="radio" value="1" name="select-q6" ><span class="underline"></span> </label>
-              <label class="listwrapper3">Kortspil<input id="q6-6" type ="radio" value="1" name="select-q6" ><span class="underline"></span> </label>
-              <label class="listwrapper3">Selvskabspil<input id="q6-7" type ="radio" value="1" name="select-q6" ><span class="underline"></span> </label>
+              <label id="q6-1" class="listwrapper3">Fantasy<input  type ="checkbox" value="1" name="select-q6" ><span class="underline"></span> </label>
+              <label id="q6-2" class="listwrapper3">Horror<input type ="checkbox" value="1" name="select-q6" ><span class="underline"></span> </label>
+              <label id="q6-3" class="listwrapper3">Sci-fi<input  type ="checkbox" value="1" name="select-q6" ><span class="underline"></span> </label>
+              <label id="q6-4" class="listwrapper3">Puzzle<input  type ="checkbox" value="1" name="select-q6" ><span class="underline"></span> </label>
+              <label id="q6-5" class="listwrapper3">Trivia<input  type ="checkbox" value="1" name="select-q6" ><span class="underline"></span> </label>
+              <label id="q6-6" class="listwrapper3">Kortspil<input type ="checkbox" value="1" name="select-q6" ><span class="underline"></span> </label>
+              <label id="q6-7" class="listwrapper3">Selvskabspil<input type ="checkbox" value="1" name="select-q6" ><span class="underline"></span> </label>
 
 
             </ul>
