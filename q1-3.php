@@ -1,6 +1,8 @@
+<!--
 <?php
 print_r($_POST);
 ?>
+-->
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -23,14 +25,14 @@ print_r($_POST);
             </div>
             <div class="selectwrapper">
             <ul>
-              <li id="q1-1"> <input type ="radio" name="amount[1]" >1</li>
-              <li id="q1-2"> <input type ="radio" name="amount[2]" >2</li>
-              <li id="q1-3"> <input type ="radio" name="amount[3]" >3</li>
-              <li id="q1-4"> <input type ="radio" name="amount[4]" >4</li>
-              <li id="q1-5"> <input type ="radio" name="amount[5]" >5</li>
-              <li id="q1-6"> <input type ="radio" name="amount[6]" >6</li>
-              <li id="q1-7"> <input type ="radio" name="amount[7]" >7</li>
-              <li id="q1-8"> <input type ="radio" name="amount[8]" >8</li>
+            <label class="listwrapper"> <li id="q1-1"> <input type ="radio" value="1" name="select-q1" >1</li> </label>
+            <label class="listwrapper"> <li id="q1-2"> <input type ="radio" value="2" name="select-q1" >2</li> </label>
+            <label class="listwrapper"> <li id="q1-3"> <input type ="radio" value="3" name="select-q1" >3</li> </label>
+            <label class="listwrapper"> <li id="q1-4"> <input type ="radio" value="4" name="select-q1" >4</li> </label>
+            <label class="listwrapper"> <li id="q1-5"> <input type ="radio" value="5" name="select-q1" >5</li> </label>
+            <label class="listwrapper"> <li id="q1-6"> <input type ="radio" value="6" name="select-q1" >6</li> </label>
+            <label class="listwrapper"> <li id="q1-7"> <input type ="radio" value="7" name="select-q1" >7</li> </label>
+            <label class="listwrapper"> <li id="q1-8"> <input type ="radio" value="8" name="select-q1" >8</li> </label>
             </ul>
             </div>
             <div class="btnwrapper3">
