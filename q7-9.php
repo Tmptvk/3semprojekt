@@ -33,9 +33,9 @@
             </div>
             <div class="selectwrapper">
             <ul>
-              <li id="q7-1"> <input type ="checkbox" name="amount[1]" >Lige ud af vejen</li>
-              <li id="q7-2"> <input type ="checkbox" name="amount[2]" >Lidt op af bakke</li>
-              <li id="q7-3"> <input type ="checkbox" name="amount[3]" >Helt op af bakke</li>
+              <label class="listwrapper3">Lige ud af vejen<input id="q7-1" type ="radio" value="1" name="select-q7" ><span class="underline"></span> </label>
+              <label class="listwrapper3">Lidt op af bakke<input id="q7-2" type ="radio" value="1" name="select-q7" ><span class="underline"></span> </label>
+              <label class="listwrapper3">Helt op af bakke<input id="q7-3" type ="radio" value="1" name="select-q7" ><span class="underline"></span> </label>
 
 
 

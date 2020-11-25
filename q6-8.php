@@ -31,13 +31,14 @@
             </div>
             <div class="selectwrapper">
             <ul>
-              <li id="q6-1"> <input type ="checkbox" name="amount[1]" >Fantasy</li>
-              <li id="q6-2"> <input type ="checkbox" name="amount[2]" >Horror</li>
-              <li id="q6-3"> <input type ="checkbox" name="amount[3]" >Sci-fi</li>
-              <li id="q6-4"> <input type ="checkbox" name="amount[4]" >Selvskabsspil</li>
-              <li id="q6-5"> <input type ="checkbox" name="amount[1]" >Kortspil</li>
-              <li id="q6-6"> <input type ="checkbox" name="amount[1]" >Trivia</li>
-              <li id="q6-7"> <input type ="checkbox" name="amount[1]" >Puzzle</li>
+              <!--RETTE UNDERLINE LÆNGDE VIS DET KAN NÅET I RETTE UGERNE-->
+              <label class="listwrapper3">Fantasy<input id="q6-1" type ="radio" value="1" name="select-q6" ><span class="underline"></span> </label>
+              <label class="listwrapper3">Horror<input id="q6-2" type ="radio" value="1" name="select-q6" ><span class="underline"></span> </label>
+              <label class="listwrapper3">Sci-fi<input id="q6-3" type ="radio" value="1" name="select-q6" ><span class="underline"></span> </label>
+              <label class="listwrapper3">Puzzle<input id="q6-4" type ="radio" value="1" name="select-q6" ><span class="underline"></span> </label>
+              <label class="listwrapper3">Trivia<input id="q6-5" type ="radio" value="1" name="select-q6" ><span class="underline"></span> </label>
+              <label class="listwrapper3">Kortspil<input id="q6-6" type ="radio" value="1" name="select-q6" ><span class="underline"></span> </label>
+              <label class="listwrapper3">Selvskabspil<input id="q6-7" type ="radio" value="1" name="select-q6" ><span class="underline"></span> </label>
 
 
             </ul>

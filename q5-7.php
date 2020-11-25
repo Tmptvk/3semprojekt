@@ -32,9 +32,9 @@
             </div>
             <div class="selectwrapper">
             <ul>
-              <li id="q5-1"> <input type ="checkbox" name="amount[1]" >Cecilia den Trygsomme</li>
-              <li id="q5-1"> <input type ="checkbox" name="amount[2]" >Maalik den Modige</li>
-              <li id="q5-1"> <input type ="checkbox" name="amount[3]" >Sarah den Gådefulde</li>
+              <label class="listwrapper3">Cecilia den Trygsomme<input id="q5-1" type ="radio" value="1" name="select-q5" ><span class="underline"></span> </label>
+              <label class="listwrapper3">Maalik den Modige <input id="q5-2" type ="radio" value="1" name="select-q5" ><span class="underline"></span> </label>
+              <label class="listwrapper3">Sarah den Gådefulde<input id="q5-3" type ="radio" value="1" name="select-q5" ><span class="underline"></span> </label>
 
             </ul>
             </div>

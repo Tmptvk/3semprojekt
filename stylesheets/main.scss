@@ -166,7 +166,6 @@
           .listwrapper{
           display: block;
           position: relative;
-          padding-left: 35px;
           margin-bottom: 12px;
           cursor: pointer;
           font-size: 22px;
@@ -185,7 +184,7 @@
           .underline {
             position: absolute;
             top: 35px;
-            left: 45%;
+            left: 40%;
             height: 25px;
             width: 60px;
 
@@ -216,19 +215,118 @@
           label li{
             padding-bottom: 7px;
           }
+
+
           .listwrapper2{
-            @extend .listwrapper;
 
-            input:checked ~ .underline {
-              background-image: url('../media/ikon1.png');
-             }
+            display: block;
+            position: relative;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
 
-            .underline{
-              left: 30%;
-              width: 150px;
+
+            input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
             }
 
+            .underline {
+              position: absolute;
+              top: 35px;
+              left: 25%;
+              height: 25px;
+              width: 150px;
+
+            }
+
+            .underline:after {
+            content: "";
+            position: absolute;
+            display: none;
+            }
+
+             input:checked ~ .underline {
+              background-image: url('../media/ikon1.png');
+              background-size:100%;
+              background-repeat: no-repeat;
+
+            }
+
+
+             input:checked ~ .underline:after {
+              display: block;
+            }
+
+            .underline:after {
+
+            }
+
+            label li{
+              padding-bottom: 7px;
+            }
           }
+
+          .listwrapper3{
+
+            display: block;
+            position: relative;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+
+
+            input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            }
+
+            .underline {
+              position: absolute;
+              top: 35px;
+              left: 24%;
+              height: 25px;
+              width: 180px;
+
+            }
+
+            .underline:after {
+            content: "";
+            position: absolute;
+            display: none;
+            }
+
+             input:checked ~ .underline {
+              background-image: url('../media/ikon1.png');
+              background-size:100%;
+              background-repeat: no-repeat;
+
+            }
+
+
+             input:checked ~ .underline:after {
+              display: block;
+            }
+
+            .underline:after {
+
+            }
+
+            label li{
+              padding-bottom: 7px;
+            }
+          }
+
         }
 
 
