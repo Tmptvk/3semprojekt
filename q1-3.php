@@ -23,14 +23,14 @@ print_r($_POST);
             </div>
             <div class="selectwrapper">
             <ul>
-              <li id="q1-1"> <input type ="checkbox" name="amount[1]" >1</li>
-              <li id="q1-2"> <input type ="checkbox" name="amount[2]" >2</li>
-              <li id="q1-3"> <input type ="checkbox" name="amount[3]" >3</li>
-              <li id="q1-4"> <input type ="checkbox" name="amount[4]" >4</li>
-              <li id="q1-5"> <input type ="checkbox" name="amount[5]" >5</li>
-              <li id="q1-6"> <input type ="checkbox" name="amount[6]" >6</li>
-              <li id="q1-7"> <input type ="checkbox" name="amount[7]" >7</li>
-              <li id="q1-8"> <input type ="checkbox" name="amount[8]" >8</li>
+              <li id="q1-1"> <input type ="radio" name="amount[1]" >1</li>
+              <li id="q1-2"> <input type ="radio" name="amount[2]" >2</li>
+              <li id="q1-3"> <input type ="radio" name="amount[3]" >3</li>
+              <li id="q1-4"> <input type ="radio" name="amount[4]" >4</li>
+              <li id="q1-5"> <input type ="radio" name="amount[5]" >5</li>
+              <li id="q1-6"> <input type ="radio" name="amount[6]" >6</li>
+              <li id="q1-7"> <input type ="radio" name="amount[7]" >7</li>
+              <li id="q1-8"> <input type ="radio" name="amount[8]" >8</li>
             </ul>
             </div>
             <div class="btnwrapper3">
