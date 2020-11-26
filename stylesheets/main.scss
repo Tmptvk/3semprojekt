@@ -385,6 +385,7 @@
         grid-row: 1/4;
         margin-left: 20px;
         margin-top: 70%;
+        transition: 1s ease-in-out;
         img{
           max-width: 130%;
         }
@@ -392,6 +393,7 @@
       .Malik{
         grid-column: 2/3;
         grid-row: 2/4;
+        transition: 1s ease-in-out;
         img{
           max-width: 130%;
         }
@@ -401,6 +403,7 @@
         grid-column: 3/4;
         grid-row: 2/4;
         margin-left: 10%;
+        transition: 1s ease-in-out;
         img{
           max-width: 100%;
         }
@@ -409,8 +412,12 @@
 
       grid-template-columns: 33.3% 33.3% 33.3%;
       background-image: url('../media/Red-big.png');
+      -webkit-transition: background-image 1s ease-in-out;
+      -moz-transition: background-image 1s ease-in-out;
+      -o-transition: background-image 1s ease-in-out;
       transition: background-image 1s ease-in-out;
       .paperwrapper4{
+        z-index: 5;
         grid-column: 1/4;
         @extend .paperwrapper3;
         .selectwrapper{
@@ -422,6 +429,7 @@
 
     .paperwrapper5{
       @extend .paperwrapper4;
+
 
     }
 
