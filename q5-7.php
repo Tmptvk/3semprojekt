@@ -11,13 +11,13 @@
       <div class="bgwrapper4">
           <!--baggrund to biledder, i et grid, det ene over det andet, brug z indeks, og øverste billed hus-->
           <div class="Cecilia">
-            <img src="media\Guru1.png" alt="">
+            <img id="ceciliaimg" src="media\Guru1.png" alt="">
           </div>
           <div class="Malik">
-            <img src="media\guru-2.png" alt="">
+            <img id="malikimg" src="media\guru-2.png" alt="">
           </div>
           <div class="Sarah">
-            <img src="media\guru-3.png" alt="">
+            <img id="sarahimg" src="media\guru-3.png" alt="">
           </div>
           <div class="paperwrapper4">
             <div class="counterwrapper">
