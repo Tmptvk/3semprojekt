@@ -8,6 +8,13 @@
   font-family: $pri-font;
   color: $col-brown;
 
+  #alittleup{
+    margin-top: 0;
+  }
+
+
+
+
 
 
   .bodywrapper {
@@ -93,7 +100,7 @@
         background-repeat: no-repeat;
         display: grid;
         grid-template-columns: 10% 40% 40% 10%;
-        grid-template-rows: 20% 15% 20% 20% 20%;
+        grid-template-rows: 20% 15% 20% 20% 25%;
         text-align: center;
 
         .headingwrapper{
@@ -112,15 +119,9 @@
           grid-column: 2/4;
           grid-row: 5/6;
 
-          button{
-            cursor: pointer;
-            font-size: $btnfontsize;
-          }
           .btn-style{
             background-image: url('../media/ikon3.png');
             background-size: 100%;
-            width: 40%;
-            height: 55%;
             background-repeat: no-repeat;
             background-color: transparent;
             border: none;
@@ -128,6 +129,8 @@
             padding: 7px 32px;
             text-align: center;
             text-decoration: none;
+            cursor: pointer;
+            font-size: $btnfontsize;
           }
 
         }
@@ -139,9 +142,13 @@
       @extend .bgwrapper2;
       background-image: url('../media/bar-1.png');
 
+
+      .hej{
+        grid-template-rows: 20% 10% 25% 20% 25%;
+        }
+
       .paperwrapper2 {
         @extend .paperwrapper;
-        grid-template-rows: 20% 15% 10% 10% 10% 10% 15 10%;
         .counterwrapper{
           grid-row: 1/2;
           display: grid;
@@ -156,6 +163,8 @@
           font-size: $ptxsize;
 
         }
+
+
 
         .selectwrapper{
           grid-row: 3/5;
@@ -354,8 +363,11 @@
 
       }
 
+
+
       .paperwrapper3{
         @extend .paperwrapper2;
+
 
         .txtwrapperit{
           font-style: italic;
@@ -421,6 +433,14 @@
           grid-row: 3/5;
           margin-top: 10%;
         }
+        .mt-10p{
+          margin-top: 20%
+        }
+
+
+        #alittleup{
+          margin-top: 0;
+        }
       }
     }
 
@@ -433,11 +453,21 @@
     .bgwrapper3 {
       .paperwrapper6{
         @extend .paperwrapper2;
+        grid-template-rows: 20% 10% 25% 20% 25%;
         .btnwrapper2 {
-          a {
-            button{
-              font-size: 1.05rem;
-            }
+          .btn-style2{
+            margin-right: 17.4%;
+            background-image: url('../media/ikon3.png');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-color: transparent;
+            border: none;
+            color: $col-brown;
+            padding: 7px 30px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            font-size: $btnfontsize;
           }
         }
         .displaywrapper{

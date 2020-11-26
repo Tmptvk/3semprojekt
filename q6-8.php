@@ -30,7 +30,7 @@
               <p>
               </p>
             </div>
-            <div class="selectwrapper">
+            <div id="alittleup" class="selectwrapper">
             <ul id="ul-on">
               <!--RETTE UNDERLINE LÆNGDE VIS DET KAN NÅET I RETTE UGERNE-->
               <label id="q6-1" class="listwrapper3">Fantasy<input  type ="checkbox" value="1" name="select-q6" ><span class="underline"></span> </label>

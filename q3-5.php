@@ -16,7 +16,7 @@
             <div class="headingwrapper">
               <h1>Hvilken spillestil?</h1>
             </div>
-            <div class="selectwrapper">
+            <div id="alittleup" class="selectwrapper">
             <ul>
               <label class="listwrapper3">Alle imod alle .<input id="q3-1" type ="checkbox" value="1" name="select-q3" ><span class="underline"></span> </label>
               <label class="listwrapper3">Hold imod hold<input id="q3-2" type ="checkbox" value="1" name="select-q3" ><span class="underline"></span> </label>

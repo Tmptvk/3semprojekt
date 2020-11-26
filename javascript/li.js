@@ -13,6 +13,7 @@ let sarah = document.querySelector('.Sarah');
 
 
 
+
 function fantasyFunction(){
   bg.style.backgroundImage = "url('media/fantasi.png')";
   sarah.style.display= "none";

@@ -19,7 +19,7 @@
           <div class="Sarah">
             <img id="sarahimg" src="media\guru-3.png" alt="">
           </div>
-          <div class="paperwrapper4">
+          <div class="paperwrapper4 hej" >
             <div class="counterwrapper">
               <p>5/7</p>
             </div>
@@ -31,7 +31,7 @@
                 Guruerne er til for at hjælpe dig med at finde et mere defineret spil.
               </p>
             </div>
-            <div class="selectwrapper">
+            <div class="selectwrapper mt-10p ">
             <ul>
               <label class="listwrapper3">Cecilia den Trygsomme<input id="q5-1" type ="radio" value="1" name="select-q5" ><span class="underline"></span> </label>
               <label class="listwrapper3">Maalik den Modige <input id="q5-2" type ="radio" value="1" name="select-q5" ><span class="underline"></span> </label>
