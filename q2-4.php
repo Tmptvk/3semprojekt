@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <?php include 'psecs/head.php';?>
+      <script src="javascript/updown.js" defer></script>
     <title></title>
   </head>
   <body>
@@ -18,6 +19,13 @@
             <div class="headingwrapper">
               <h1>Hvor lang tid må spillet tage?</h1>
             </div>
+            <div class="arrow-upwrapper">
+              <div class="pilop">
+                <img id="pilopimg"src="media\Pil-op.png" alt="">
+
+              </div>
+
+            </div>
             <div class="selectwrapper">
             <ul>
               <label class="listwrapper2">Under 30 min.<input id="q2-1" type ="checkbox" value="1" name="select-q2" ><span class="underline"></span> </label>
@@ -25,6 +33,12 @@
               <label class="listwrapper2">60 -120 min.<input id="q2-3" type ="checkbox" value="1" name="select-q2" ><span class="underline"></span> </label>
               <label class="listwrapper2">Over 120 min.<input id="q2-4" type ="checkbox" value="1" name="select-q2" ><span class="underline"></span> </label>
             </ul>
+            </div>
+            <div class="arrow-downwrapper">
+              <div class="nedad">
+                <img id="pilnedimg"src="media\Pil-ned.png" alt="">
+              </div>
+
             </div>
             <div class="btnwrapper3">
            <a href="q1-3.php"> <button type="button"  class="tilbage btn-style" name="btn-videre">Tilbage</button> </a>

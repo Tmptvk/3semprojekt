@@ -4,9 +4,10 @@
     <?php include 'psecs/head.php';?>
     <title></title>
         <script defer src="javascript/guruselect.js" charset="utf-8"></script>
+          <script src="javascript/updown.js" defer></script>
   </head>
   <body>
-    <form  action="q6-8.php" method="post">
+    <form  action="q6-8.php"  method="post">
     <div class="bodywrapper">
       <div class="bgwrapper4">
           <!--baggrund to biledder, i et grid, det ene over det andet, brug z indeks, og øverste billed hus-->
@@ -26,9 +27,16 @@
             <div class="headingwrapper">
               <h1>Valg af guru</h1>
             </div>
+            <div class="arrow-upwrapper">
+              <div class="pilop">
+                <img id="pilopimg"src="media\Pil-op.png" alt="">
+
+              </div>
+
+            </div>
             <div class="txtwrapperit">
               <p>
-                Guruerne er til for at hjælpe dig med at finde et mere defineret spil.
+                Guruerne er til for at hjælpe dig <br> med at finde et mere defineret spil.
               </p>
             </div>
             <div class="selectwrapper mt-10p ">
@@ -38,6 +46,12 @@
               <label class="listwrapper3">Sarah den Gådefulde<input id="q5-3" type ="radio" value="1" name="select-q5" ><span class="underline"></span> </label>
 
             </ul>
+            </div>
+            <div class="arrow-downwrapper">
+              <div class="nedad">
+                <img id="pilnedimg"src="media\Pil-ned.png" alt="">
+              </div>
+
             </div>
             <div class="btnwrapper3">
            <a href="q4-6.php"> <button class="tilbage btn-style" type="button" name="btn-start">Tilbage</button> </a>
