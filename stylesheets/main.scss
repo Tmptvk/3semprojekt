@@ -8,6 +8,13 @@
   font-family: $pri-font;
   color: $col-brown;
 
+  #alittleup{
+    margin-top: 0;
+  }
+
+
+
+
 
 
   .bodywrapper {
@@ -93,7 +100,7 @@
         background-repeat: no-repeat;
         display: grid;
         grid-template-columns: 10% 40% 40% 10%;
-        grid-template-rows: 20% 15% 20% 20% 20%;
+        grid-template-rows: 20% 15% 20% 20% 25%;
         text-align: center;
 
         .headingwrapper{
@@ -112,15 +119,9 @@
           grid-column: 2/4;
           grid-row: 5/6;
 
-          button{
-            cursor: pointer;
-            font-size: $btnfontsize;
-          }
           .btn-style{
             background-image: url('../media/ikon3.png');
             background-size: 100%;
-            width: 40%;
-            height: 55%;
             background-repeat: no-repeat;
             background-color: transparent;
             border: none;
@@ -128,6 +129,8 @@
             padding: 7px 32px;
             text-align: center;
             text-decoration: none;
+            cursor: pointer;
+            font-size: $btnfontsize;
           }
 
         }
@@ -139,9 +142,13 @@
       @extend .bgwrapper2;
       background-image: url('../media/bar-1.png');
 
+
+      .hej{
+        grid-template-rows: 20% 10% 25% 20% 25%;
+        }
+
       .paperwrapper2 {
         @extend .paperwrapper;
-        grid-template-rows: 20% 15% 10% 10% 10% 10% 15 10%;
         .counterwrapper{
           grid-row: 1/2;
           display: grid;
@@ -157,6 +164,8 @@
 
         }
 
+
+
         .selectwrapper{
           grid-row: 3/5;
           grid-column: 2/4;
@@ -166,7 +175,6 @@
           .listwrapper{
           display: block;
           position: relative;
-          padding-left: 35px;
           margin-bottom: 12px;
           cursor: pointer;
           font-size: 22px;
@@ -184,12 +192,11 @@
 
           .underline {
             position: absolute;
-            top: 0;
-            left: 0;
+            top: 35px;
+            left: 40%;
             height: 25px;
-            width: 25px;
-            background-color: #eee;
-            border-radius: 50%;
+            width: 60px;
+
           }
 
           .underline:after {
@@ -199,7 +206,10 @@
           }
 
           .listwrapper input:checked ~ .underline {
-            background-color: #2196F3;
+            background-image: url('../media/ikon13.png');
+            background-size:100%;
+            background-repeat: no-repeat;
+
           }
 
 
@@ -208,17 +218,124 @@
           }
 
           .listwrapper .underline:after {
-           	top: 9px;
-          	left: 9px;
-          	width: 8px;
-          	height: 8px;
-          	border-radius: 50%;
-          	background: white;
+
           }
 
           label li{
             padding-bottom: 7px;
           }
+
+
+          .listwrapper2{
+
+            display: block;
+            position: relative;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+
+
+            input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            }
+
+            .underline {
+              position: absolute;
+              top: 35px;
+              left: 25%;
+              height: 25px;
+              width: 150px;
+
+            }
+
+            .underline:after {
+            content: "";
+            position: absolute;
+            display: none;
+            }
+
+             input:checked ~ .underline {
+              background-image: url('../media/ikon1.png');
+              background-size:100%;
+              background-repeat: no-repeat;
+
+            }
+
+
+             input:checked ~ .underline:after {
+              display: block;
+            }
+
+            .underline:after {
+
+            }
+
+            label li{
+              padding-bottom: 7px;
+            }
+          }
+
+          .listwrapper3{
+
+            display: block;
+            position: relative;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+
+
+            input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            }
+
+            .underline {
+              position: absolute;
+              top: 35px;
+              left: 24%;
+              height: 25px;
+              width: 180px;
+
+            }
+
+            .underline:after {
+            content: "";
+            position: absolute;
+            display: none;
+            }
+
+             input:checked ~ .underline {
+              background-image: url('../media/ikon1.png');
+              background-size:100%;
+              background-repeat: no-repeat;
+
+            }
+
+
+             input:checked ~ .underline:after {
+              display: block;
+            }
+
+            .underline:after {
+
+            }
+
+            label li{
+              padding-bottom: 7px;
+            }
+          }
+
         }
 
 
@@ -246,8 +363,11 @@
 
       }
 
+
+
       .paperwrapper3{
         @extend .paperwrapper2;
+
 
         .txtwrapperit{
           font-style: italic;
@@ -270,6 +390,8 @@
 
     .bgwrapper4{
       @extend .bgwrapper3;
+
+
       .Cecilia{
         grid-column: 1/2;
         grid-row: 1/4;
@@ -296,14 +418,28 @@
         }
 
       }
+
       grid-template-columns: 33.3% 33.3% 33.3%;
       background-image: url('../media/Red-big.png');
+      -webkit-transition: background-image 1s ease-in-out;
+      -moz-transition: background-image 1s ease-in-out;
+      -o-transition: background-image 1s ease-in-out;
+      transition: background-image 1s ease-in-out;
       .paperwrapper4{
+        z-index: 5;
         grid-column: 1/4;
         @extend .paperwrapper3;
         .selectwrapper{
           grid-row: 3/5;
           margin-top: 10%;
+        }
+        .mt-10p{
+          margin-top: 20%
+        }
+
+
+        #alittleup{
+          margin-top: 0;
         }
       }
     }
@@ -311,16 +447,27 @@
     .paperwrapper5{
       @extend .paperwrapper4;
 
+
     }
 
     .bgwrapper3 {
       .paperwrapper6{
         @extend .paperwrapper2;
+        grid-template-rows: 20% 10% 25% 20% 25%;
         .btnwrapper2 {
-          a {
-            button{
-              font-size: 1.05rem;
-            }
+          .btn-style2{
+            margin-right: 17.4%;
+            background-image: url('../media/ikon3.png');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-color: transparent;
+            border: none;
+            color: $col-brown;
+            padding: 7px 30px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            font-size: $btnfontsize;
           }
         }
         .displaywrapper{

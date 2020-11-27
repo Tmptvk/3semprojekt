@@ -9,7 +9,7 @@
     <div class="bodywrapper">
       <div class="bgwrapper3">
           <!--baggrund to biledder, i et grid, det ene over det andet, brug z indeks, og øverste billed hus-->
-          <div class="paperwrapper3">
+          <div class="paperwrapper3 hej">
             <div class="counterwrapper">
               <p>4/7</p>
             </div>

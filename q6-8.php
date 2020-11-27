@@ -3,6 +3,7 @@
   <head>
     <?php include 'psecs/head.php';?>
     <title></title>
+    <script defer src="javascript/li.js" charset="utf-8"></script>
   </head>
   <body>
     <form  action="q7-9.php" method="post">
@@ -29,15 +30,16 @@
               <p>
               </p>
             </div>
-            <div class="selectwrapper">
-            <ul>
-              <li id="q6-1"> <input type ="checkbox" name="amount[1]" >Fantasy</li>
-              <li id="q6-2"> <input type ="checkbox" name="amount[2]" >Horror</li>
-              <li id="q6-3"> <input type ="checkbox" name="amount[3]" >Sci-fi</li>
-              <li id="q6-4"> <input type ="checkbox" name="amount[4]" >Selvskabsspil</li>
-              <li id="q6-5"> <input type ="checkbox" name="amount[1]" >Kortspil</li>
-              <li id="q6-6"> <input type ="checkbox" name="amount[1]" >Trivia</li>
-              <li id="q6-7"> <input type ="checkbox" name="amount[1]" >Puzzle</li>
+            <div id="alittleup" class="selectwrapper">
+            <ul id="ul-on">
+              <!--RETTE UNDERLINE LÆNGDE VIS DET KAN NÅET I RETTE UGERNE-->
+              <label id="q6-1" class="listwrapper3">Fantasy<input  type ="checkbox" value="1" name="select-q6" ><span class="underline"></span> </label>
+              <label id="q6-2" class="listwrapper3">Horror<input type ="checkbox" value="1" name="select-q6" ><span class="underline"></span> </label>
+              <label id="q6-3" class="listwrapper3">Sci-fi<input  type ="checkbox" value="1" name="select-q6" ><span class="underline"></span> </label>
+              <label id="q6-4" class="listwrapper3">Puzzle<input  type ="checkbox" value="1" name="select-q6" ><span class="underline"></span> </label>
+              <label id="q6-5" class="listwrapper3">Trivia<input  type ="checkbox" value="1" name="select-q6" ><span class="underline"></span> </label>
+              <label id="q6-6" class="listwrapper3">Kortspil<input type ="checkbox" value="1" name="select-q6" ><span class="underline"></span> </label>
+              <label id="q6-7" class="listwrapper3">Selvskabspil<input type ="checkbox" value="1" name="select-q6" ><span class="underline"></span> </label>
 
 
             </ul>

@@ -16,11 +16,11 @@
             <div class="headingwrapper">
               <h1>Hvilken spillestil?</h1>
             </div>
-            <div class="selectwrapper">
+            <div id="alittleup" class="selectwrapper">
             <ul>
-              <li id="q3-1"> <input type ="checkbox" name="amount[1]" >Alle imod alle</li>
-              <li id="q3-2"> <input type ="checkbox" name="amount[2]" > Hold mod hold</li>
-              <li id="q3-3"> <input type ="checkbox" name="amount[3]" >Alle imod spillet</li>
+              <label class="listwrapper3">Alle imod alle .<input id="q3-1" type ="checkbox" value="1" name="select-q3" ><span class="underline"></span> </label>
+              <label class="listwrapper3">Hold imod hold<input id="q3-2" type ="checkbox" value="1" name="select-q3" ><span class="underline"></span> </label>
+              <label class="listwrapper3">Alle imod spillet<input id="q3-3" type ="checkbox" value="1" name="select-q3" ><span class="underline"></span> </label>
 
             </ul>
             </div>
