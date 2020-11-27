@@ -9,24 +9,6 @@
 * #alittleup {
   margin-top: 0;
 }
-* ::-webkit-scrollbar {
-  width: 20px;
-}
-* ::-webkit-scrollbar-track {
-  /* 3 */
-}
-* ::-webkit-scrollbar-track-piece {
-  /* 4 */
-}
-* ::-webkit-scrollbar-thumb {
-  /* 5 */
-}
-* ::-webkit-scrollbar-corner {
-  /* 6 */
-}
-* ::-webkit-resizer {
-  /* 7 */
-}
 * .bodywrapper {
   display: grid;
   grid-template-columns: 100%;
@@ -157,6 +139,33 @@
 * .bodywrapper .bgwrapper3 .paperwrapper2 .txtwrapperit, * .bodywrapper .bgwrapper4 .paperwrapper2 .txtwrapperit, * .bodywrapper .bgwrapper3 .paperwrapper3 .txtwrapperit, * .bodywrapper .bgwrapper4 .paperwrapper3 .txtwrapperit, * .bodywrapper .bgwrapper4 .paperwrapper4 .txtwrapperit, * .bodywrapper .bgwrapper4 .paperwrapper5 .txtwrapperit, * .bodywrapper .bgwrapper3 .paperwrapper6 .txtwrapperit, * .bodywrapper .bgwrapper4 .paperwrapper6 .txtwrapperit {
   font-style: italic;
   font-size: 0.9rem;
+}
+* .bodywrapper .bgwrapper3 .paperwrapper2 .arrow-upwrapper, * .bodywrapper .bgwrapper4 .paperwrapper2 .arrow-upwrapper, * .bodywrapper .bgwrapper3 .paperwrapper3 .arrow-upwrapper, * .bodywrapper .bgwrapper4 .paperwrapper3 .arrow-upwrapper, * .bodywrapper .bgwrapper4 .paperwrapper4 .arrow-upwrapper, * .bodywrapper .bgwrapper4 .paperwrapper5 .arrow-upwrapper, * .bodywrapper .bgwrapper3 .paperwrapper6 .arrow-upwrapper, * .bodywrapper .bgwrapper4 .paperwrapper6 .arrow-upwrapper {
+  grid-row: 2/3;
+  grid-column: 3/5;
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(5, 20%);
+  background-color: rgba(24, 24, 24, 0.6);
+  z-index: 20;
+}
+* .bodywrapper .bgwrapper3 .paperwrapper2 .arrow-upwrapper .pilop, * .bodywrapper .bgwrapper4 .paperwrapper2 .arrow-upwrapper .pilop, * .bodywrapper .bgwrapper3 .paperwrapper3 .arrow-upwrapper .pilop, * .bodywrapper .bgwrapper4 .paperwrapper3 .arrow-upwrapper .pilop, * .bodywrapper .bgwrapper4 .paperwrapper4 .arrow-upwrapper .pilop, * .bodywrapper .bgwrapper4 .paperwrapper5 .arrow-upwrapper .pilop, * .bodywrapper .bgwrapper3 .paperwrapper6 .arrow-upwrapper .pilop, * .bodywrapper .bgwrapper4 .paperwrapper6 .arrow-upwrapper .pilop {
+  background-color: #fff;
+  display: block;
+  grid-row: 3/6;
+  grid-column: 4/6;
+  z-index: 21;
+  margin-right: 10%;
+}
+* .bodywrapper .bgwrapper3 .paperwrapper2 .arrow-downwrapper, * .bodywrapper .bgwrapper4 .paperwrapper2 .arrow-downwrapper, * .bodywrapper .bgwrapper3 .paperwrapper3 .arrow-downwrapper, * .bodywrapper .bgwrapper4 .paperwrapper3 .arrow-downwrapper, * .bodywrapper .bgwrapper4 .paperwrapper4 .arrow-downwrapper, * .bodywrapper .bgwrapper4 .paperwrapper5 .arrow-downwrapper, * .bodywrapper .bgwrapper3 .paperwrapper6 .arrow-downwrapper, * .bodywrapper .bgwrapper4 .paperwrapper6 .arrow-downwrapper {
+  grid-row: 5/6;
+  grid-column: 3/5;
+  background-color: rgba(24, 24, 24, 0.6);
+  display: block;
+  z-index: 20;
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(5, 20%);
 }
 * .bodywrapper .bgwrapper3 .paperwrapper2 .selectwrapper, * .bodywrapper .bgwrapper4 .paperwrapper2 .selectwrapper, * .bodywrapper .bgwrapper3 .paperwrapper3 .selectwrapper, * .bodywrapper .bgwrapper4 .paperwrapper3 .selectwrapper, * .bodywrapper .bgwrapper4 .paperwrapper4 .selectwrapper, * .bodywrapper .bgwrapper4 .paperwrapper5 .selectwrapper, * .bodywrapper .bgwrapper3 .paperwrapper6 .selectwrapper, * .bodywrapper .bgwrapper4 .paperwrapper6 .selectwrapper {
   grid-row: 3/5;

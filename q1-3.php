@@ -23,6 +23,12 @@ print_r($_POST);
               <h1>Velkommen, <br>
               hvor mange bliver I?</h1>
             </div>
+            <div class="arrow-upwrapper">
+              <div class="pilop">
+
+              </div>
+
+            </div>
             <div class="selectwrapper">
             <ul>
             <label class="listwrapper">1<input id="q1-1" type ="radio" value="1" name="select-q1" ><span class="underline"></span> </label>
@@ -34,6 +40,12 @@ print_r($_POST);
             <label class="listwrapper">7<input id="q1-7" type ="radio" value="1" name="select-q1" ><span class="underline"></span> </label>
             <label class="listwrapper">8<input id="q1-8" type ="radio" value="1" name="select-q1" ><span class="underline"></span> </label>
             </ul>
+            </div>
+            <div class="arrow-downwrapper">
+              <div class="arrow-down">
+
+              </div>
+
             </div>
             <div class="btnwrapper3">
            <a href="house2.php"> <button type="button" class="tilbage btn-style" name="btn-tilbage">Tilbage</button> </a>

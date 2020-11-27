@@ -12,23 +12,6 @@
     margin-top: 0;
   }
 
-  ::-webkit-scrollbar              {
-    width: 20px;
-  }
-  ::-webkit-scrollbar-button       {
-
-
-
-
-  }
-  ::-webkit-scrollbar-track        { /* 3 */ }
-  ::-webkit-scrollbar-track-piece  { /* 4 */ }
-  ::-webkit-scrollbar-thumb        { /* 5 */ }
-  ::-webkit-scrollbar-corner       { /* 6 */ }
-  ::-webkit-resizer                { /* 7 */ }
-
-
-
 
 
   .bodywrapper {
@@ -177,6 +160,41 @@
           font-size: $ptxsize;
 
         }
+
+        .arrow-upwrapper{
+          grid-row: 2/3;
+          grid-column: 3/5;
+          display: grid;
+          grid-template-columns: repeat(5, 20%);
+          grid-template-rows: repeat(5, 20%);
+          background-color: rgba(24, 24, 24, 0.6);
+          z-index: 20;
+
+
+          .pilop{
+            background-color: #fff;
+            display: block;
+            grid-row: 3/6;
+            grid-column: 4/6;
+            z-index: 21;
+            margin-right: 10%;
+
+          }
+        }
+
+
+
+        .arrow-downwrapper{
+          grid-row: 5/6;
+          grid-column: 3/5;
+          background-color: rgba(24, 24, 24, 0.6);
+          display: block;
+          z-index: 20;
+          display: grid;
+          grid-template-columns: repeat(5, 20%);
+          grid-template-rows: repeat(5, 20%);
+        }
+
 
 
 
