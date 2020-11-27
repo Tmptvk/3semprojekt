@@ -31,7 +31,7 @@ $pStyleSelect = $_SESSION['pStyleSelect'];
 $genreSelect = $_SESSION['genreSelect'];
 $chalengeSelect = $_SESSION['challengeSelect'];
 
-$sql = "SELECT ga.GameID, ga.Name FROM games AS ga INNER JOIN gamegenre AS gg ON ga.GameID = gg.GameID WHERE MinPlayers <= $numPlayersSelect AND MaxPlayers >= $numPlayersSelect $pTimeSelect $genreSelect $chalengeSelect;";
+$sql = "SELECT ga.GameID, ga.Name FROM games AS ga INNER JOIN gamegenre AS gg ON ga.GameID = gg.GameID WHERE MinPlayers <= $numPlayersSelect AND MaxPlayers >= $numPlayersSelect $pTimeSelec;";
 $result = mysqli_query($conn, $sql);
 $resultCheck = mysqli_num_rows($result);
 
