@@ -39,7 +39,7 @@
               <label id="q6-4" class="listwrapper3">Puzzle<input  type ="checkbox" value="1" name="select-q6" ><span class="underline"></span> </label>
               <label id="q6-5" class="listwrapper3">Trivia<input  type ="checkbox" value="1" name="select-q6" ><span class="underline"></span> </label>
               <label id="q6-6" class="listwrapper3">Kortspil<input type ="checkbox" value="1" name="select-q6" ><span class="underline"></span> </label>
-              <label id="q6-7" class="listwrapper3">Selvskabspil<input type ="checkbox" value="1" name="select-q6" ><span class="underline"></span> </label>
+              <label id="q6-7" class="listwrapper3">Selskabspil<input type ="checkbox" value="1" name="select-q6" ><span class="underline"></span> </label>
 
 
             </ul>

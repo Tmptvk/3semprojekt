@@ -6,6 +6,7 @@ let ceciliaBtn = document.getElementById('q5-1');
 let malikBtn = document.getElementById('q5-2');
 let sarahBtn = document.getElementById('q5-3');
 
+//HER ER CECILIA VALGT SOM GURU//
 function ceciliaSelectFunction(){
   cecilia.style.gridColumn= "1/3";
   cecilia.style.marginLeft = "95px";
@@ -32,6 +33,8 @@ function ceciliaSelectFunction(){
 
 };
 
+//HER ER MAALIK VALGT SOM GURU//
+
 function malikSelectFunction(){
   cecilia.style.gridColumn= "1/2";
   cecilia.style.marginLeft = "20px";
@@ -40,10 +43,10 @@ function malikSelectFunction(){
   document.getElementById("ceciliaimg").src = "media/Guru1.png";
 
   malik.style.gridColumn= "1/3";
-  malik.style.marginLeft= "20%";
+  malik.style.marginLeft= "28%";
   malik.style.maxWidth= "80%";
-  malik.style.gridRow= "1/7";
-  malik.style.marginTop = "25%";
+  malik.style.gridRow= "1/6";
+  malik.style.marginTop = "15%";
   malik.style.overflow = "visible";
   malik.style.zIndex = "3";
   document.getElementById("malikimg").src = "media/guru-2glow.png";
@@ -59,6 +62,8 @@ function malikSelectFunction(){
   document.getElementById("sarahimg").src = "media/guru-3.png";
 
 };
+
+//HER ER SARAH VALGT SOM GURU//
 
 function sarahSelectFunction(){
   cecilia.style.gridColumn= "1/2";

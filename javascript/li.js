@@ -47,6 +47,7 @@ function puzzleFunction(){
 function triviaFunction(){
   bg.style.backgroundImage = "url('media/Quiz.png')";
   bg.style.backgroundSize = "120%";
+  bg.style.backgroundPosition = "top left";
   sarah.style.display= "none";
   cecilia.style.display= "none";
   malik.style.display= "none";
@@ -54,6 +55,7 @@ function triviaFunction(){
 function kortspilFunction(){
   bg.style.backgroundImage = "url('media/Cards.png')";
   bg.style.backgroundSize = "120%";
+  bg.style.backgroundPosition = "top right";
   sarah.style.display= "none";
   cecilia.style.display= "none";
   malik.style.display= "none";
@@ -62,6 +64,7 @@ function kortspilFunction(){
 function selvskabspilFunction(){
   bg.style.backgroundImage = "url('media/Party.png')";
   bg.style.backgroundSize = "120%";
+  bg.style.backgroundPosition = "top";
   sarah.style.display= "none";
   cecilia.style.display= "none";
   malik.style.display= "none";

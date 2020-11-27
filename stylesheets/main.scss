@@ -14,9 +14,6 @@
 
 
 
-
-
-
   .bodywrapper {
     display: grid;
     grid-template-columns: 100%;
@@ -32,7 +29,7 @@
       background-repeat: no-repeat;
       display: grid;
       grid-template-columns: 10% 80% 10%;
-      grid-template-rows: 60% 10% 10%;
+      grid-template-rows: 60% 10% 10% 10% 10%;
       align-items: center;
       text-align: center;
       .logowrapper{
@@ -163,6 +160,41 @@
           font-size: $ptxsize;
 
         }
+
+        .arrow-upwrapper{
+          grid-row: 2/3;
+          grid-column: 3/5;
+          display: grid;
+          grid-template-columns: repeat(5, 20%);
+          grid-template-rows: repeat(5, 20%);
+          background-color: rgba(24, 24, 24, 0.6);
+          z-index: 20;
+
+
+          .pilop{
+            background-color: #fff;
+            display: block;
+            grid-row: 3/6;
+            grid-column: 4/6;
+            z-index: 21;
+            margin-right: 10%;
+
+          }
+        }
+
+
+
+        .arrow-downwrapper{
+          grid-row: 5/6;
+          grid-column: 3/5;
+          background-color: rgba(24, 24, 24, 0.6);
+          display: block;
+          z-index: 20;
+          display: grid;
+          grid-template-columns: repeat(5, 20%);
+          grid-template-rows: repeat(5, 20%);
+        }
+
 
 
 
@@ -395,7 +427,7 @@
       .Cecilia{
         grid-column: 1/2;
         grid-row: 1/4;
-        margin-left: 20px;
+        margin-left: 12%;
         margin-top: 70%;
         img{
           max-width: 130%;
@@ -405,7 +437,8 @@
         grid-column: 2/3;
         grid-row: 2/4;
         img{
-          max-width: 130%;
+          max-width: 140%;
+
         }
 
       }
@@ -421,10 +454,6 @@
 
       grid-template-columns: 33.3% 33.3% 33.3%;
       background-image: url('../media/Red-big.png');
-      -webkit-transition: background-image 1s ease-in-out;
-      -moz-transition: background-image 1s ease-in-out;
-      -o-transition: background-image 1s ease-in-out;
-      transition: background-image 1s ease-in-out;
       .paperwrapper4{
         z-index: 5;
         grid-column: 1/4;
@@ -457,7 +486,7 @@
         .btnwrapper2 {
           .btn-style2{
             margin-right: 17.4%;
-            background-image: url('../media/ikon3.png');
+            background-image: url('../media/ikon3-1.png');
             background-size: 100%;
             background-repeat: no-repeat;
             background-color: transparent;
