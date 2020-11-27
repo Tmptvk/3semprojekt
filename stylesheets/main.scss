@@ -159,6 +159,8 @@
       }
 
 
+
+
       .hej{
         grid-template-rows: 20% 10% 25% 20% 25%;
         }
@@ -208,6 +210,9 @@
               align-self: center;
               z-index: 20;
             }
+            #pilopimg:hover{
+              cursor: pointer;
+            }
 
           }
         }
@@ -241,6 +246,10 @@
               z-index: 21;
             }
 
+              #pilnedimg:hover {
+                cursor: pointer;
+              }
+
           }
         }
 
@@ -254,6 +263,7 @@
           grid-column: 2/4;
           overflow-x: scroll;
           margin-top: 10%;
+          z-index: 40;
 
           .listwrapper{
           display: block;
@@ -475,6 +485,25 @@
 
     .bgwrapper4{
       @extend .bgwrapper3;
+
+      .validate2{
+        display: none;
+        grid-row: 1/2;
+        grid-column: 1/4;
+        max-height: 100px;
+        .pwrapper{
+
+
+          p{
+            margin-left: 50%;
+            margin-top: 7%;
+            background-image: url('../media/papersmall.png');
+            background-size: cover;
+            padding: 5%;
+            text-align: center;
+          }
+        }
+      }
 
 
       .Cecilia{
