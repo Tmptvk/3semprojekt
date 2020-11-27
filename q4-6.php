@@ -2,12 +2,19 @@
 <html lang="en" dir="ltr">
   <head>
     <?php include 'psecs/head.php';?>
+    <script src="javascript/validate.js" defer></script>
     <title></title>
   </head>
   <body>
-    <form  action="q5-7.php" method="post">
+    <form name="myForm2" onsubmit="return validateForm2()" action="q5-7.php" method="post">
     <div class="bodywrapper">
       <div class="bgwrapper3">
+        <div class="validate">
+          <div class="pwrapper">
+            <p> Vælg venligst, <br>
+              et spil, <br> eller en uddybende snak med en guru </p>
+          </div>
+        </div>
           <!--baggrund to biledder, i et grid, det ene over det andet, brug z indeks, og øverste billed hus-->
           <div class="paperwrapper3 hej">
             <div class="counterwrapper">
@@ -26,9 +33,8 @@
             </div>
             <div class="selectwrapper">
             <ul>
-              <li id="q4-1"> <input type ="checkbox" name="amount[1]" >Yeees! Giv mig et spil!</li>
-              <li id="q4-2"> <input type ="checkbox" name="amount[2]" >Jeg vil snakke med en Guru først</li>
-
+              <label class="listwrapper3">Yes! Giv mig et spil!<input id="q4-1" type ="radio" value="1" name="select-q4" ><span class="underline"></span> </label>
+              <label class="listwrapper3">Jeg vil gerne snakke med en Guru først<input id="q4-2" type ="radio" value="1" name="select-q4" ><span class="underline"></span> </label>
 
             </ul>
             </div>

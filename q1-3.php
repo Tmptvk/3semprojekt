@@ -7,13 +7,22 @@ print_r($_POST);
 <html lang="en" dir="ltr">
   <head>
     <?php include 'psecs/head.php';?>
-    <script src="javascript/li.js" defer></script>
+
+      <script src="javascript/updown.js" defer></script>
+          <script src="javascript/validate.js" defer></script>
+
     <title></title>
   </head>
   <body>
-    <form action="q2-4.php" method="post">
+    <form name="myForm" onsubmit="return validateForm()" action="q2-4.php" method="post">
     <div class="bodywrapper">
       <div class="bgwrapper3">
+        <div class="validate">
+          <div class="pwrapper">
+            <p> Vælg venligst, <br>
+              mindst én spiller </p>
+          </div>
+        </div>
           <!--baggrund to biledder, i et grid, det ene over det andet, brug z indeks, og øverste billed hus-->
           <div class="paperwrapper2">
             <div class="counterwrapper">
@@ -25,6 +34,7 @@ print_r($_POST);
             </div>
             <div class="arrow-upwrapper">
               <div class="pilop">
+                <img id="pilopimg"src="media\Pil-op.png" alt="">
 
               </div>
 
@@ -42,8 +52,8 @@ print_r($_POST);
             </ul>
             </div>
             <div class="arrow-downwrapper">
-              <div class="arrow-down">
-
+              <div class="nedad">
+                <img id="pilnedimg"src="media\Pil-ned.png" alt="">
               </div>
 
             </div>

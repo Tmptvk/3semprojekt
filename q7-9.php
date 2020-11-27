@@ -3,6 +3,7 @@
   <head>
     <?php include 'psecs/head.php';?>
     <script defer src="javascript/li2.js" charset="utf-8"></script>
+      <script src="javascript/updown.js" defer></script>
 
     <title></title>
   </head>
@@ -27,6 +28,7 @@
             <div class="headingwrapper">
               <h1>Valg af udfordrings niveau</h1>
             </div>
+
             <div class="txtwrapperit">
               <!--Udskriftlig tekst-->
               <p>

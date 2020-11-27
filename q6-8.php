@@ -4,6 +4,7 @@
     <?php include 'psecs/head.php';?>
     <title></title>
     <script defer src="javascript/li.js" charset="utf-8"></script>
+      <script src="javascript/updown.js" defer></script>
   </head>
   <body>
     <form  action="q7-9.php" method="post">
@@ -26,6 +27,13 @@
             <div class="headingwrapper">
               <h1>Valg af genre</h1>
             </div>
+            <div class="arrow-upwrapper">
+              <div class="pilop">
+                <img id="pilopimg"src="media\Pil-op.png" alt="">
+
+              </div>
+
+            </div>
             <div class="txtwrapperit">
               <p>
               </p>
@@ -43,6 +51,12 @@
 
 
             </ul>
+            </div>
+            <div class="arrow-downwrapper">
+              <div class="nedad">
+                <img id="pilnedimg"src="media\Pil-ned.png" alt="">
+              </div>
+
             </div>
             <div class="btnwrapper3">
            <a href="q5-7.php"> <button class="tilbage btn-style" type="button" name="btn-start">Tilbage</button> </a>
