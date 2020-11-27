@@ -32,7 +32,7 @@
       background-repeat: no-repeat;
       display: grid;
       grid-template-columns: 10% 80% 10%;
-      grid-template-rows: 60% 10% 10%;
+      grid-template-rows: 60% 10% 10% 10% 10%;
       align-items: center;
       text-align: center;
       .logowrapper{
@@ -421,10 +421,6 @@
 
       grid-template-columns: 33.3% 33.3% 33.3%;
       background-image: url('../media/Red-big.png');
-      -webkit-transition: background-image 1s ease-in-out;
-      -moz-transition: background-image 1s ease-in-out;
-      -o-transition: background-image 1s ease-in-out;
-      transition: background-image 1s ease-in-out;
       .paperwrapper4{
         z-index: 5;
         grid-column: 1/4;
