@@ -18,7 +18,6 @@ session_start()
         <input type="checkbox" name="options[]" value="7"/> Selskabspil<br/>
         <input type="submit" value="Go!" />
     </form>
-    <a href="results.php">results</a>
   </body>
 </html>
 
@@ -39,21 +38,20 @@ if (count($checked) > 1 and count($checked) < 7) {
       $other = $other . " OR GenreID = " . $checked[$i];
   }
 
-  $_SESSION['genreSelect'] = " AND (GenreID = " . $first . $other . ")";
+  $_SESSION['pstyleselect'] = " GenreID = " . $first . $other;
 }
 
 // if only 1 is chosen
 elseif (count($checked) == 1) {
-  $_SESSION['genreSelect'] = " AND GenreID = " . $checked[0];
+  $_SESSION['pstyleselect'] = " GenreID = " . $checked[0];
 
 }
 
 // if all or none are chosen
 else {
-  $_SESSION['genreSelect'] = "";
+  //unset ($_SESSION['pstyleselect']);
+  $_SESSION['pstyleselect'] = "";
 }
-  echo $_SESSION['genreSelect'];
-
+  echo $_SESSION['pstyleselect'];
 }
-echo "<br>";
 ?>
