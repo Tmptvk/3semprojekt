@@ -9,9 +9,13 @@ session_start()
   </head>
   <body>
     <form method="get">
-        <input type="checkbox" name="options[]" value="1"/> Politics<br/>
-        <input type="checkbox" name="options[]" value="2"/> Movies<br/>
-        <input type="checkbox" name="options[]" value="3"/> World<br/>
+        <input type="checkbox" name="options[]" value="1"/> Horror<br/>
+        <input type="checkbox" name="options[]" value="2"/> Fantasy<br/>
+        <input type="checkbox" name="options[]" value="3"/> Trivia<br/>
+        <input type="checkbox" name="options[]" value="4"/> Cardgame<br/>
+        <input type="checkbox" name="options[]" value="5"/> Puzzle<br/>
+        <input type="checkbox" name="options[]" value="6"/> Sci-fi<br/>
+        <input type="checkbox" name="options[]" value="7"/> Selskabspil<br/>
         <input type="submit" value="Go!" />
     </form>
   </body>
@@ -19,9 +23,14 @@ session_start()
 
 
 <?php
+
+
+if (isset($_GET['options'])) {
+  echo "yay";
 $checked = $_GET['options'];
 
-if (count($checked) > 1) {
+//if more than one option is chosen but not all
+if (count($checked) > 1 and count($checked) < 7) {
   $first = $checked[0];
   $other ="";
 
@@ -29,13 +38,51 @@ if (count($checked) > 1) {
       $other = $other . " OR Pstyle = " . $checked[$i];
   }
 
-  $_SESSION['pstyleselect'] = "(PStyle = " . $first . $other . ")";
+  $_SESSION['pstyleselect'] = " AND (PStyle = " . $first . $other . ")";
+}
+
+// if only 1 is chosen
+elseif (count($checked) == 1) {
+  $_SESSION['pstyleselect'] = "AND PStyle = " . $checked[0];
+
+}
+
+// if all or none are chosen
+else {
+  //unset ($_SESSION['pstyleselect']);
+  $_SESSION['pstyleselect'] = "";
+}
   echo $_SESSION['pstyleselect'];
+
 }
 
 //for($i=1; $i < count($checked); $i++){
 //    echo $checked[$i];
 //}
 echo "<br>";
-echo count($checked);
+
+?>
+
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$db = "boardgamequiz";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $db);
+
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+echo "Connected successfully";
+
+//$conn->close();
+$sql = "SELECT GameID FROM games";
+$result = mysql_query($sql);
+while($row = mysql_fetch_array($result)) {
+  echo print_r($row);       // Print the entire row data
+}
+$conn->close();
 ?>
