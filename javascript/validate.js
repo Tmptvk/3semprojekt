@@ -1,5 +1,5 @@
 function validateForm() {
-  var x = document.forms["myForm"]["select-q1"].value;
+  var x = document.forms["myForm"]["select-q1[]"].value;
   if (x == "") {
 
 
@@ -10,7 +10,7 @@ function validateForm() {
 
 
 function validateForm2() {
-  var x = document.forms["myForm2"]["select-q4"].value;
+  var x = document.forms["myForm2"]["select-q4[]"].value;
   if (x == "") {
 
 
@@ -19,7 +19,7 @@ function validateForm2() {
   }}
 
   function validateForm3() {
-    var x = document.forms["myForm3"]["select-q5"].value;
+    var x = document.forms["myForm3"]["select-q5[]"].value;
     if (x == "") {
 
 
