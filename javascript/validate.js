@@ -18,6 +18,15 @@ function validateForm2() {
     return false;
   }}
 
+  function validateForm3() {
+    var x = document.forms["myForm3"]["select-q5"].value;
+    if (x == "") {
+
+
+      document.querySelector('.validate2').style.display = "block";
+      return false;
+    }}
+
 
 
   let spilnu = document.getElementById('q4-1');
