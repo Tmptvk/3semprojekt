@@ -3,6 +3,7 @@
 print_r($_POST);
 ?>
 -->
+<?php session_start() ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -14,7 +15,7 @@ print_r($_POST);
     <title></title>
   </head>
   <body>
-    <form name="myForm" onsubmit="return validateForm()" action="q2-4.php" method="post">
+    <form name="myForm" onsubmit="return validateForm()" action="q2-4.php" method="get">
     <div class="bodywrapper">
       <div class="bgwrapper3">
         <div class="validate">
@@ -41,14 +42,14 @@ print_r($_POST);
             </div>
             <div class="selectwrapper">
             <ul>
-            <label class="listwrapper">1<input id="q1-1" type ="radio" value="1" name="select-q1" ><span class="underline"></span> </label>
-            <label class="listwrapper">2<input id="q1-2" type ="radio" value="1" name="select-q1" ><span class="underline"></span> </label>
-            <label class="listwrapper">3<input id="q1-3" type ="radio" value="1" name="select-q1" ><span class="underline"></span> </label>
-            <label class="listwrapper">4<input id="q1-4" type ="radio" value="1" name="select-q1" ><span class="underline"></span> </label>
-            <label class="listwrapper">5<input id="q1-5" type ="radio" value="1" name="select-q1" ><span class="underline"></span> </label>
-            <label class="listwrapper">6<input id="q1-6" type ="radio" value="1" name="select-q1" ><span class="underline"></span> </label>
-            <label class="listwrapper">7<input id="q1-7" type ="radio" value="1" name="select-q1" ><span class="underline"></span> </label>
-            <label class="listwrapper">8<input id="q1-8" type ="radio" value="1" name="select-q1" ><span class="underline"></span> </label>
+            <label class="listwrapper">1<input id="q1-1" type ="radio" value="1" name="select-q1[]" ><span class="underline"></span> </label>
+            <label class="listwrapper">2<input id="q1-2" type ="radio" value="2" name="select-q1[]" ><span class="underline"></span> </label>
+            <label class="listwrapper">3<input id="q1-3" type ="radio" value="3" name="select-q1[]" ><span class="underline"></span> </label>
+            <label class="listwrapper">4<input id="q1-4" type ="radio" value="4" name="select-q1[]" ><span class="underline"></span> </label>
+            <label class="listwrapper">5<input id="q1-5" type ="radio" value="5" name="select-q1[]" ><span class="underline"></span> </label>
+            <label class="listwrapper">6<input id="q1-6" type ="radio" value="6" name="select-q1[]" ><span class="underline"></span> </label>
+            <label class="listwrapper">7<input id="q1-7" type ="radio" value="7" name="select-q1[]" ><span class="underline"></span> </label>
+            <label class="listwrapper">8<input id="q1-8" type ="radio" value="8" name="select-q1[]" ><span class="underline"></span> </label>
             </ul>
             </div>
             <div class="arrow-downwrapper">
@@ -72,3 +73,25 @@ print_r($_POST);
   </form>
   </body>
 </html>
+
+<?php
+//check if array exists then run
+if (isset($_GET['select-q1'])) {
+$checked = $_GET['select-q1'];
+
+// if only 1 is chosen
+if (count($checked) == 1) {
+  //saves value in session to be used for sql query
+  $_SESSION['numPlayersSelect'] = $checked[0];
+
+}
+
+// if all or none are chosen
+else {
+  //empty session to avoid undefined variable later
+  $_SESSION['numPlayersSelect'] = "";
+}
+  echo $_SESSION['numPlayersSelect'];
+
+}
+?>
