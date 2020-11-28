@@ -1,3 +1,4 @@
+<?php session_start() ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -6,7 +7,7 @@
     <title></title>
   </head>
   <body>
-    <form  action="q3-5.php" method="post">
+    <form  action="q3-5.php" method="get">
 
 
     <div class="bodywrapper">
@@ -28,10 +29,10 @@
             </div>
             <div class="selectwrapper">
             <ul>
-              <label class="listwrapper2">Under 30 min.<input id="q2-1" type ="checkbox" value="1" name="select-q2" ><span class="underline"></span> </label>
-              <label class="listwrapper2">30 - 60 min.<input id="q2-2" type ="checkbox" value="1" name="select-q2" ><span class="underline"></span> </label>
-              <label class="listwrapper2">60 -120 min.<input id="q2-3" type ="checkbox" value="1" name="select-q2" ><span class="underline"></span> </label>
-              <label class="listwrapper2">Over 120 min.<input id="q2-4" type ="checkbox" value="1" name="select-q2" ><span class="underline"></span> </label>
+              <label class="listwrapper2">Under 30 min.<input id="q2-1" type ="checkbox" value="1" name="select-q2[]" ><span class="underline"></span> </label>
+              <label class="listwrapper2">30 - 60 min.<input id="q2-2" type ="checkbox" value="2" name="select-q2[]" ><span class="underline"></span> </label>
+              <label class="listwrapper2">60 -120 min.<input id="q2-3" type ="checkbox" value="3" name="select-q2[]" ><span class="underline"></span> </label>
+              <label class="listwrapper2">Over 120 min.<input id="q2-4" type ="checkbox" value="4" name="select-q2[]" ><span class="underline"></span> </label>
             </ul>
             </div>
             <div class="arrow-downwrapper">
@@ -53,3 +54,39 @@
     </form>
   </body>
 </html>
+<?php
+
+
+if (isset($_GET['select-q2'])) {
+  echo "yay";
+$checked = $_GET['select-q2'];
+
+//if more than one option is chosen but not all
+if (count($checked) > 1 and count($checked) < 4) {
+  $first = $checked[0];
+  $other ="";
+
+  for($i=1; $i < count($checked); $i++){
+      $other = $other . " OR PTimeID = " . $checked[$i];
+  }
+
+  $_SESSION['pTimeSelect'] = " AND (PTimeID = " . $first . $other . ")";
+}
+
+// if only 1 is chosen
+elseif (count($checked) == 1) {
+  $_SESSION['pTimeSelect'] = " AND PTimeID = " . $checked[0];
+
+}
+
+// if all or none are chosen
+else {
+  $_SESSION['pTimeSelect'] = "";
+}
+  echo $_SESSION['pTimeSelect'];
+
+}
+else {
+  $_SESSION['pTimeSelect'] = "";
+}
+?>

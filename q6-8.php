@@ -1,3 +1,4 @@
+<?php session_start() ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -7,7 +8,7 @@
       <script src="javascript/updown.js" defer></script>
   </head>
   <body>
-    <form  action="q7-9.php" method="post">
+    <form  action="q7-9.php" method="get">
     <div class="bodywrapper">
       <div class="bgwrapper4">
           <!--baggrund to biledder, i et grid, det ene over det andet, brug z indeks, og øverste billed hus-->
@@ -41,13 +42,13 @@
             <div id="alittleup" class="selectwrapper">
             <ul id="ul-on">
               <!--RETTE UNDERLINE LÆNGDE VIS DET KAN NÅET I RETTE UGERNE-->
-              <label id="q6-1" class="listwrapper3">Fantasy<input  type ="checkbox" value="1" name="select-q6" ><span class="underline"></span> </label>
-              <label id="q6-2" class="listwrapper3">Horror<input type ="checkbox" value="1" name="select-q6" ><span class="underline"></span> </label>
-              <label id="q6-3" class="listwrapper3">Sci-fi<input  type ="checkbox" value="1" name="select-q6" ><span class="underline"></span> </label>
-              <label id="q6-4" class="listwrapper3">Puzzle<input  type ="checkbox" value="1" name="select-q6" ><span class="underline"></span> </label>
-              <label id="q6-5" class="listwrapper3">Trivia<input  type ="checkbox" value="1" name="select-q6" ><span class="underline"></span> </label>
-              <label id="q6-6" class="listwrapper3">Kortspil<input type ="checkbox" value="1" name="select-q6" ><span class="underline"></span> </label>
-              <label id="q6-7" class="listwrapper3">Selskabspil<input type ="checkbox" value="1" name="select-q6" ><span class="underline"></span> </label>
+              <label id="q6-1" class="listwrapper3">Fantasy<input  type ="checkbox" value="1" name="select-q6[]" ><span class="underline"></span> </label>
+              <label id="q6-2" class="listwrapper3">Horror<input type ="checkbox" value="2" name="select-q6[]" ><span class="underline"></span> </label>
+              <label id="q6-3" class="listwrapper3">Sci-fi<input  type ="checkbox" value="3" name="select-q6[]" ><span class="underline"></span> </label>
+              <label id="q6-4" class="listwrapper3">Puzzle<input  type ="checkbox" value="4" name="select-q6[]" ><span class="underline"></span> </label>
+              <label id="q6-5" class="listwrapper3">Trivia<input  type ="checkbox" value="5" name="select-q6[]" ><span class="underline"></span> </label>
+              <label id="q6-6" class="listwrapper3">Kortspil<input type ="checkbox" value="6" name="select-q6[]" ><span class="underline"></span> </label>
+              <label id="q6-7" class="listwrapper3">Selskabspil<input type ="checkbox" value="7" name="select-q6[]" ><span class="underline"></span> </label>
 
 
             </ul>
@@ -71,3 +72,41 @@
     </form
   </body>
 </html>
+
+<?php
+
+
+if (isset($_GET['select-q6'])) {
+  echo "yay";
+$checked = $_GET['select-q6'];
+
+//if more than one option is chosen but not all
+if (count($checked) > 1 and count($checked) < 7) {
+  $first = $checked[0];
+  $other ="";
+
+  for($i=1; $i < count($checked); $i++){
+      $other = $other . " OR GenreID = " . $checked[$i];
+  }
+
+  $_SESSION['genreSelect'] = " AND (GenreID = " . $first . $other . ")";
+}
+
+// if only 1 is chosen
+elseif (count($checked) == 1) {
+  $_SESSION['genreSelect'] = " AND GenreID = " . $checked[0];
+
+}
+
+// if all are chosen
+else {
+  $_SESSION['genreSelect'] = "";
+}
+  echo $_SESSION['genreSelect'];
+
+}
+else {
+  $_SESSION['genreSelect'] = "";
+  echo "yay";
+}
+?>

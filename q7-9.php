@@ -1,3 +1,4 @@
+<?php session_start() ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -8,7 +9,7 @@
     <title></title>
   </head>
   <body>
-    <form  action="final-10.php" method="post">
+    <form  action="final-10.php" method="get">
     <div class="bodywrapper">
       <div class="bgwrapper4">
           <!--baggrund to biledder, i et grid, det ene over det andet, brug z indeks, og øverste billed hus-->
@@ -37,9 +38,9 @@
             </div>
             <div class="selectwrapper">
             <ul>
-              <label id="q7-1" class="listwrapper3">Lige ud af vejen<input  type ="checkbox" value="1" name="select-q7" ><span class="underline"></span> </label>
-              <label id="q7-2" class="listwrapper3">Lidt op af bakke<input  type ="checkbox" value="1" name="select-q7" ><span class="underline"></span> </label>
-              <label id="q7-3" class="listwrapper3">Helt op af bakke<input type ="checkbox" value="1" name="select-q7" ><span class="underline"></span> </label>
+              <label id="q7-1" class="listwrapper3">Lige ud af vejen<input  type ="checkbox" value="1" name="select-q7[]" ><span class="underline"></span> </label>
+              <label id="q7-2" class="listwrapper3">Lidt op af bakke<input  type ="checkbox" value="2" name="select-q7[]" ><span class="underline"></span> </label>
+              <label id="q7-3" class="listwrapper3">Helt op af bakke<input type ="checkbox" value="3" name="select-q7[]" ><span class="underline"></span> </label>
 
 
 
@@ -57,3 +58,41 @@
     </div>
   </body>
 </html>
+
+<?php
+
+
+if (isset($_GET['select-q7'])) {
+  echo "yay";
+$checked = $_GET['select-q7'];
+
+//if more than one option is chosen but not all
+if (count($checked) > 1 and count($checked) < 3) {
+  $first = $checked[0];
+  $other ="";
+
+  for($i=1; $i < count($checked); $i++){
+      $other = $other . " OR GameChallengeID = " . $checked[$i];
+  }
+
+  $_SESSION['challengeSelect'] = " AND (GameChallengeID = " . $first . $other . ")";
+}
+
+// if only 1 is chosen
+elseif (count($checked) == 1) {
+  $_SESSION['challengeSelect'] = " AND GameChallengeID = " . $checked[0];
+
+}
+
+// if all or none are chosen
+else {
+  $_SESSION['challengeSelect'] = "";
+}
+  echo $_SESSION['challengeSelect'];
+
+}
+else {
+  $_SESSION['challengeSelect'] = "";
+  echo $_SESSION['challengeSelect'];
+}
+?>
