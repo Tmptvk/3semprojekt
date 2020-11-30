@@ -1,4 +1,4 @@
-<?php session_start() ?>
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -9,7 +9,7 @@
     <title></title>
   </head>
   <body>
-    <form  action="final-10.php" method="get">
+    <form method="get">
     <div class="bodywrapper">
       <div class="bgwrapper4">
           <!--baggrund to biledder, i et grid, det ene over det andet, brug z indeks, og øverste billed hus-->
@@ -89,10 +89,8 @@ else {
   $_SESSION['challengeSelect'] = "";
 }
   echo $_SESSION['challengeSelect'];
+  header('Location: final-10.php');
 
 }
-else {
-  $_SESSION['challengeSelect'] = "";
-  echo $_SESSION['challengeSelect'];
-}
+
 ?>

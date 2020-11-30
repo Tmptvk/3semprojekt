@@ -1,4 +1,4 @@
-<?php session_start() ?>
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -7,7 +7,7 @@
     <title></title>
   </head>
   <body>
-    <form  action="q3-5.php" method="get">
+    <form method="get">
 
 
     <div class="bodywrapper">
@@ -56,6 +56,8 @@
 </html>
 <?php
 
+echo $session['numPlayersSelect'];
+
 
 if (isset($_GET['select-q2'])) {
   echo "yay";
@@ -84,9 +86,8 @@ else {
   $_SESSION['pTimeSelect'] = "";
 }
   echo $_SESSION['pTimeSelect'];
+  header('Location: q3-5.php');
 
 }
-else {
-  $_SESSION['pTimeSelect'] = "";
-}
+
 ?>

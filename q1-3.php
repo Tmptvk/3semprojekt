@@ -1,5 +1,4 @@
-
-<?php session_start() ?>
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -11,7 +10,7 @@
     <title></title>
   </head>
   <body>
-    <form name="myForm" onsubmit="return validateForm()" action="q2-4.php" method="get">
+    <form name="myForm" onsubmit="return validateForm()" method="get">
     <div class="bodywrapper">
       <div class="bgwrapper3">
         <div class="validate">
@@ -88,8 +87,7 @@ else {
   $_SESSION['numPlayersSelect'] = "";
 }
   echo $_SESSION['numPlayersSelect'];
+  header('Location: q2-4.php');
 
 }
-
-
 ?>

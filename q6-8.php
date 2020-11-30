@@ -1,4 +1,4 @@
-<?php session_start() ?>
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -8,7 +8,7 @@
       <script src="javascript/updown.js" defer></script>
   </head>
   <body>
-    <form  action="q7-9.php" method="get">
+    <form method="get">
     <div class="bodywrapper">
       <div class="bgwrapper4">
           <!--baggrund to biledder, i et grid, det ene over det andet, brug z indeks, og øverste billed hus-->
@@ -103,10 +103,8 @@ else {
   $_SESSION['genreSelect'] = "";
 }
   echo $_SESSION['genreSelect'];
+  header('Location: q7-9.php');
 
 }
-else {
-  $_SESSION['genreSelect'] = "";
-  echo "yay";
-}
+
 ?>

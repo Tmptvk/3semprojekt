@@ -1,3 +1,11 @@
+<?php session_start();
+session_destroy();
+$_SESSION['numPlayersSelect'] = "";
+$_SESSION['pTimeSelect'] = "";
+$_SESSION['pStyleSelect'] = "";
+$_SESSION['genreSelect'] = "";
+$_SESSION['challengeSelect'] = "";
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>

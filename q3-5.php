@@ -1,4 +1,4 @@
-<?php session_start() ?>
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -6,7 +6,7 @@
     <title></title>
   </head>
   <body>
-  <form  action="q4-6.php" method="get">
+  <form method="get">
     <div class="bodywrapper">
       <div class="bgwrapper3">
           <!--baggrund to biledder, i et grid, det ene over det andet, brug z indeks, og øverste billed hus-->
@@ -68,10 +68,7 @@ else {
   $_SESSION['pStyleSelect'] = "";
 }
   echo $_SESSION['pStyleSelect'];
+  header('Location: q4-6.php');
 
-}
-else {
-  $_SESSION['pStyleSelect'] = "";
-  echo "yay";
 }
 ?>

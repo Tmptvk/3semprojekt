@@ -1,10 +1,5 @@
-<?php session_start() ?>
+<?php session_start(); ?>
 <?php
-echo '<pre>' . print_r($_SESSION, TRUE) . '</pre>';
-
-echo $_SESSION['numPlayersSelect'];
-
-
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -26,6 +21,7 @@ $pStyleSelect = $_SESSION['pStyleSelect'];
 $genreSelect = $_SESSION['genreSelect'];
 $challengeSelect = $_SESSION['challengeSelect'];
 echo $numPlayersSelect;
+echo $_SESSION['numPlayersSelect'];
 
 $sql = "SELECT ga.GameID, ga.Name FROM games AS ga INNER JOIN gamegenre AS gg ON ga.GameID = gg.GameID WHERE MinPlayers <= $numPlayersSelect AND MaxPlayers >= $numPlayersSelect $pTimeSelect $genreSelect $challengeSelect;";
 echo $sql;
@@ -47,7 +43,7 @@ else {
 $conn->close();
 
 
- ?>
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
