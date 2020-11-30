@@ -33,8 +33,8 @@
             </div>
             <div class="selectwrapper">
             <ul>
-              <label class="listwrapper3">Yes! Giv mig et spil!<input id="q4-1" type ="radio" value="1" name="select-q4" ><span class="underline"></span> </label>
-              <label class="listwrapper3">Jeg vil gerne snakke med en Guru først<input id="q4-2" type ="radio" value="1" name="select-q4" ><span class="underline"></span> </label>
+              <label class="listwrapper3">Yes! Giv mig et spil!<input id="q4-1" type ="radio" value="1" name="select-q4[]" ><span class="underline"></span> </label>
+              <label class="listwrapper3">Jeg vil gerne snakke med en Guru først<input id="q4-2" type ="radio" value="1" name="select-q4[]" ><span class="underline"></span> </label>
 
             </ul>
             </div>
