@@ -5,7 +5,6 @@ $username = "root";
 $password = "";
 $db = "boardgamequiz";
 
-
 // Create connection
 $conn = new mysqli($servername, $username, $password, $db);
 
@@ -37,7 +36,6 @@ if ($resultCheck > 0) {
 }
 else {
   echo "0 results";
-
 }
 
 $conn->close();
