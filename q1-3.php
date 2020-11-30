@@ -1,8 +1,4 @@
-<!--
-<?php
-print_r($_POST);
-?>
--->
+
 <?php session_start() ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -94,4 +90,6 @@ else {
   echo $_SESSION['numPlayersSelect'];
 
 }
+
+
 ?>
