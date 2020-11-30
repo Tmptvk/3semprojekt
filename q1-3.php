@@ -26,7 +26,7 @@
               <p>1/7</p>
             </div>
             <div class="headingwrapper">
-              <h1>Velkommen, a<br>
+              <h1>Velkommen, <br>
               hvor mange bliver I?</h1>
             </div>
             <div class="arrow-upwrapper">

@@ -1,15 +1,9 @@
 <?php session_start() ?>
 <?php
-echo '<pre>' . print_r($_SESSION, TRUE) . '</pre>';
-
-echo $_SESSION['numPlayersSelect'];
-
-
 $servername = "localhost";
 $username = "root";
 $password = "";
 $db = "boardgamequiz";
-
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $db);
@@ -25,7 +19,6 @@ $pTimeSelect = $_SESSION['pTimeSelect'];
 $pStyleSelect = $_SESSION['pStyleSelect'];
 $genreSelect = $_SESSION['genreSelect'];
 $challengeSelect = $_SESSION['challengeSelect'];
-echo $numPlayersSelect;
 
 $sql = "SELECT ga.GameID, ga.Name FROM games AS ga INNER JOIN gamegenre AS gg ON ga.GameID = gg.GameID WHERE MinPlayers <= $numPlayersSelect AND MaxPlayers >= $numPlayersSelect $pTimeSelect $genreSelect $challengeSelect;";
 echo $sql;
@@ -41,12 +34,9 @@ if ($resultCheck > 0) {
 }
 else {
   echo "0 results";
-
 }
 
 $conn->close();
-
-
  ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
