@@ -42,12 +42,12 @@
             <div id="alittleup" class="selectwrapper">
             <ul id="ul-on">
               <!--RETTE UNDERLINE LÆNGDE VIS DET KAN NÅET I RETTE UGERNE-->
-              <label id="q6-1" class="listwrapper3">Fantasy<input  type ="checkbox" value="1" name="select-q6[]" ><span class="underline"></span> </label>
-              <label id="q6-2" class="listwrapper3">Horror<input type ="checkbox" value="2" name="select-q6[]" ><span class="underline"></span> </label>
-              <label id="q6-3" class="listwrapper3">Sci-fi<input  type ="checkbox" value="3" name="select-q6[]" ><span class="underline"></span> </label>
-              <label id="q6-4" class="listwrapper3">Puzzle<input  type ="checkbox" value="4" name="select-q6[]" ><span class="underline"></span> </label>
-              <label id="q6-5" class="listwrapper3">Trivia<input  type ="checkbox" value="5" name="select-q6[]" ><span class="underline"></span> </label>
-              <label id="q6-6" class="listwrapper3">Kortspil<input type ="checkbox" value="6" name="select-q6[]" ><span class="underline"></span> </label>
+              <label id="q6-1" class="listwrapper3">Fantasy<input  type ="checkbox" value="2" name="select-q6[]" ><span class="underline"></span> </label>
+              <label id="q6-2" class="listwrapper3">Horror<input type ="checkbox" value="1" name="select-q6[]" ><span class="underline"></span> </label>
+              <label id="q6-3" class="listwrapper3">Sci-fi<input  type ="checkbox" value="6" name="select-q6[]" ><span class="underline"></span> </label>
+              <label id="q6-4" class="listwrapper3">Puzzle<input  type ="checkbox" value="5" name="select-q6[]" ><span class="underline"></span> </label>
+              <label id="q6-5" class="listwrapper3">Trivia<input  type ="checkbox" value="3" name="select-q6[]" ><span class="underline"></span> </label>
+              <label id="q6-6" class="listwrapper3">Kortspil<input type ="checkbox" value="4" name="select-q6[]" ><span class="underline"></span> </label>
               <label id="q6-7" class="listwrapper3">Selskabspil<input type ="checkbox" value="7" name="select-q6[]" ><span class="underline"></span> </label>
 
 
