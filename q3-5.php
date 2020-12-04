@@ -39,7 +39,7 @@
   </body>
 </html>
 <?php
-
+echo $_SESSION['pTimeSelect'];
 
 if (isset($_GET['select-q3'])) {
   echo "yay";
