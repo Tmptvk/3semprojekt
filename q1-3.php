@@ -81,6 +81,7 @@ if (count($checked) == 1) {
 
 }
 
+// none are chosen
 else {
   //empty session to avoid undefined variable later
   $_SESSION['numPlayersSelect'] = "";
