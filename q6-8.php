@@ -1,4 +1,5 @@
-<?php session_start(); ?>
+<?php session_start();
+$_SESSION['qCheck'] = "set";?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
