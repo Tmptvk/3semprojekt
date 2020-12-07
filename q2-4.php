@@ -29,7 +29,7 @@
             </div>
             <div class="selectwrapper">
             <ul>
-              <label class="listwrapper2">Overrask mig!<input id="q2-1" type ="checkbox" value="not-set" name="select-q2[]" ><span class="underline"></span> </label>
+              <label class="listwrapper2">Overrask mig!<input id="q2-0" type ="checkbox" value="not-set" name="select-q2[]" ><span class="underline"></span> </label>
               <label class="listwrapper2">Under 30 min.<input id="q2-1" type ="checkbox" value="1" name="select-q2[]" ><span class="underline"></span> </label>
               <label class="listwrapper2">30 - 60 min.<input id="q2-2" type ="checkbox" value="2" name="select-q2[]" ><span class="underline"></span> </label>
               <label class="listwrapper2">60 -120 min.<input id="q2-3" type ="checkbox" value="3" name="select-q2[]" ><span class="underline"></span> </label>

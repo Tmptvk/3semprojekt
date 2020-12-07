@@ -38,6 +38,7 @@
             </div>
             <div class="selectwrapper">
             <ul>
+              <label id="q7-0" class="listwrapper3">Overrask mig!<input  type ="checkbox" value="not-set" name="select-q7[]" ><span class="underline"></span> </label>
               <label id="q7-1" class="listwrapper3">Lige ud af vejen<input  type ="checkbox" value="1" name="select-q7[]" ><span class="underline"></span> </label>
               <label id="q7-2" class="listwrapper3">Lidt op af bakke<input  type ="checkbox" value="2" name="select-q7[]" ><span class="underline"></span> </label>
               <label id="q7-3" class="listwrapper3">Helt op af bakke<input type ="checkbox" value="3" name="select-q7[]" ><span class="underline"></span> </label>
@@ -66,8 +67,15 @@ if (isset($_GET['select-q7'])) {
   echo "yay";
 $checked = $_GET['select-q7'];
 
+//if surprise me is chosen
+if ($checked[0] == "not-set") {
+  $_SESSION['challengeSelect'] = "";
+
+}
+
+
 //if more than one option is chosen but not all
-if (count($checked) > 1 and count($checked) < 3) {
+elseif (count($checked) > 1 and count($checked) < 3) {
   $first = $checked[0];
   $other ="";
 

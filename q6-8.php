@@ -42,6 +42,7 @@
             <div id="alittleup" class="selectwrapper">
             <ul id="ul-on">
               <!--RETTE UNDERLINE LÆNGDE VIS DET KAN NÅET I RETTE UGERNE-->
+              <label id="q6-0" class="listwrapper3">Overrask mig!<input  type ="checkbox" value="not-set" name="select-q6[]" ><span class="underline"></span> </label>
               <label id="q6-1" class="listwrapper3">Fantasy<input  type ="checkbox" value="2" name="select-q6[]" ><span class="underline"></span> </label>
               <label id="q6-2" class="listwrapper3">Horror<input type ="checkbox" value="1" name="select-q6[]" ><span class="underline"></span> </label>
               <label id="q6-3" class="listwrapper3">Sci-fi<input  type ="checkbox" value="6" name="select-q6[]" ><span class="underline"></span> </label>
@@ -80,8 +81,14 @@ if (isset($_GET['select-q6'])) {
   echo "yay";
 $checked = $_GET['select-q6'];
 
+//if surprise me is chosen
+if ($checked[0] == "not-set") {
+  $_SESSION['genreSelect'] = "";
+
+}
+
 //if more than one option is chosen but not all
-if (count($checked) > 1 and count($checked) < 7) {
+elseif (count($checked) > 1 and count($checked) < 7) {
   $first = $checked[0];
   $other ="";
 

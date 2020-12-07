@@ -4,7 +4,7 @@ $_SESSION['numPlayersSelect'] = "";
 $_SESSION['pTimeSelect'] = "";
 $_SESSION['pStyleSelect'] = "";
 $_SESSION['genreSelect'] = "";
-$_SESSION['challengeSelect'] = "";
+$_SESSION['challengeSelect'] = "AND (GameChallengeID = 1 OR GameChallengeID = 2)";
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
