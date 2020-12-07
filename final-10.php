@@ -28,7 +28,7 @@ $sql = "SELECT ga.GameID, ga.Name FROM games AS ga INNER JOIN gamegenre AS gg ON
 }
 
 else {
-$sql = "SELECT ga.GameID, ga.Name FROM games AS ga INNER JOIN gamegenre AS gg ON ga.GameID = gg.GameID WHERE MinPlayers <= $numPlayersSelect AND MaxPlayers >= $numPlayersSelect $pTimeSelect $pStyleSelect ORDER BY AvgRating DESC;";
+$sql = "SELECT ga.GameID, ga.Name FROM games AS ga INNER JOIN gamegenre AS gg ON ga.GameID = gg.GameID WHERE MinPlayers <= $numPlayersSelect AND MaxPlayers >= $numPlayersSelect $pTimeSelect $pStyleSelect AND (GameChallengeID = 1 OR GameChallengeID = 2) ORDER BY AvgRating DESC;";
 
 }
 echo $sql;
