@@ -29,6 +29,7 @@
             </div>
             <div class="selectwrapper">
             <ul>
+              <label class="listwrapper2">Overrask mig!<input id="q2-1" type ="checkbox" value="not-set" name="select-q2[]" ><span class="underline"></span> </label>
               <label class="listwrapper2">Under 30 min.<input id="q2-1" type ="checkbox" value="1" name="select-q2[]" ><span class="underline"></span> </label>
               <label class="listwrapper2">30 - 60 min.<input id="q2-2" type ="checkbox" value="2" name="select-q2[]" ><span class="underline"></span> </label>
               <label class="listwrapper2">60 -120 min.<input id="q2-3" type ="checkbox" value="3" name="select-q2[]" ><span class="underline"></span> </label>
@@ -43,11 +44,12 @@
             </div>
             <div class="btnwrapper3">
            <a href="q1-3.php"> <button type="button"  class="tilbage btn-style" name="btn-videre">Tilbage</button> </a>
+
+
           </div>
             <div class="btnwrapper2">
              <input type ="submit" class="videre btn-style" name="btn-videre" value="Videre">
           </div>
-
           </div>
       </div>
     </div>
@@ -55,16 +57,18 @@
   </body>
 </html>
 <?php
-
-echo $session['numPlayersSelect'];
-
-
+//checks if the array exists
 if (isset($_GET['select-q2'])) {
-  echo "yay";
 $checked = $_GET['select-q2'];
 
+//if surprise me is chosen
+if ($checked[0] == "not-set") {
+  $_SESSION['pTimeSelect'] = "";
+
+}
+
 //if more than one option is chosen but not all
-if (count($checked) > 1 and count($checked) < 4) {
+elseif (count($checked) > 1 and count($checked) < 4) {
   $first = $checked[0];
   $other ="";
 
@@ -87,6 +91,7 @@ else {
 }
   echo $_SESSION['pTimeSelect'];
   header('Location: q3-5.php');
+
 
 }
 
