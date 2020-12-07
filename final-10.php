@@ -1,9 +1,8 @@
-<?php session_start(); ?>
-<?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$db = "boardgamequiz";
+<?php session_start();
+$servername = "mysql76.unoeuro.com:3306";
+$username = "nicolebuys_com";
+$password = "55721nbU";
+$db = "nicolebuys_com_db_boardgamequiz";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $db);
