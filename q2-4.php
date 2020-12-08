@@ -5,15 +5,28 @@ session_start(); ?>
   <head>
     <?php include 'psecs/head.php';?>
       <script src="javascript/updown.js" defer></script>
+      <script src="javascript/validate.js" defer></script>
     <title></title>
   </head>
   <body>
-    <form method="get">
+    <form name="myForm2" onsubmit="return validateForm2()" method="get">
 
 
     <div class="bodywrapper">
       <div class="bgwrapper3">
+        <div class="home">
+          <a href="index.php"><img src="media/logo.PNG" alt=""></a>
+        </div>
           <!--baggrund to biledder, i et grid, det ene over det andet, brug z indeks, og øverste billed hus-->
+          <div class="validate">
+            <div class="pwrapper">
+              <p> Vælg venligst, <br>
+                hvor lang tid <br>
+                I kan spille. <br>
+                </p>
+            </div>
+            </div>
+
           <div class="paperwrapper2">
             <div class="counterwrapper">
               <p>2/7</p>

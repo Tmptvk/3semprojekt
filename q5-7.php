@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<?php ob_start();
+session_start();
+?>
+
+
 <html lang="en" dir="ltr">
   <head>
     <?php include 'psecs/head.php';?>
@@ -8,9 +13,12 @@
           <script src="javascript/updown.js" defer></script>
   </head>
   <body>
-    <form name="myForm3" onsubmit="return validateForm3()"  action="q6-8.php"  method="post">
+    <form name="myForm5" onsubmit="return validateForm5()"  action="q6-8.php"  method="get">
     <div class="bodywrapper">
       <div class="bgwrapper4">
+        <div class="home">
+          <a href="index.php"><img src="media/logo.PNG" alt=""></a>
+        </div>
           <!--baggrund to biledder, i et grid, det ene over det andet, brug z indeks, og øverste billed hus-->
           <div class="Cecilia">
             <img id="ceciliaimg" src="media\Guru1.png" alt="">
@@ -48,9 +56,9 @@
             </div>
             <div class="selectwrapper mt-10p ">
             <ul>
-              <label class="listwrapper3">Cecilia den Trygsomme<input id="q5-1" type ="radio" value="1" name="select-q5[]" ><span class="underline"></span> </label>
-              <label class="listwrapper3">Maalik den Modige <input id="q5-2" type ="radio" value="1" name="select-q5[]" ><span class="underline"></span> </label>
-              <label class="listwrapper3">Sarah den Gådefulde<input id="q5-3" type ="radio" value="1" name="select-q5[]" ><span class="underline"></span> </label>
+              <label class="listwrapper3">Cecilia den Trygsomme<input id="q5-1" type ="radio" value="cecilia" name="select-q5[]" ><span class="underline"></span> </label>
+              <label class="listwrapper3">Maalik den Modige <input id="q5-2" type ="radio" value="malik" name="select-q5[]" ><span class="underline"></span> </label>
+              <label class="listwrapper3">Sarah den Gådefulde<input id="q5-3" type ="radio" value="sarah" name="select-q5[]" ><span class="underline"></span> </label>
 
             </ul>
             </div>
@@ -73,3 +81,30 @@
   </form>
   </body>
 </html>
+
+<?php
+
+if (isset($_GET['select-q5'])) {
+  echo "yay";
+$checked = $_GET['select-q5'];
+
+//if surprise me is chosen
+if ($checked[0] == "cecilia") {
+  $_SESSION['guru1'] = "cecilia";
+    echo $_SESSION['guru'];
+}
+
+
+elseif ($checked[0] == "malik") {
+    $_SESSION['guru2'] = "malik";
+      echo $_SESSION['guru'];
+}
+
+elseif ($checked[0] == "sarah") {
+    $_SESSION['guru3'] = "sarah";
+      echo $_SESSION['guru'];
+}
+
+
+}
+ ?>
