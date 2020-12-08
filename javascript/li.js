@@ -45,7 +45,7 @@ function puzzleFunction(){
   malik.style.display= "none";
 };
 function triviaFunction(){
-  bg.style.backgroundImage = "url('media/Quiz.png')";
+  bg.style.backgroundImage = "url('media/Trivia.png')";
   bg.style.backgroundSize = "120%";
   bg.style.backgroundPosition = "top left";
   sarah.style.display= "none";
@@ -62,9 +62,8 @@ function kortspilFunction(){
 };
 
 function selvskabspilFunction(){
-  bg.style.backgroundImage = "url('media/Party.png')";
-  bg.style.backgroundSize = "120%";
-  bg.style.backgroundPosition = "top";
+  bg.style.backgroundImage = "url('media/selskab.png')";
+  bg.style.backgroundSize = "100%";
   sarah.style.display= "none";
   cecilia.style.display= "none";
   malik.style.display= "none";

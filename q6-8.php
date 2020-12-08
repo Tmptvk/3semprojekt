@@ -8,12 +8,24 @@ $_SESSION['qCheck'] = "set";?>
     <title></title>
     <script defer src="javascript/li.js" charset="utf-8"></script>
       <script src="javascript/updown.js" defer></script>
+      <script src="javascript/validate.js" defer></script>
   </head>
   <body>
-    <form method="get">
+    <form name="myForm6" onsubmit="return validateForm6()" method="get">
     <div class="bodywrapper">
       <div class="bgwrapper4">
+        <div class="home">
+          <a href="index.php"><img src="media/logo.PNG" alt=""></a>
+        </div>
           <!--baggrund to biledder, i et grid, det ene over det andet, brug z indeks, og øverste billed hus-->
+          <div class="validate2">
+            <div class="pwrapper">
+              <p> Vælg venligst, <br>
+                mindst en genre. <br>
+                </p>
+            </div>
+            </div>
+
           <div class="Cecilia">
             <img src="media\Guru1.png" alt="">
           </div>

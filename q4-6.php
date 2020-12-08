@@ -6,9 +6,12 @@
     <title></title>
   </head>
   <body>
-    <form name="myForm2" onsubmit="return validateForm2()" action="q5-7.php" method="post">
+    <form name="myForm4" onsubmit="return validateForm4()" action="q5-7.php" method="post">
     <div class="bodywrapper">
       <div class="bgwrapper3">
+        <div class="home">
+          <a href="index.php"><img src="media/logo.PNG" alt=""></a>
+        </div>
         <div class="validate">
           <div class="pwrapper">
             <p> Vælg venligst, <br>
@@ -23,11 +26,11 @@
             <div class="headingwrapper">
               <h1>To veje</h1>
             </div>
-            <div class="txtwrapperit">
+            <div class="txtwrapper">
               <p>
                 Et par spil er nu klar,
                 til at blive spillet i min bar. <br>
-                Vil du gøre dit ønske mere klart, <br>
+                Vil du gøre dit ønske mere klart,  <br>
                 er guruen en go' kammerat!
               </p>
             </div>
