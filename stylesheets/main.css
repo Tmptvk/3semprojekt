@@ -427,6 +427,16 @@
 * .bodywrapper .bgwrapper4 .Cecilia2 img {
   max-width: 130%;
 }
+* .bodywrapper .bgwrapper4 .Cecilia3 {
+  grid-column: 1/4;
+  grid-row: 1/4;
+  display: grid;
+  justify-items: center;
+  margin-top: 2em;
+}
+* .bodywrapper .bgwrapper4 .Cecilia3 img {
+  max-width: 130%;
+}
 * .bodywrapper .bgwrapper4 .Malik {
   grid-column: 2/3;
   grid-row: 2/4;
@@ -439,6 +449,13 @@
   grid-row: 1/4;
 }
 * .bodywrapper .bgwrapper4 .Malik2 img {
+  max-width: 90%;
+}
+* .bodywrapper .bgwrapper4 .Malik3 {
+  grid-column: 1/4;
+  grid-row: 1/4;
+}
+* .bodywrapper .bgwrapper4 .Malik3 img {
   max-width: 90%;
 }
 * .bodywrapper .bgwrapper4 .Sarah {
@@ -458,6 +475,20 @@
 }
 * .bodywrapper .bgwrapper4 .Sarah2 img {
   max-width: 70%;
+}
+* .bodywrapper .bgwrapper4 .Sarah3 {
+  grid-column: 1/4;
+  grid-row: 1/4;
+  display: grid;
+  justify-items: center;
+  margin-top: 10%;
+}
+* .bodywrapper .bgwrapper4 .Sarah3 img {
+  max-width: 70%;
+}
+* .bodywrapper .bgwrapper4 .guruwrapper {
+  grid-row: 1/4;
+  grid-column: 1/4;
 }
 * .bodywrapper .bgwrapper4 .paperwrapper4, * .bodywrapper .bgwrapper4 .paperwrapper5 {
   z-index: 5;

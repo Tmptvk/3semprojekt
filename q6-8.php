@@ -9,28 +9,40 @@ $guru = $_SESSION['guru'];
 
 if ($guru === "malik") {
 
-$guruImg =' <div class="Malik2">
-            <img src="media\guru-2.png" alt=""> </div>';
+$guruImg =' <div class="guruwrapper">
+            <div class="Malik2">
+            <img src="media\guru-2.png" alt="">
+          </div>
+          </div> ';
+
 
 }
 
 
 elseif ($guru === "cecilia") {
 
-  $guruImg = '<div class="Cecilia2"> <img src="media\Guru1.png" alt=""></div>';
+  $guruImg =' <div class="guruwrapper">
+              <div class="Cecilia2">
+              <img src="media\Guru1.png" alt="">
+            </div>
+            </div> ';
 
 
 }
 
 elseif ($guru === "sarah") {
 
-  $guruImg = '<div class="Sarah2">
-            <img src="media\guru-3.png" alt="">
-          </div>';
+      $guruImg =' <div class="guruwrapper">
+              <div class="Sarah2">
+              <img src="media\guru-3.png" alt="">
+            </div>
+            </div> ';
 
 }
 
 ?>
+
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>

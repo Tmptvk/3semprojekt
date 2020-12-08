@@ -570,6 +570,19 @@
           max-width: 130%;
         }
       }
+
+      .Cecilia3{
+        grid-column: 1/4;
+        grid-row: 1/4;
+        display: grid;
+        justify-items: center;
+        margin-top: 2em;
+
+
+        img{
+          max-width: 130%;
+        }
+      }
       .Malik{
         grid-column: 2/3;
         grid-row: 2/4;
@@ -589,6 +602,17 @@
         }
 
       }
+
+      .Malik3{
+        grid-column: 1/4;
+        grid-row: 1/4;
+        img{
+          max-width: 90%;
+
+        }
+
+      }
+
       .Sarah{
         grid-column: 3/4;
         grid-row: 2/4;
@@ -611,6 +635,23 @@
 
       }
 
+      .Sarah3{
+        grid-column: 1/4;
+        grid-row: 1/4;
+        display: grid;
+        justify-items: center;
+        margin-top: 10%;
+        img{
+          max-width: 70%;
+        }
+
+      }
+
+      .guruwrapper {
+        grid-row: 1/4;
+        grid-column: 1/4;
+      }
+      
       grid-template-columns: 33.3% 33.3% 33.3%;
       background-image: url('../media/Red-big.png');
       .paperwrapper4{

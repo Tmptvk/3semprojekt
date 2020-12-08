@@ -5,22 +5,31 @@ $guru = $_SESSION['guru'];
 
 $template="noo";
 
+//Guru stuff happaning
+$guru = $_SESSION['guru'];
+
+
 if ($guru === "malik") {
-  $template = "wee";
-  echo '<style type="text/css">
-    .sarah {
-        display: none;
-    }
-    </style>';
+
+$guruImg =' <div class="Malik3">
+            <img src="media\guru-2.png" alt=""> </div>';
+
 }
 
 
 elseif ($guru === "cecilia") {
-  $template = "hest";
+
+  $guruImg = '<div class="Cecilia3"> <img src="media\Guru1.png" alt=""></div>';
+
+
 }
 
 elseif ($guru === "sarah") {
-  $template = "gert";
+
+  $guruImg = '<div class="Sarah3">
+            <img src="media\guru-3.png" alt="">
+          </div>';
+
 }
 ?>
 <!DOCTYPE html>
@@ -50,15 +59,7 @@ elseif ($guru === "sarah") {
                 </p>
             </div>
             </div>
-          <div class="Cecilia">
-            <img src="media\Guru1.png" alt="">
-          </div>
-          <div class="Malik">
-            <img src="media\guru-2.png" alt="">
-          </div>
-          <div class="Sarah">
-            <img src="media\guru-3.png" alt="">
-          </div>
+        <?php echo $guruImg; ?>
           <div class="paperwrapper5">
             <div class="counterwrapper">
               <p>7/7</p>

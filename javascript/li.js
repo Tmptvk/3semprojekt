@@ -7,75 +7,27 @@ let kortspilBtn = document.getElementById('q6-6');
 let selvskabBtn = document.getElementById('q6-7');
 
 let bg = document.querySelector('.bgwrapper4');
-let cecilia = document.querySelector('.Cecilia');
-let malik = document.querySelector('.Malik');
-let sarah = document.querySelector('.Sarah');
+let guru = document.querySelector('.guruwrapper');
 
 
 
 
-function fantasyFunction(){
-  bg.style.backgroundImage = "url('media/fantasi.png')";
-  sarah.style.display= "none";
-  cecilia.style.display= "none";
-  malik.style.display= "none";
-  bg.style.backgroundSize = "100%";
-};
 
-function horrorFunction(){
-  bg.style.backgroundSize = "100%";
-  bg.style.backgroundImage = "url('media/horror.png')";
-  sarah.style.display= "none";
-  cecilia.style.display= "none";
-  malik.style.display= "none";
-};
-function sciFunction(){
-  bg.style.backgroundSize = "100%";
-  bg.style.backgroundImage = "url('media/sci.png')";
-  sarah.style.display= "none";
-  cecilia.style.display= "none";
-  malik.style.display= "none";
-};
-
-function puzzleFunction(){
-  bg.style.backgroundImage = "url('media/Maze.png')";
-  bg.style.backgroundSize = "120%";
-  sarah.style.display= "none";
-  cecilia.style.display= "none";
-  malik.style.display= "none";
-};
-function triviaFunction(){
-  bg.style.backgroundImage = "url('media/Trivia.png')";
-  bg.style.backgroundSize = "120%";
-  bg.style.backgroundPosition = "top left";
-  sarah.style.display= "none";
-  cecilia.style.display= "none";
-  malik.style.display= "none";
-};
-function kortspilFunction(){
-  bg.style.backgroundImage = "url('media/Cards.png')";
-  bg.style.backgroundSize = "120%";
-  bg.style.backgroundPosition = "top right";
-  sarah.style.display= "none";
-  cecilia.style.display= "none";
-  malik.style.display= "none";
-};
-
-function selvskabspilFunction(){
-  bg.style.backgroundImage = "url('media/selskab.png')";
-  bg.style.backgroundSize = "100%";
-  sarah.style.display= "none";
-  cecilia.style.display= "none";
-  malik.style.display= "none";
+function guruFunction(genre, bgsize){
+  bg.style.backgroundImage = "url('media/"+genre+".png')" ;
+  guru.style.display= "none";
+  bg.style.backgroundSize = bgsize + "%";
 };
 
 
 
 
-fantasyBtn.addEventListener('click', fantasyFunction);
-horrorBtn.addEventListener('click', horrorFunction);
-sciBtn.addEventListener('click', sciFunction);
-puzzleBtn.addEventListener('click', puzzleFunction);
-triviaBtn.addEventListener('click', triviaFunction);
-kortspilBtn.addEventListener('click', kortspilFunction);
-selvskabBtn.addEventListener('click', selvskabspilFunction);
+
+
+fantasyBtn.addEventListener('click', function(){ guruFunction('fantasi',100)});
+horrorBtn.addEventListener('click', function(){ guruFunction('horror',100)});
+sciBtn.addEventListener('click', function(){ guruFunction('sci',100)});
+puzzleBtn.addEventListener('click', function(){ guruFunction('Maze',120)});
+triviaBtn.addEventListener('click', function(){ guruFunction('Trivia',120)});
+kortspilBtn.addEventListener('click', function(){ guruFunction('Cards',120)});
+selvskabBtn.addEventListener('click', function(){ guruFunction('selskab',100)});
