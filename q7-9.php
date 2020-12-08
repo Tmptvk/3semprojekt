@@ -1,9 +1,27 @@
 <?php ob_start();
 session_start();
 
-$template = "NOO";
+$guru = $_SESSION['guru'];
+
+$template="noo";
+
+if ($guru === "malik") {
+  $template = "wee";
+  echo '<style type="text/css">
+    .sarah {
+        display: none;
+    }
+    </style>';
+}
 
 
+elseif ($guru === "cecilia") {
+  $template = "hest";
+}
+
+elseif ($guru === "sarah") {
+  $template = "gert";
+}
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">

@@ -1,7 +1,8 @@
-<!DOCTYPE html>
 <?php ob_start();
 session_start();
 ?>
+<!DOCTYPE html>
+
 
 
 <html lang="en" dir="ltr">
@@ -13,7 +14,7 @@ session_start();
           <script src="javascript/updown.js" defer></script>
   </head>
   <body>
-    <form name="myForm5" onsubmit="return validateForm5()"  action="q6-8.php"  method="get">
+    <form name="myForm5" onsubmit="return validateForm5()" method="get">
     <div class="bodywrapper">
       <div class="bgwrapper4">
         <div class="home">
@@ -90,21 +91,22 @@ $checked = $_GET['select-q5'];
 
 //if surprise me is chosen
 if ($checked[0] == "cecilia") {
-  $_SESSION['guru1'] = "cecilia";
+  $_SESSION['guru'] = "cecilia";
     echo $_SESSION['guru'];
 }
 
 
 elseif ($checked[0] == "malik") {
-    $_SESSION['guru2'] = "malik";
+    $_SESSION['guru'] = "malik";
       echo $_SESSION['guru'];
 }
 
 elseif ($checked[0] == "sarah") {
-    $_SESSION['guru3'] = "sarah";
+    $_SESSION['guru'] = "sarah";
       echo $_SESSION['guru'];
 }
 
+header('Location: q6-8.php');
 
 }
  ?>

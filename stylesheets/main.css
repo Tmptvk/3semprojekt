@@ -417,12 +417,29 @@
 * .bodywrapper .bgwrapper4 .Cecilia img {
   max-width: 130%;
 }
+* .bodywrapper .bgwrapper4 .Cecilia2 {
+  grid-column: 1/4;
+  grid-row: 1/4;
+  display: grid;
+  justify-items: center;
+  margin-top: 2em;
+}
+* .bodywrapper .bgwrapper4 .Cecilia2 img {
+  max-width: 130%;
+}
 * .bodywrapper .bgwrapper4 .Malik {
   grid-column: 2/3;
   grid-row: 2/4;
 }
 * .bodywrapper .bgwrapper4 .Malik img {
   max-width: 140%;
+}
+* .bodywrapper .bgwrapper4 .Malik2 {
+  grid-column: 1/4;
+  grid-row: 1/4;
+}
+* .bodywrapper .bgwrapper4 .Malik2 img {
+  max-width: 90%;
 }
 * .bodywrapper .bgwrapper4 .Sarah {
   grid-column: 3/4;
@@ -431,6 +448,16 @@
 }
 * .bodywrapper .bgwrapper4 .Sarah img {
   max-width: 100%;
+}
+* .bodywrapper .bgwrapper4 .Sarah2 {
+  grid-column: 1/4;
+  grid-row: 1/4;
+  display: grid;
+  justify-items: center;
+  margin-top: 10%;
+}
+* .bodywrapper .bgwrapper4 .Sarah2 img {
+  max-width: 70%;
 }
 * .bodywrapper .bgwrapper4 .paperwrapper4, * .bodywrapper .bgwrapper4 .paperwrapper5 {
   z-index: 5;

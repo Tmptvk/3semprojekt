@@ -1,6 +1,36 @@
 <?php ob_start();
 session_start();
-$_SESSION['qCheck'] = "set";?>
+$_SESSION['qCheck'] = "set";
+
+
+//Guru stuff happaning
+$guru = $_SESSION['guru'];
+
+
+if ($guru === "malik") {
+
+$guruImg =' <div class="Malik2">
+            <img src="media\guru-2.png" alt=""> </div>';
+
+}
+
+
+elseif ($guru === "cecilia") {
+
+  $guruImg = '<div class="Cecilia2"> <img src="media\Guru1.png" alt=""></div>';
+
+
+}
+
+elseif ($guru === "sarah") {
+
+  $guruImg = '<div class="Sarah2">
+            <img src="media\guru-3.png" alt="">
+          </div>';
+
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -14,6 +44,8 @@ $_SESSION['qCheck'] = "set";?>
     <form name="myForm6" onsubmit="return validateForm6()" method="get">
     <div class="bodywrapper">
       <div class="bgwrapper4">
+         <?php echo $guruImg; ?>
+
         <div class="home">
           <a href="index.php"><img src="media/logo.PNG" alt=""></a>
         </div>
@@ -26,15 +58,7 @@ $_SESSION['qCheck'] = "set";?>
             </div>
             </div>
 
-          <div class="Cecilia">
-            <img src="media\Guru1.png" alt="">
-          </div>
-          <div class="Malik">
-            <img src="media\guru-2.png" alt="">
-          </div>
-          <div class="Sarah">
-            <img src="media\guru-3.png" alt="">
-          </div>
+
           <div class="paperwrapper4">
             <div class="counterwrapper">
               <p>6/7</p>
@@ -89,6 +113,9 @@ $_SESSION['qCheck'] = "set";?>
 </html>
 
 <?php
+
+
+
 
 
 if (isset($_GET['select-q6'])) {

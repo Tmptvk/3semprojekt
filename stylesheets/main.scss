@@ -551,6 +551,21 @@
         grid-row: 1/4;
         margin-left: 12%;
         margin-top: 70%;
+
+
+        img{
+          max-width: 130%;
+        }
+      }
+
+      .Cecilia2{
+        grid-column: 1/4;
+        grid-row: 1/4;
+        display: grid;
+        justify-items: center;
+        margin-top: 2em;
+
+
         img{
           max-width: 130%;
         }
@@ -564,12 +579,34 @@
         }
 
       }
+
+      .Malik2{
+        grid-column: 1/4;
+        grid-row: 1/4;
+        img{
+          max-width: 90%;
+
+        }
+
+      }
       .Sarah{
         grid-column: 3/4;
         grid-row: 2/4;
         margin-left: 10%;
         img{
           max-width: 100%;
+        }
+
+      }
+
+      .Sarah2{
+        grid-column: 1/4;
+        grid-row: 1/4;
+        display: grid;
+        justify-items: center;
+        margin-top: 10%;
+        img{
+          max-width: 70%;
         }
 
       }
