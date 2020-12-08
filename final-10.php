@@ -21,14 +21,23 @@ echo $numPlayersSelect;
 echo $_SESSION['numPlayersSelect'];
 
 if (isset($_SESSION['qCheck'])) {
+
+  if ($_SESSION['genreSelect'] === "") {
+    $sql = "SELECT GameID, Name, GameChallengeID FROM games WHERE MinPlayers <= $numPlayersSelect AND MaxPlayers >= $numPlayersSelect $pTimeSelect $pStyleSelect AND (GameChallengeID = 1 OR GameChallengeID = 2) ORDER BY AvgRating DESC;";
+
+  }
+  else {
+    $sql = "SELECT ga.GameID, ga.Name, ga.GameChallengeID FROM games AS ga INNER JOIN gamegenre AS gg ON ga.GameID = gg.GameID WHERE MinPlayers <= $numPlayersSelect AND MaxPlayers >= $numPlayersSelect $pTimeSelect $pStyleSelect AND (GameChallengeID = 1 OR GameChallengeID = 2) ORDER BY AvgRating DESC;";
+
+  }
+  }
+
+else {
   $genreSelect = $_SESSION['genreSelect'];
   $challengeSelect = $_SESSION['challengeSelect'];
 
-$sql = "SELECT ga.GameID, ga.Name FROM games AS ga INNER JOIN gamegenre AS gg ON ga.GameID = gg.GameID WHERE MinPlayers <= $numPlayersSelect AND MaxPlayers >= $numPlayersSelect $pTimeSelect $pStyleSelect $genreSelect $challengeSelect ORDER BY AvgRating DESC;";
-}
+$sql = "SELECT GameID, Name, GameChallengeID FROM games WHERE MinPlayers <= $numPlayersSelect AND MaxPlayers >= $numPlayersSelect $pTimeSelect $pStyleSelect $genreSelect $challengeSelect ORDER BY AvgRating DESC;";
 
-else {
-$sql = "SELECT ga.GameID, ga.Name FROM games AS ga INNER JOIN gamegenre AS gg ON ga.GameID = gg.GameID WHERE MinPlayers <= $numPlayersSelect AND MaxPlayers >= $numPlayersSelect $pTimeSelect $pStyleSelect AND (GameChallengeID = 1 OR GameChallengeID = 2) ORDER BY AvgRating DESC;";
 
 }
 echo $sql;
@@ -39,6 +48,7 @@ if ($resultCheck > 0) {
   while ($row = mysqli_fetch_assoc($result)) {
     echo $row['GameID'] . "<br>";
     echo $row['Name'] . "<br>";
+    echo $row['GameChallengeID'] . "<br>" . "<br>";
   }
 
 }
