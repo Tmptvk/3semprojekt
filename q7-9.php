@@ -70,8 +70,8 @@ elseif ($guru === "sarah") {
 
             <div class="txtwrapperit">
               <!--Udskriftlig tekst-->
-              <p>
-                <?php echo $template ?>
+              <p id="template">
+                <?php include 'psecs/li2.php'; ?>
               </p>
             </div>
             <div class="selectwrapper">

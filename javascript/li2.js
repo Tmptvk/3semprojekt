@@ -10,25 +10,16 @@ let alotBtn = document.getElementById('q7-3');
 
 function littleBtnFunction(){
   bg.style.backgroundImage = "url('media/dif1.png')";
-  sarah.style.display= "none";
-  cecilia.style.display= "none";
-  malik.style.display= "none";
   bg.style.backgroundSize = "100%";
 };
 
 function mediumBtnFunction(){
   bg.style.backgroundImage = "url('media/diff2.png')";
-  sarah.style.display= "none";
-  cecilia.style.display= "none";
-  malik.style.display= "none";
   bg.style.backgroundSize = "100%";
 };
 
 function alotBtnFunction(){
   bg.style.backgroundImage = "url('media/diff3.png')";
-  sarah.style.display= "none";
-  cecilia.style.display= "none";
-  malik.style.display= "none";
   bg.style.backgroundSize = "100%";
 };
 

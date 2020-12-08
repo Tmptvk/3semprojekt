@@ -92,17 +92,20 @@ $checked = $_GET['select-q5'];
 //if surprise me is chosen
 if ($checked[0] == "cecilia") {
   $_SESSION['guru'] = "cecilia";
+  $_SESSION['guruNum'] = 0;
     echo $_SESSION['guru'];
 }
 
 
 elseif ($checked[0] == "malik") {
     $_SESSION['guru'] = "malik";
+    $_SESSION['guruNum'] = 1;
       echo $_SESSION['guru'];
 }
 
 elseif ($checked[0] == "sarah") {
     $_SESSION['guru'] = "sarah";
+    $_SESSION['guruNum'] = 2;
       echo $_SESSION['guru'];
 }
 
