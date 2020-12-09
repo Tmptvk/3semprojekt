@@ -680,6 +680,7 @@
       }
 
       .Sarah2{
+
         grid-column: 1/4;
         grid-row: 1/4;
         display: grid;
@@ -707,6 +708,8 @@
         grid-row: 1/4;
         grid-column: 1/4;
       }
+
+
 
       grid-template-columns: 33.3% 33.3% 33.3%;
       background-image: url('../media/Red-big.png');

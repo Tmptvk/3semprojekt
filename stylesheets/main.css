@@ -611,11 +611,11 @@
   justify-items: center;
   margin-top: 10%;
 }
-/* line 688, main.scss */
+/* line 689, main.scss */
 * .bodywrapper .bgwrapper4 .Sarah2 img {
   max-width: 70%;
 }
-/* line 694, main.scss */
+/* line 695, main.scss */
 * .bodywrapper .bgwrapper4 .Sarah3 {
   grid-column: 1/3;
   grid-row: 1/4;
@@ -623,38 +623,38 @@
   justify-items: center;
   margin-top: 35%;
 }
-/* line 700, main.scss */
+/* line 701, main.scss */
 * .bodywrapper .bgwrapper4 .Sarah3 img {
   max-width: 70%;
 }
-/* line 706, main.scss */
+/* line 707, main.scss */
 * .bodywrapper .bgwrapper4 .guruwrapper {
   grid-row: 1/4;
   grid-column: 1/4;
 }
-/* line 713, main.scss */
+/* line 716, main.scss */
 * .bodywrapper .bgwrapper4 .paperwrapper4, * .bodywrapper .bgwrapper4 .paperwrapper5 {
   z-index: 5;
   grid-column: 1/4;
 }
-/* line 717, main.scss */
+/* line 720, main.scss */
 * .bodywrapper .bgwrapper4 .paperwrapper4 .selectwrapper, * .bodywrapper .bgwrapper4 .paperwrapper5 .selectwrapper {
   grid-row: 3/5;
   margin-top: 10%;
 }
-/* line 721, main.scss */
+/* line 724, main.scss */
 * .bodywrapper .bgwrapper4 .paperwrapper4 .mt-10p, * .bodywrapper .bgwrapper4 .paperwrapper5 .mt-10p {
   margin-top: 20%;
 }
-/* line 726, main.scss */
+/* line 729, main.scss */
 * .bodywrapper .bgwrapper4 .paperwrapper4 #alittleup, * .bodywrapper .bgwrapper4 .paperwrapper5 #alittleup {
   margin-top: 0;
 }
-/* line 739, main.scss */
+/* line 742, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper6, * .bodywrapper .bgwrapper4 .paperwrapper6 {
   grid-template-rows: 20% 10% 25% 20% 25%;
 }
-/* line 743, main.scss */
+/* line 746, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper6 .btnwrapper2 .btn-style2, * .bodywrapper .bgwrapper4 .paperwrapper6 .btnwrapper2 .btn-style2, * .bodywrapper .bgwrapper3 .paperwrapper6 .btnwrapper3 .btn-style2, * .bodywrapper .bgwrapper4 .paperwrapper6 .btnwrapper3 .btn-style2 {
   margin-right: 17.4%;
   background-image: url("../media/ikon3-1.png");
@@ -669,7 +669,7 @@
   cursor: pointer;
   font-size: 1.2rem;
 }
-/* line 758, main.scss */
+/* line 761, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper6 .displaywrapper, * .bodywrapper .bgwrapper4 .paperwrapper6 .displaywrapper {
   grid-row: 5/7;
   grid-column: 1/2;
