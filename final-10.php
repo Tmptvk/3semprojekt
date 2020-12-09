@@ -76,22 +76,22 @@ $conn->close();
               <!--Udskriftlig tekst-->
               <p>
                 Et par spil er nu valgt helt specielt til jer!
-                <?php if ($resultCheck > 0) {
-                  while ($row = mysqli_fetch_assoc($result)) {
-                    echo "<img src=\"media/game-photos/" . $row['GameID'] . ".png\" alt=\"billede af ". $row['Name'] . ", resultat fra Papas Brætspilsanbefaler\"> <br>";
-                    echo $row['Name'] . "<br>" . "Spillere: " . $row['MinPlayers'] . " - " . $row['MaxPlayers'] . "<br>";
-                    echo "Udfordringsniveau: " . $row['GameChaName'] . "<br>" . "<br>";
-                  }
-
-                }
-                else {
-                  echo "0 results";
-                }
-                ?>
               </p>
+
             </div>
             <div class="displaywrapper">
+              <?php if ($resultCheck > 0) {
+                while ($row = mysqli_fetch_assoc($result)) {
+                  echo "<div class=\"gameresultwrapper\"><div class=\"gameresultimg\"><img src=\"media/game-photos/" . $row['GameID'] . ".png\" alt=\"Billede af ". $row['Name'] . ", resultat fra Papas Brætspilsanbefaler\"></div> <br>";
+                  echo "<h2>" . $row['Name'] . "</h2><br><p>" . "Spillere: " . $row['MinPlayers'] . " - " . $row['MaxPlayers'] . "<br>";
+                  echo "Udfordringsniveau: " . $row['GameChaName'] . "<br>" . "</p></div>";
+                }
 
+              }
+              else {
+                echo "0 results";
+              }
+              ?>
             </div>
             <div class="btnwrapper3">
            <a href="q7-9.php"> <button  class="tilbage btn-style" type="button" name="btn-start">Tilbage</button> </a>
