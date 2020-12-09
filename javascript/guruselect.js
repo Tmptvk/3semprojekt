@@ -34,7 +34,6 @@ function ceciliaSelectFunction(){
 };
 
 //HER ER MAALIK VALGT SOM GURU//
-
 function malikSelectFunction(){
   cecilia.style.gridColumn= "1/2";
   cecilia.style.marginLeft = "20px";
@@ -64,7 +63,6 @@ function malikSelectFunction(){
 };
 
 //HER ER SARAH VALGT SOM GURU//
-
 function sarahSelectFunction(){
   cecilia.style.gridColumn= "1/2";
   cecilia.style.marginLeft = "20px";

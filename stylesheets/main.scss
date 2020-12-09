@@ -254,6 +254,7 @@
 
         }
 
+        //* Her styles op og ned pilene på hver af siderne (linje 258-315) //
         .arrow-upwrapper{
           grid-row: 1/4;
           grid-column: 3/5;
@@ -287,6 +288,8 @@
             }
 
           }
+
+          //* Her styles pilene til spørgsmål 4/7 //
           .pilop2{
             display:grid;
             grid-row: 5/6;
@@ -345,10 +348,6 @@
 
           }
         }
-
-
-
-
 
 
         .selectwrapper{
@@ -600,7 +599,7 @@
         }
       }
 
-
+//* Cecilias placering på spørgsmål 5/7 //
       .Cecilia{
         grid-column: 1/2;
         grid-row: 1/4;
@@ -612,7 +611,7 @@
           max-width: 130%;
         }
       }
-
+//* Cecilias placering på spørgsmål 6/8 //
       .Cecilia2{
         grid-column: 1/4;
         grid-row: 1/4;
@@ -625,7 +624,7 @@
           max-width: 130%;
         }
       }
-
+//* Cecilias placering på spørgsmål 7/9 //
       .Cecilia3{
         grid-column: 1/2;
         grid-row: 1/4;
@@ -638,6 +637,8 @@
           max-width: 130%;
         }
       }
+
+//* Maliks placering på spørgsmål 5/6 //
       .Malik{
         grid-column: 2/3;
         grid-row: 2/4;
@@ -647,7 +648,7 @@
         }
 
       }
-
+//* Maliks placering på spørgsmål 6/8 //
       .Malik2{
         grid-column: 1/4;
         grid-row: 1/4;
@@ -657,7 +658,7 @@
         }
 
       }
-
+//* Malik placering på spørgsmål 7/9 //
       .Malik3{
         grid-column: 1/3;
         grid-row: 1/4;
@@ -668,7 +669,7 @@
         }
 
       }
-
+//* Sarahs placering på spørgsmål 5/7 //
       .Sarah{
         grid-column: 3/4;
         grid-row: 2/4;
@@ -678,7 +679,7 @@
         }
 
       }
-
+//* Sarahs placering på spørgsmål 6/8 //
       .Sarah2{
 
         grid-column: 1/4;
@@ -691,7 +692,7 @@
         }
 
       }
-
+//* Sarahs placering på spørgsmål 7/9 //
       .Sarah3{
         grid-column: 1/3;
         grid-row: 1/4;
@@ -708,7 +709,6 @@
         grid-row: 1/4;
         grid-column: 1/4;
       }
-
 
 
       grid-template-columns: 33.3% 33.3% 33.3%;

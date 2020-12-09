@@ -244,7 +244,7 @@
   font-style: italic;
   font-size: 0.9rem;
 }
-/* line 257, main.scss */
+/* line 258, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .arrow-upwrapper, * .bodywrapper .bgwrapper4 .paperwrapper2 .arrow-upwrapper, * .bodywrapper .bgwrapper3 .paperwrapper3 .arrow-upwrapper, * .bodywrapper .bgwrapper4 .paperwrapper3 .arrow-upwrapper, * .bodywrapper .bgwrapper4 .paperwrapper4 .arrow-upwrapper, * .bodywrapper .bgwrapper4 .paperwrapper5 .arrow-upwrapper, * .bodywrapper .bgwrapper3 .paperwrapper6 .arrow-upwrapper, * .bodywrapper .bgwrapper4 .paperwrapper6 .arrow-upwrapper {
   grid-row: 1/4;
   grid-column: 3/5;
@@ -252,7 +252,7 @@
   grid-template-columns: repeat(5, 20%);
   grid-template-rows: repeat(5, 20%);
 }
-/* line 267, main.scss */
+/* line 268, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .arrow-upwrapper .pilop, * .bodywrapper .bgwrapper4 .paperwrapper2 .arrow-upwrapper .pilop, * .bodywrapper .bgwrapper3 .paperwrapper3 .arrow-upwrapper .pilop, * .bodywrapper .bgwrapper4 .paperwrapper3 .arrow-upwrapper .pilop, * .bodywrapper .bgwrapper4 .paperwrapper4 .arrow-upwrapper .pilop, * .bodywrapper .bgwrapper4 .paperwrapper5 .arrow-upwrapper .pilop, * .bodywrapper .bgwrapper3 .paperwrapper6 .arrow-upwrapper .pilop, * .bodywrapper .bgwrapper4 .paperwrapper6 .arrow-upwrapper .pilop {
   display: grid;
   grid-row: 2/6;
@@ -263,7 +263,7 @@
   grid-template-rows: 100%;
   margin-top: 5%;
 }
-/* line 278, main.scss */
+/* line 279, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .arrow-upwrapper .pilop #pilopimg, * .bodywrapper .bgwrapper4 .paperwrapper2 .arrow-upwrapper .pilop #pilopimg, * .bodywrapper .bgwrapper3 .paperwrapper3 .arrow-upwrapper .pilop #pilopimg, * .bodywrapper .bgwrapper4 .paperwrapper3 .arrow-upwrapper .pilop #pilopimg, * .bodywrapper .bgwrapper4 .paperwrapper4 .arrow-upwrapper .pilop #pilopimg, * .bodywrapper .bgwrapper4 .paperwrapper5 .arrow-upwrapper .pilop #pilopimg, * .bodywrapper .bgwrapper3 .paperwrapper6 .arrow-upwrapper .pilop #pilopimg, * .bodywrapper .bgwrapper4 .paperwrapper6 .arrow-upwrapper .pilop #pilopimg {
   grid-row: 1/2;
   grid-column: 2/3;
@@ -271,11 +271,11 @@
   align-self: center;
   z-index: 20;
 }
-/* line 285, main.scss */
+/* line 286, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .arrow-upwrapper .pilop #pilopimg:hover, * .bodywrapper .bgwrapper4 .paperwrapper2 .arrow-upwrapper .pilop #pilopimg:hover, * .bodywrapper .bgwrapper3 .paperwrapper3 .arrow-upwrapper .pilop #pilopimg:hover, * .bodywrapper .bgwrapper4 .paperwrapper3 .arrow-upwrapper .pilop #pilopimg:hover, * .bodywrapper .bgwrapper4 .paperwrapper4 .arrow-upwrapper .pilop #pilopimg:hover, * .bodywrapper .bgwrapper4 .paperwrapper5 .arrow-upwrapper .pilop #pilopimg:hover, * .bodywrapper .bgwrapper3 .paperwrapper6 .arrow-upwrapper .pilop #pilopimg:hover, * .bodywrapper .bgwrapper4 .paperwrapper6 .arrow-upwrapper .pilop #pilopimg:hover {
   cursor: pointer;
 }
-/* line 290, main.scss */
+/* line 293, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .arrow-upwrapper .pilop2, * .bodywrapper .bgwrapper4 .paperwrapper2 .arrow-upwrapper .pilop2, * .bodywrapper .bgwrapper3 .paperwrapper3 .arrow-upwrapper .pilop2, * .bodywrapper .bgwrapper4 .paperwrapper3 .arrow-upwrapper .pilop2, * .bodywrapper .bgwrapper4 .paperwrapper4 .arrow-upwrapper .pilop2, * .bodywrapper .bgwrapper4 .paperwrapper5 .arrow-upwrapper .pilop2, * .bodywrapper .bgwrapper3 .paperwrapper6 .arrow-upwrapper .pilop2, * .bodywrapper .bgwrapper4 .paperwrapper6 .arrow-upwrapper .pilop2 {
   display: grid;
   grid-row: 5/6;
@@ -286,7 +286,7 @@
   grid-template-rows: 100%;
   margin-top: 5%;
 }
-/* line 300, main.scss */
+/* line 303, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .arrow-upwrapper .pilop2 #pilopimg2, * .bodywrapper .bgwrapper4 .paperwrapper2 .arrow-upwrapper .pilop2 #pilopimg2, * .bodywrapper .bgwrapper3 .paperwrapper3 .arrow-upwrapper .pilop2 #pilopimg2, * .bodywrapper .bgwrapper4 .paperwrapper3 .arrow-upwrapper .pilop2 #pilopimg2, * .bodywrapper .bgwrapper4 .paperwrapper4 .arrow-upwrapper .pilop2 #pilopimg2, * .bodywrapper .bgwrapper4 .paperwrapper5 .arrow-upwrapper .pilop2 #pilopimg2, * .bodywrapper .bgwrapper3 .paperwrapper6 .arrow-upwrapper .pilop2 #pilopimg2, * .bodywrapper .bgwrapper4 .paperwrapper6 .arrow-upwrapper .pilop2 #pilopimg2 {
   grid-row: 1/2;
   grid-column: 2/3;
@@ -294,11 +294,11 @@
   align-self: center;
   z-index: 20;
 }
-/* line 307, main.scss */
+/* line 310, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .arrow-upwrapper .pilop2 #pilopimg2:hover, * .bodywrapper .bgwrapper4 .paperwrapper2 .arrow-upwrapper .pilop2 #pilopimg2:hover, * .bodywrapper .bgwrapper3 .paperwrapper3 .arrow-upwrapper .pilop2 #pilopimg2:hover, * .bodywrapper .bgwrapper4 .paperwrapper3 .arrow-upwrapper .pilop2 #pilopimg2:hover, * .bodywrapper .bgwrapper4 .paperwrapper4 .arrow-upwrapper .pilop2 #pilopimg2:hover, * .bodywrapper .bgwrapper4 .paperwrapper5 .arrow-upwrapper .pilop2 #pilopimg2:hover, * .bodywrapper .bgwrapper3 .paperwrapper6 .arrow-upwrapper .pilop2 #pilopimg2:hover, * .bodywrapper .bgwrapper4 .paperwrapper6 .arrow-upwrapper .pilop2 #pilopimg2:hover {
   cursor: pointer;
 }
-/* line 315, main.scss */
+/* line 318, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .arrow-downwrapper, * .bodywrapper .bgwrapper4 .paperwrapper2 .arrow-downwrapper, * .bodywrapper .bgwrapper3 .paperwrapper3 .arrow-downwrapper, * .bodywrapper .bgwrapper4 .paperwrapper3 .arrow-downwrapper, * .bodywrapper .bgwrapper4 .paperwrapper4 .arrow-downwrapper, * .bodywrapper .bgwrapper4 .paperwrapper5 .arrow-downwrapper, * .bodywrapper .bgwrapper3 .paperwrapper6 .arrow-downwrapper, * .bodywrapper .bgwrapper4 .paperwrapper6 .arrow-downwrapper {
   grid-row: 4/6;
   grid-column: 3/5;
@@ -308,7 +308,7 @@
   grid-template-rows: repeat(5, 20%);
   z-index: 6;
 }
-/* line 325, main.scss */
+/* line 328, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .arrow-downwrapper .nedad, * .bodywrapper .bgwrapper4 .paperwrapper2 .arrow-downwrapper .nedad, * .bodywrapper .bgwrapper3 .paperwrapper3 .arrow-downwrapper .nedad, * .bodywrapper .bgwrapper4 .paperwrapper3 .arrow-downwrapper .nedad, * .bodywrapper .bgwrapper4 .paperwrapper4 .arrow-downwrapper .nedad, * .bodywrapper .bgwrapper4 .paperwrapper5 .arrow-downwrapper .nedad, * .bodywrapper .bgwrapper3 .paperwrapper6 .arrow-downwrapper .nedad, * .bodywrapper .bgwrapper4 .paperwrapper6 .arrow-downwrapper .nedad {
   display: grid;
   grid-row: 1/6;
@@ -317,7 +317,7 @@
   grid-template-columns: 33.3% 33.3% 33.3%;
   grid-template-rows: 100%;
 }
-/* line 334, main.scss */
+/* line 337, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .arrow-downwrapper .nedad #pilnedimg, * .bodywrapper .bgwrapper4 .paperwrapper2 .arrow-downwrapper .nedad #pilnedimg, * .bodywrapper .bgwrapper3 .paperwrapper3 .arrow-downwrapper .nedad #pilnedimg, * .bodywrapper .bgwrapper4 .paperwrapper3 .arrow-downwrapper .nedad #pilnedimg, * .bodywrapper .bgwrapper4 .paperwrapper4 .arrow-downwrapper .nedad #pilnedimg, * .bodywrapper .bgwrapper4 .paperwrapper5 .arrow-downwrapper .nedad #pilnedimg, * .bodywrapper .bgwrapper3 .paperwrapper6 .arrow-downwrapper .nedad #pilnedimg, * .bodywrapper .bgwrapper4 .paperwrapper6 .arrow-downwrapper .nedad #pilnedimg {
   grid-row: 1/2;
   grid-column: 2/3;
@@ -325,11 +325,11 @@
   align-self: center;
   z-index: 21;
 }
-/* line 342, main.scss */
+/* line 345, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .arrow-downwrapper .nedad #pilnedimg:hover, * .bodywrapper .bgwrapper4 .paperwrapper2 .arrow-downwrapper .nedad #pilnedimg:hover, * .bodywrapper .bgwrapper3 .paperwrapper3 .arrow-downwrapper .nedad #pilnedimg:hover, * .bodywrapper .bgwrapper4 .paperwrapper3 .arrow-downwrapper .nedad #pilnedimg:hover, * .bodywrapper .bgwrapper4 .paperwrapper4 .arrow-downwrapper .nedad #pilnedimg:hover, * .bodywrapper .bgwrapper4 .paperwrapper5 .arrow-downwrapper .nedad #pilnedimg:hover, * .bodywrapper .bgwrapper3 .paperwrapper6 .arrow-downwrapper .nedad #pilnedimg:hover, * .bodywrapper .bgwrapper4 .paperwrapper6 .arrow-downwrapper .nedad #pilnedimg:hover {
   cursor: pointer;
 }
-/* line 354, main.scss */
+/* line 353, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .selectwrapper, * .bodywrapper .bgwrapper4 .paperwrapper2 .selectwrapper, * .bodywrapper .bgwrapper3 .paperwrapper3 .selectwrapper, * .bodywrapper .bgwrapper4 .paperwrapper3 .selectwrapper, * .bodywrapper .bgwrapper4 .paperwrapper4 .selectwrapper, * .bodywrapper .bgwrapper4 .paperwrapper5 .selectwrapper, * .bodywrapper .bgwrapper3 .paperwrapper6 .selectwrapper, * .bodywrapper .bgwrapper4 .paperwrapper6 .selectwrapper {
   grid-row: 3/5;
   grid-column: 2/4;
@@ -337,7 +337,7 @@
   margin-top: 10%;
   z-index: 40;
 }
-/* line 361, main.scss */
+/* line 360, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .selectwrapper .listwrapper, * .bodywrapper .bgwrapper4 .paperwrapper2 .selectwrapper .listwrapper, * .bodywrapper .bgwrapper3 .paperwrapper3 .selectwrapper .listwrapper, * .bodywrapper .bgwrapper4 .paperwrapper3 .selectwrapper .listwrapper, * .bodywrapper .bgwrapper4 .paperwrapper4 .selectwrapper .listwrapper, * .bodywrapper .bgwrapper4 .paperwrapper5 .selectwrapper .listwrapper, * .bodywrapper .bgwrapper3 .paperwrapper6 .selectwrapper .listwrapper, * .bodywrapper .bgwrapper4 .paperwrapper6 .selectwrapper .listwrapper {
   display: block;
   position: relative;
@@ -349,13 +349,13 @@
   -ms-user-select: none;
   user-select: none;
 }
-/* line 373, main.scss */
+/* line 372, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .selectwrapper .listwrapper input, * .bodywrapper .bgwrapper4 .paperwrapper2 .selectwrapper .listwrapper input, * .bodywrapper .bgwrapper3 .paperwrapper3 .selectwrapper .listwrapper input, * .bodywrapper .bgwrapper4 .paperwrapper3 .selectwrapper .listwrapper input, * .bodywrapper .bgwrapper4 .paperwrapper4 .selectwrapper .listwrapper input, * .bodywrapper .bgwrapper4 .paperwrapper5 .selectwrapper .listwrapper input, * .bodywrapper .bgwrapper3 .paperwrapper6 .selectwrapper .listwrapper input, * .bodywrapper .bgwrapper4 .paperwrapper6 .selectwrapper .listwrapper input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
 }
-/* line 379, main.scss */
+/* line 378, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .selectwrapper .underline, * .bodywrapper .bgwrapper4 .paperwrapper2 .selectwrapper .underline, * .bodywrapper .bgwrapper3 .paperwrapper3 .selectwrapper .underline, * .bodywrapper .bgwrapper4 .paperwrapper3 .selectwrapper .underline, * .bodywrapper .bgwrapper4 .paperwrapper4 .selectwrapper .underline, * .bodywrapper .bgwrapper4 .paperwrapper5 .selectwrapper .underline, * .bodywrapper .bgwrapper3 .paperwrapper6 .selectwrapper .underline, * .bodywrapper .bgwrapper4 .paperwrapper6 .selectwrapper .underline {
   position: absolute;
   top: 35px;
@@ -363,27 +363,27 @@
   height: 25px;
   width: 60px;
 }
-/* line 388, main.scss */
+/* line 387, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .selectwrapper .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper2 .selectwrapper .underline:after, * .bodywrapper .bgwrapper3 .paperwrapper3 .selectwrapper .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper3 .selectwrapper .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper4 .selectwrapper .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper5 .selectwrapper .underline:after, * .bodywrapper .bgwrapper3 .paperwrapper6 .selectwrapper .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper6 .selectwrapper .underline:after {
   content: "";
   position: absolute;
   display: none;
 }
-/* line 394, main.scss */
+/* line 393, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .selectwrapper .listwrapper input:checked ~ .underline, * .bodywrapper .bgwrapper4 .paperwrapper2 .selectwrapper .listwrapper input:checked ~ .underline, * .bodywrapper .bgwrapper3 .paperwrapper3 .selectwrapper .listwrapper input:checked ~ .underline, * .bodywrapper .bgwrapper4 .paperwrapper3 .selectwrapper .listwrapper input:checked ~ .underline, * .bodywrapper .bgwrapper4 .paperwrapper4 .selectwrapper .listwrapper input:checked ~ .underline, * .bodywrapper .bgwrapper4 .paperwrapper5 .selectwrapper .listwrapper input:checked ~ .underline, * .bodywrapper .bgwrapper3 .paperwrapper6 .selectwrapper .listwrapper input:checked ~ .underline, * .bodywrapper .bgwrapper4 .paperwrapper6 .selectwrapper .listwrapper input:checked ~ .underline {
   background-image: url("../media/ikon13.png");
   background-size: 100%;
   background-repeat: no-repeat;
 }
-/* line 402, main.scss */
+/* line 401, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .selectwrapper .listwrapper input:checked ~ .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper2 .selectwrapper .listwrapper input:checked ~ .underline:after, * .bodywrapper .bgwrapper3 .paperwrapper3 .selectwrapper .listwrapper input:checked ~ .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper3 .selectwrapper .listwrapper input:checked ~ .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper4 .selectwrapper .listwrapper input:checked ~ .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper5 .selectwrapper .listwrapper input:checked ~ .underline:after, * .bodywrapper .bgwrapper3 .paperwrapper6 .selectwrapper .listwrapper input:checked ~ .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper6 .selectwrapper .listwrapper input:checked ~ .underline:after {
   display: block;
 }
-/* line 410, main.scss */
+/* line 409, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .selectwrapper label li, * .bodywrapper .bgwrapper4 .paperwrapper2 .selectwrapper label li, * .bodywrapper .bgwrapper3 .paperwrapper3 .selectwrapper label li, * .bodywrapper .bgwrapper4 .paperwrapper3 .selectwrapper label li, * .bodywrapper .bgwrapper4 .paperwrapper4 .selectwrapper label li, * .bodywrapper .bgwrapper4 .paperwrapper5 .selectwrapper label li, * .bodywrapper .bgwrapper3 .paperwrapper6 .selectwrapper label li, * .bodywrapper .bgwrapper4 .paperwrapper6 .selectwrapper label li {
   padding-bottom: 7px;
 }
-/* line 415, main.scss */
+/* line 414, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .selectwrapper .listwrapper2, * .bodywrapper .bgwrapper4 .paperwrapper2 .selectwrapper .listwrapper2, * .bodywrapper .bgwrapper3 .paperwrapper3 .selectwrapper .listwrapper2, * .bodywrapper .bgwrapper4 .paperwrapper3 .selectwrapper .listwrapper2, * .bodywrapper .bgwrapper4 .paperwrapper4 .selectwrapper .listwrapper2, * .bodywrapper .bgwrapper4 .paperwrapper5 .selectwrapper .listwrapper2, * .bodywrapper .bgwrapper3 .paperwrapper6 .selectwrapper .listwrapper2, * .bodywrapper .bgwrapper4 .paperwrapper6 .selectwrapper .listwrapper2 {
   display: block;
   position: relative;
@@ -395,13 +395,13 @@
   -ms-user-select: none;
   user-select: none;
 }
-/* line 428, main.scss */
+/* line 427, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .selectwrapper .listwrapper2 input, * .bodywrapper .bgwrapper4 .paperwrapper2 .selectwrapper .listwrapper2 input, * .bodywrapper .bgwrapper3 .paperwrapper3 .selectwrapper .listwrapper2 input, * .bodywrapper .bgwrapper4 .paperwrapper3 .selectwrapper .listwrapper2 input, * .bodywrapper .bgwrapper4 .paperwrapper4 .selectwrapper .listwrapper2 input, * .bodywrapper .bgwrapper4 .paperwrapper5 .selectwrapper .listwrapper2 input, * .bodywrapper .bgwrapper3 .paperwrapper6 .selectwrapper .listwrapper2 input, * .bodywrapper .bgwrapper4 .paperwrapper6 .selectwrapper .listwrapper2 input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
 }
-/* line 434, main.scss */
+/* line 433, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .selectwrapper .listwrapper2 .underline, * .bodywrapper .bgwrapper4 .paperwrapper2 .selectwrapper .listwrapper2 .underline, * .bodywrapper .bgwrapper3 .paperwrapper3 .selectwrapper .listwrapper2 .underline, * .bodywrapper .bgwrapper4 .paperwrapper3 .selectwrapper .listwrapper2 .underline, * .bodywrapper .bgwrapper4 .paperwrapper4 .selectwrapper .listwrapper2 .underline, * .bodywrapper .bgwrapper4 .paperwrapper5 .selectwrapper .listwrapper2 .underline, * .bodywrapper .bgwrapper3 .paperwrapper6 .selectwrapper .listwrapper2 .underline, * .bodywrapper .bgwrapper4 .paperwrapper6 .selectwrapper .listwrapper2 .underline {
   position: absolute;
   top: 35px;
@@ -409,27 +409,27 @@
   height: 25px;
   width: 150px;
 }
-/* line 443, main.scss */
+/* line 442, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .selectwrapper .listwrapper2 .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper2 .selectwrapper .listwrapper2 .underline:after, * .bodywrapper .bgwrapper3 .paperwrapper3 .selectwrapper .listwrapper2 .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper3 .selectwrapper .listwrapper2 .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper4 .selectwrapper .listwrapper2 .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper5 .selectwrapper .listwrapper2 .underline:after, * .bodywrapper .bgwrapper3 .paperwrapper6 .selectwrapper .listwrapper2 .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper6 .selectwrapper .listwrapper2 .underline:after {
   content: "";
   position: absolute;
   display: none;
 }
-/* line 449, main.scss */
+/* line 448, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .selectwrapper .listwrapper2 input:checked ~ .underline, * .bodywrapper .bgwrapper4 .paperwrapper2 .selectwrapper .listwrapper2 input:checked ~ .underline, * .bodywrapper .bgwrapper3 .paperwrapper3 .selectwrapper .listwrapper2 input:checked ~ .underline, * .bodywrapper .bgwrapper4 .paperwrapper3 .selectwrapper .listwrapper2 input:checked ~ .underline, * .bodywrapper .bgwrapper4 .paperwrapper4 .selectwrapper .listwrapper2 input:checked ~ .underline, * .bodywrapper .bgwrapper4 .paperwrapper5 .selectwrapper .listwrapper2 input:checked ~ .underline, * .bodywrapper .bgwrapper3 .paperwrapper6 .selectwrapper .listwrapper2 input:checked ~ .underline, * .bodywrapper .bgwrapper4 .paperwrapper6 .selectwrapper .listwrapper2 input:checked ~ .underline {
   background-image: url("../media/ikon1.png");
   background-size: 100%;
   background-repeat: no-repeat;
 }
-/* line 457, main.scss */
+/* line 456, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .selectwrapper .listwrapper2 input:checked ~ .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper2 .selectwrapper .listwrapper2 input:checked ~ .underline:after, * .bodywrapper .bgwrapper3 .paperwrapper3 .selectwrapper .listwrapper2 input:checked ~ .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper3 .selectwrapper .listwrapper2 input:checked ~ .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper4 .selectwrapper .listwrapper2 input:checked ~ .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper5 .selectwrapper .listwrapper2 input:checked ~ .underline:after, * .bodywrapper .bgwrapper3 .paperwrapper6 .selectwrapper .listwrapper2 input:checked ~ .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper6 .selectwrapper .listwrapper2 input:checked ~ .underline:after {
   display: block;
 }
-/* line 465, main.scss */
+/* line 464, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .selectwrapper .listwrapper2 label li, * .bodywrapper .bgwrapper4 .paperwrapper2 .selectwrapper .listwrapper2 label li, * .bodywrapper .bgwrapper3 .paperwrapper3 .selectwrapper .listwrapper2 label li, * .bodywrapper .bgwrapper4 .paperwrapper3 .selectwrapper .listwrapper2 label li, * .bodywrapper .bgwrapper4 .paperwrapper4 .selectwrapper .listwrapper2 label li, * .bodywrapper .bgwrapper4 .paperwrapper5 .selectwrapper .listwrapper2 label li, * .bodywrapper .bgwrapper3 .paperwrapper6 .selectwrapper .listwrapper2 label li, * .bodywrapper .bgwrapper4 .paperwrapper6 .selectwrapper .listwrapper2 label li {
   padding-bottom: 7px;
 }
-/* line 470, main.scss */
+/* line 469, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .selectwrapper .listwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper2 .selectwrapper .listwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper3 .selectwrapper .listwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper3 .selectwrapper .listwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper4 .selectwrapper .listwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper5 .selectwrapper .listwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper6 .selectwrapper .listwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper6 .selectwrapper .listwrapper3 {
   display: block;
   position: relative;
@@ -441,13 +441,13 @@
   -ms-user-select: none;
   user-select: none;
 }
-/* line 483, main.scss */
+/* line 482, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .selectwrapper .listwrapper3 input, * .bodywrapper .bgwrapper4 .paperwrapper2 .selectwrapper .listwrapper3 input, * .bodywrapper .bgwrapper3 .paperwrapper3 .selectwrapper .listwrapper3 input, * .bodywrapper .bgwrapper4 .paperwrapper3 .selectwrapper .listwrapper3 input, * .bodywrapper .bgwrapper4 .paperwrapper4 .selectwrapper .listwrapper3 input, * .bodywrapper .bgwrapper4 .paperwrapper5 .selectwrapper .listwrapper3 input, * .bodywrapper .bgwrapper3 .paperwrapper6 .selectwrapper .listwrapper3 input, * .bodywrapper .bgwrapper4 .paperwrapper6 .selectwrapper .listwrapper3 input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
 }
-/* line 489, main.scss */
+/* line 488, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .selectwrapper .listwrapper3 .underline, * .bodywrapper .bgwrapper4 .paperwrapper2 .selectwrapper .listwrapper3 .underline, * .bodywrapper .bgwrapper3 .paperwrapper3 .selectwrapper .listwrapper3 .underline, * .bodywrapper .bgwrapper4 .paperwrapper3 .selectwrapper .listwrapper3 .underline, * .bodywrapper .bgwrapper4 .paperwrapper4 .selectwrapper .listwrapper3 .underline, * .bodywrapper .bgwrapper4 .paperwrapper5 .selectwrapper .listwrapper3 .underline, * .bodywrapper .bgwrapper3 .paperwrapper6 .selectwrapper .listwrapper3 .underline, * .bodywrapper .bgwrapper4 .paperwrapper6 .selectwrapper .listwrapper3 .underline {
   position: absolute;
   top: 35px;
@@ -455,27 +455,27 @@
   height: 25px;
   width: 180px;
 }
-/* line 498, main.scss */
+/* line 497, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .selectwrapper .listwrapper3 .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper2 .selectwrapper .listwrapper3 .underline:after, * .bodywrapper .bgwrapper3 .paperwrapper3 .selectwrapper .listwrapper3 .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper3 .selectwrapper .listwrapper3 .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper4 .selectwrapper .listwrapper3 .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper5 .selectwrapper .listwrapper3 .underline:after, * .bodywrapper .bgwrapper3 .paperwrapper6 .selectwrapper .listwrapper3 .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper6 .selectwrapper .listwrapper3 .underline:after {
   content: "";
   position: absolute;
   display: none;
 }
-/* line 504, main.scss */
+/* line 503, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .selectwrapper .listwrapper3 input:checked ~ .underline, * .bodywrapper .bgwrapper4 .paperwrapper2 .selectwrapper .listwrapper3 input:checked ~ .underline, * .bodywrapper .bgwrapper3 .paperwrapper3 .selectwrapper .listwrapper3 input:checked ~ .underline, * .bodywrapper .bgwrapper4 .paperwrapper3 .selectwrapper .listwrapper3 input:checked ~ .underline, * .bodywrapper .bgwrapper4 .paperwrapper4 .selectwrapper .listwrapper3 input:checked ~ .underline, * .bodywrapper .bgwrapper4 .paperwrapper5 .selectwrapper .listwrapper3 input:checked ~ .underline, * .bodywrapper .bgwrapper3 .paperwrapper6 .selectwrapper .listwrapper3 input:checked ~ .underline, * .bodywrapper .bgwrapper4 .paperwrapper6 .selectwrapper .listwrapper3 input:checked ~ .underline {
   background-image: url("../media/ikon1.png");
   background-size: 100%;
   background-repeat: no-repeat;
 }
-/* line 512, main.scss */
+/* line 511, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .selectwrapper .listwrapper3 input:checked ~ .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper2 .selectwrapper .listwrapper3 input:checked ~ .underline:after, * .bodywrapper .bgwrapper3 .paperwrapper3 .selectwrapper .listwrapper3 input:checked ~ .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper3 .selectwrapper .listwrapper3 input:checked ~ .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper4 .selectwrapper .listwrapper3 input:checked ~ .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper5 .selectwrapper .listwrapper3 input:checked ~ .underline:after, * .bodywrapper .bgwrapper3 .paperwrapper6 .selectwrapper .listwrapper3 input:checked ~ .underline:after, * .bodywrapper .bgwrapper4 .paperwrapper6 .selectwrapper .listwrapper3 input:checked ~ .underline:after {
   display: block;
 }
-/* line 520, main.scss */
+/* line 519, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .selectwrapper .listwrapper3 label li, * .bodywrapper .bgwrapper4 .paperwrapper2 .selectwrapper .listwrapper3 label li, * .bodywrapper .bgwrapper3 .paperwrapper3 .selectwrapper .listwrapper3 label li, * .bodywrapper .bgwrapper4 .paperwrapper3 .selectwrapper .listwrapper3 label li, * .bodywrapper .bgwrapper4 .paperwrapper4 .selectwrapper .listwrapper3 label li, * .bodywrapper .bgwrapper4 .paperwrapper5 .selectwrapper .listwrapper3 label li, * .bodywrapper .bgwrapper3 .paperwrapper6 .selectwrapper .listwrapper3 label li, * .bodywrapper .bgwrapper4 .paperwrapper6 .selectwrapper .listwrapper3 label li {
   padding-bottom: 7px;
 }
-/* line 532, main.scss */
+/* line 531, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .btnwrapper2, * .bodywrapper .bgwrapper4 .paperwrapper2 .btnwrapper2, * .bodywrapper .bgwrapper3 .paperwrapper3 .btnwrapper2, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .btnwrapper2, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .btnwrapper2, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .btnwrapper2, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .btnwrapper2, * .bodywrapper .bgwrapper4 .paperwrapper3 .btnwrapper2, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper4 .btnwrapper2, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper4 .btnwrapper2, * .bodywrapper .bgwrapper4 .paperwrapper4 .btnwrapper2, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper5 .btnwrapper2, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper5 .btnwrapper2, * .bodywrapper .bgwrapper4 .paperwrapper5 .btnwrapper2, * .bodywrapper .bgwrapper3 .paperwrapper6 .btnwrapper2, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .btnwrapper2, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .btnwrapper2, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .btnwrapper2, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .btnwrapper2, * .bodywrapper .bgwrapper4 .paperwrapper6 .btnwrapper2, * .bodywrapper .bgwrapper3 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper3 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper2 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper2 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper2 .bgwrapper4 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper2 .bgwrapper4 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper2 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper3 .bgwrapper3 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper2 .bgwrapper4 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper4 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper2 .bgwrapper4 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper4 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper2 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper4 .bgwrapper3 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper2 .bgwrapper4 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper5 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper2 .bgwrapper4 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper5 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper2 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper5 .bgwrapper3 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper2 .bgwrapper4 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper6 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper2 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper2 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper2 .bgwrapper4 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper2 .bgwrapper4 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper2 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper6 .bgwrapper3 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper2 .bgwrapper4 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper3 .bgwrapper4 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper2 .bgwrapper3 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper2 .bgwrapper3 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper2 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper2 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper2 .bgwrapper3 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper3 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper2 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper4 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper2 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper4 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper2 .bgwrapper3 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper4 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper2 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper5 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper2 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper5 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper2 .bgwrapper3 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper5 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper2 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper6 .bgwrapper4 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper2 .bgwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper2 .bgwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper2 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper2 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper2 .bgwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper6 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper2 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper2 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper3 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper2 .bgwrapper3 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper3 .bgwrapper4 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper4 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper3 .bgwrapper4 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper4 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper4 .bgwrapper3 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper3 .bgwrapper4 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper5 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper3 .bgwrapper4 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper5 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper5 .bgwrapper3 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper3 .bgwrapper4 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper6 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper3 .bgwrapper4 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper3 .bgwrapper4 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper6 .bgwrapper3 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper3 .bgwrapper4 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper2 .bgwrapper4 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper3 .bgwrapper3 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper2 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper3 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper4 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper4 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper3 .bgwrapper3 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper4 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper3 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper5 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper5 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper3 .bgwrapper3 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper5 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper3 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper6 .bgwrapper4 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper3 .bgwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper3 .bgwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper3 .bgwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper6 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper2 .bgwrapper4 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper4 .bgwrapper3 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper2 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper4 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper3 .bgwrapper4 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper4 .bgwrapper3 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper4 .bgwrapper3 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper4 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper4 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper4 .bgwrapper3 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper3 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper4 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper5 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper4 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper5 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper4 .bgwrapper3 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper5 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper4 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper6 .bgwrapper4 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper4 .bgwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper4 .bgwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper4 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper4 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper4 .bgwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper6 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper4 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper2 .bgwrapper4 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper5 .bgwrapper3 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper2 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper5 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper3 .bgwrapper4 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper5 .bgwrapper3 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper5 .bgwrapper3 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper5 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper5 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper5 .bgwrapper3 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper3 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper5 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper4 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper5 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper4 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper5 .bgwrapper3 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper4 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper5 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper6 .bgwrapper4 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper5 .bgwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper5 .bgwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper5 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper5 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper5 .bgwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper6 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper5 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper2 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper6 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper2 .bgwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper6 .bgwrapper4 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper6 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper6 .bgwrapper4 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper6 .bgwrapper4 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper3 .bgwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper6 .bgwrapper4 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper4 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper6 .bgwrapper4 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper4 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper4 .bgwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper6 .bgwrapper4 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper5 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper6 .bgwrapper4 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper5 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper5 .bgwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper6 .bgwrapper4 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper2 .bgwrapper4 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper6 .bgwrapper3 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper2 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper6 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper3 .bgwrapper4 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper6 .bgwrapper3 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper6 .bgwrapper3 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper6 .bgwrapper3 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper6 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper4 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper4 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper6 .bgwrapper3 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper4 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper6 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper5 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper5 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper6 .bgwrapper3 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper5 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper6 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper6 .btnwrapper3 {
   margin-top: 20px;
   grid-row: 5/6;
@@ -484,44 +484,44 @@
   align-items: center;
   z-index: 25;
 }
-/* line 539, main.scss */
+/* line 538, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .btnwrapper2 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper2 .btnwrapper2 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper3 .btnwrapper2 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .btnwrapper2 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .btnwrapper2 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .btnwrapper2 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .btnwrapper2 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper3 .btnwrapper2 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper4 .btnwrapper2 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper4 .btnwrapper2 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper4 .btnwrapper2 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper5 .btnwrapper2 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper5 .btnwrapper2 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper5 .btnwrapper2 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper6 .btnwrapper2 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .btnwrapper2 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .btnwrapper2 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .btnwrapper2 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .btnwrapper2 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper6 .btnwrapper2 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper3 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper2 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper2 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper2 .bgwrapper4 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper2 .bgwrapper4 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper2 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper3 .bgwrapper3 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper2 .bgwrapper4 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper4 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper2 .bgwrapper4 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper4 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper2 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper4 .bgwrapper3 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper2 .bgwrapper4 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper5 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper2 .bgwrapper4 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper5 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper2 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper5 .bgwrapper3 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper2 .bgwrapper4 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper6 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper2 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper2 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper2 .bgwrapper4 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper2 .bgwrapper4 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper2 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper6 .bgwrapper3 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper2 .bgwrapper4 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper3 .bgwrapper4 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper2 .bgwrapper3 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper2 .bgwrapper3 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper2 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper2 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper2 .bgwrapper3 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper3 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper2 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper4 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper2 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper4 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper2 .bgwrapper3 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper4 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper2 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper5 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper2 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper5 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper2 .bgwrapper3 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper5 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper2 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper6 .bgwrapper4 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper2 .bgwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper2 .bgwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper2 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper2 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper2 .bgwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper6 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper2 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper2 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper3 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper2 .bgwrapper3 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper3 .bgwrapper4 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper4 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper3 .bgwrapper4 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper4 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper4 .bgwrapper3 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper3 .bgwrapper4 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper5 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper3 .bgwrapper4 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper5 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper5 .bgwrapper3 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper3 .bgwrapper4 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper6 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper3 .bgwrapper4 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper3 .bgwrapper4 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper6 .bgwrapper3 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper3 .bgwrapper4 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper2 .bgwrapper4 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper3 .bgwrapper3 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper2 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper3 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper4 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper4 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper3 .bgwrapper3 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper4 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper3 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper5 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper5 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper3 .bgwrapper3 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper5 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper3 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper6 .bgwrapper4 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper3 .bgwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper3 .bgwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper3 .bgwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper6 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper2 .bgwrapper4 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper4 .bgwrapper3 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper2 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper4 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper3 .bgwrapper4 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper4 .bgwrapper3 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper4 .bgwrapper3 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper4 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper4 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper4 .bgwrapper3 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper3 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper4 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper5 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper4 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper5 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper4 .bgwrapper3 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper5 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper4 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper6 .bgwrapper4 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper4 .bgwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper4 .bgwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper4 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper4 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper4 .bgwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper6 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper4 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper2 .bgwrapper4 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper5 .bgwrapper3 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper2 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper5 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper3 .bgwrapper4 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper5 .bgwrapper3 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper5 .bgwrapper3 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper5 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper5 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper5 .bgwrapper3 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper3 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper5 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper4 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper5 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper4 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper5 .bgwrapper3 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper4 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper5 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper6 .bgwrapper4 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper5 .bgwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper5 .bgwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper5 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper5 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper5 .bgwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper6 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper5 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper2 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper6 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper2 .bgwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper6 .bgwrapper4 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper6 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper6 .bgwrapper4 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper6 .bgwrapper4 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper3 .bgwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper6 .bgwrapper4 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper4 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper6 .bgwrapper4 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper4 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper4 .bgwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper6 .bgwrapper4 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper5 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper6 .bgwrapper4 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper5 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper5 .bgwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper6 .bgwrapper4 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper2 .bgwrapper4 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper6 .bgwrapper3 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper2 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper6 .paperwrapper2 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .paperwrapper3 .bgwrapper4 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper6 .bgwrapper3 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper6 .bgwrapper3 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper6 .bgwrapper3 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper6 .paperwrapper3 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper4 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper4 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper6 .bgwrapper3 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper4 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper6 .paperwrapper4 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper5 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper5 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper6 .bgwrapper3 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper5 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper6 .paperwrapper5 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper3 .bgwrapper4 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .bgwrapper3 .paperwrapper6 .btnwrapper3 .btn-style, * .bodywrapper .bgwrapper4 .paperwrapper6 .btnwrapper3 .btn-style {
   width: 80%;
 }
-/* line 544, main.scss */
+/* line 543, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper2 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper3 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper4 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper5 .btnwrapper3, * .bodywrapper .bgwrapper3 .paperwrapper6 .btnwrapper3, * .bodywrapper .bgwrapper4 .paperwrapper6 .btnwrapper3 {
   grid-row: 5/6;
   grid-column: 2/3;
   z-index: 25;
 }
-/* line 560, main.scss */
+/* line 559, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper3 .txtwrapperit, * .bodywrapper .bgwrapper4 .paperwrapper3 .txtwrapperit, * .bodywrapper .bgwrapper4 .paperwrapper4 .txtwrapperit, * .bodywrapper .bgwrapper4 .paperwrapper5 .txtwrapperit {
   font-style: italic;
   font-size: 0.9rem;
 }
-/* line 566, main.scss */
+/* line 565, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper3 .selectwrapper, * .bodywrapper .bgwrapper4 .paperwrapper3 .selectwrapper, * .bodywrapper .bgwrapper4 .paperwrapper4 .selectwrapper, * .bodywrapper .bgwrapper4 .paperwrapper5 .selectwrapper {
   grid-row: 4/5;
   margin-top: 0;
 }
-/* line 570, main.scss */
+/* line 569, main.scss */
 * .bodywrapper .bgwrapper3 .paperwrapper3 .selectwrapper ul li, * .bodywrapper .bgwrapper4 .paperwrapper3 .selectwrapper ul li, * .bodywrapper .bgwrapper4 .paperwrapper4 .selectwrapper ul li, * .bodywrapper .bgwrapper4 .paperwrapper5 .selectwrapper ul li {
   margin-bottom: 5%;
 }
-/* line 579, main.scss */
+/* line 578, main.scss */
 * .bodywrapper .bgwrapper4 {
   grid-template-rows: 20vh 20vh 10vh 10vh 20vh 20vh;
   grid-template-columns: 33.3% 33.3% 33.3%;
   background-image: url("../media/Red-big.png");
 }
-/* line 584, main.scss */
+/* line 583, main.scss */
 * .bodywrapper .bgwrapper4 .validate2 {
   display: none;
   grid-row: 1/2;
   grid-column: 1/4;
   max-height: 100px;
 }
-/* line 592, main.scss */
+/* line 591, main.scss */
 * .bodywrapper .bgwrapper4 .validate2 .pwrapper p {
   margin-left: 50%;
   margin-top: 7%;
@@ -530,18 +530,18 @@
   padding: 5%;
   text-align: center;
 }
-/* line 604, main.scss */
+/* line 603, main.scss */
 * .bodywrapper .bgwrapper4 .Cecilia {
   grid-column: 1/2;
   grid-row: 1/4;
   margin-left: 12%;
   margin-top: 70%;
 }
-/* line 611, main.scss */
+/* line 610, main.scss */
 * .bodywrapper .bgwrapper4 .Cecilia img {
   max-width: 130%;
 }
-/* line 616, main.scss */
+/* line 615, main.scss */
 * .bodywrapper .bgwrapper4 .Cecilia2 {
   grid-column: 1/4;
   grid-row: 1/4;
@@ -549,11 +549,11 @@
   justify-items: center;
   margin-top: 2em;
 }
-/* line 624, main.scss */
+/* line 623, main.scss */
 * .bodywrapper .bgwrapper4 .Cecilia2 img {
   max-width: 130%;
 }
-/* line 629, main.scss */
+/* line 628, main.scss */
 * .bodywrapper .bgwrapper4 .Cecilia3 {
   grid-column: 1/2;
   grid-row: 1/4;
@@ -561,49 +561,49 @@
   justify-items: center;
   margin-top: 6em;
 }
-/* line 637, main.scss */
+/* line 636, main.scss */
 * .bodywrapper .bgwrapper4 .Cecilia3 img {
   max-width: 130%;
 }
-/* line 641, main.scss */
+/* line 642, main.scss */
 * .bodywrapper .bgwrapper4 .Malik {
   grid-column: 2/3;
   grid-row: 2/4;
 }
-/* line 644, main.scss */
+/* line 645, main.scss */
 * .bodywrapper .bgwrapper4 .Malik img {
   max-width: 140%;
 }
-/* line 651, main.scss */
+/* line 652, main.scss */
 * .bodywrapper .bgwrapper4 .Malik2 {
   grid-column: 1/4;
   grid-row: 1/4;
 }
-/* line 654, main.scss */
+/* line 655, main.scss */
 * .bodywrapper .bgwrapper4 .Malik2 img {
   max-width: 90%;
 }
-/* line 661, main.scss */
+/* line 662, main.scss */
 * .bodywrapper .bgwrapper4 .Malik3 {
   grid-column: 1/3;
   grid-row: 1/4;
   margin-top: 40%;
 }
-/* line 665, main.scss */
+/* line 666, main.scss */
 * .bodywrapper .bgwrapper4 .Malik3 img {
   max-width: 90%;
 }
-/* line 672, main.scss */
+/* line 673, main.scss */
 * .bodywrapper .bgwrapper4 .Sarah {
   grid-column: 3/4;
   grid-row: 2/4;
   margin-left: 10%;
 }
-/* line 676, main.scss */
+/* line 677, main.scss */
 * .bodywrapper .bgwrapper4 .Sarah img {
   max-width: 100%;
 }
-/* line 682, main.scss */
+/* line 683, main.scss */
 * .bodywrapper .bgwrapper4 .Sarah2 {
   grid-column: 1/4;
   grid-row: 1/4;
@@ -611,11 +611,11 @@
   justify-items: center;
   margin-top: 10%;
 }
-/* line 689, main.scss */
+/* line 690, main.scss */
 * .bodywrapper .bgwrapper4 .Sarah2 img {
   max-width: 70%;
 }
-/* line 695, main.scss */
+/* line 696, main.scss */
 * .bodywrapper .bgwrapper4 .Sarah3 {
   grid-column: 1/3;
   grid-row: 1/4;
@@ -623,11 +623,11 @@
   justify-items: center;
   margin-top: 35%;
 }
-/* line 701, main.scss */
+/* line 702, main.scss */
 * .bodywrapper .bgwrapper4 .Sarah3 img {
   max-width: 70%;
 }
-/* line 707, main.scss */
+/* line 708, main.scss */
 * .bodywrapper .bgwrapper4 .guruwrapper {
   grid-row: 1/4;
   grid-column: 1/4;
