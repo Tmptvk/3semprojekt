@@ -10,7 +10,7 @@
     <div class="bodywrapper">
       <div class="bgwrapper3">
         <div class="home">
-          <a href="index.php"><img src="media/logo.PNG" alt=""></a>
+            <a href="index.php"><img src="media/hjem.png" alt=""></a>
         </div>
         <div class="validate">
           <div class="pwrapper">

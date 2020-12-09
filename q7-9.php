@@ -49,7 +49,7 @@ elseif ($guru === "sarah") {
     <div class="bodywrapper">
       <div class="bgwrapper4">
         <div class="home">
-          <a href="index.php"><img src="media/logo.PNG" alt=""></a>
+            <a href="index.php"><img src="media/hjem.png" alt=""></a>
         </div>
           <!--baggrund to biledder, i et grid, det ene over det andet, brug z indeks, og øverste billed hus-->
           <div class="validate2">
@@ -71,15 +71,15 @@ elseif ($guru === "sarah") {
             <div class="txtwrapperit">
               <!--Udskriftlig tekst-->
               <p id="template">
-                <?php include 'psecs/li2.php'; ?>
+
               </p>
             </div>
             <div class="selectwrapper">
             <ul>
-              <label id="q7-0" class="listwrapper3">Overrask mig!<input  type ="checkbox" value="not-set" name="select-q7[]" ><span class="underline"></span> </label>
-              <label id="q7-1" class="listwrapper3">Lige ud af vejen<input  type ="checkbox" value="1" name="select-q7[]" ><span class="underline"></span> </label>
-              <label id="q7-2" class="listwrapper3">Lidt op af bakke<input  type ="checkbox" value="2" name="select-q7[]" ><span class="underline"></span> </label>
-              <label id="q7-3" class="listwrapper3">Helt op af bakke<input type ="checkbox" value="3" name="select-q7[]" ><span class="underline"></span> </label>
+              <label id="q7-0" class="q1 listwrapper3">Overrask mig!<input class="q1"  type ="checkbox" value="not-set" name="select-q7[]" ><span class="underline"></span> </label>
+              <label id="q7-1" class="q2 listwrapper3">Lige ud af vejen<input  type ="checkbox" value="1" name="select-q7[]" ><span class="underline"></span> </label>
+              <label id="q7-2" class="q3 listwrapper3">Lidt op af bakke<input  type ="checkbox" value="2" name="select-q7[]" ><span class="underline"></span> </label>
+              <label id="q7-3" class="q4 listwrapper3">Helt op af bakke<input type ="checkbox" value="3" name="select-q7[]" ><span class="underline"></span> </label>
 
 
 
@@ -97,6 +97,8 @@ elseif ($guru === "sarah") {
     </div>
   </body>
 </html>
+    <?php include 'psecs/li2.php'; ?>
+
 
 <?php
 
