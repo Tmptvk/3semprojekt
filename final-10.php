@@ -69,7 +69,7 @@ $conn->close();
   <body>
     <div class="bodywrapper">
       <div class="bgwrapper3">
-        <div class="home">
+        <div class="home2">
           <a href="index.php"><img src="media/logo.PNG" alt=""></a>
         </div>
           <!--baggrund to biledder, i et grid, det ene over det andet, brug z indeks, og øverste billed hus-->
