@@ -59,7 +59,7 @@ elseif ($guru === "sarah") {
          <?php echo $guruImg; ?>
 
         <div class="home">
-          <a href="index.php"><img src="media/logo.PNG" alt=""></a>
+            <a href="index.php"><img src="media/hjem.png" alt=""></a>
         </div>
           <!--baggrund to biledder, i et grid, det ene over det andet, brug z indeks, og øverste billed hus-->
           <div class="validate2">

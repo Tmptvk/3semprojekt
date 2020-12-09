@@ -13,13 +13,25 @@
   }
 
 .home{
-  position: fixed;
-  top: 0;
-  left: 0;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  z-index: 10;
 
-  a img {
-    max-width: 30%;
+
+  a {
+    grid-column: 1/2;
+    display: grid;
+    justify-items: start;
+    align-items: flex-start;
+
+    img {
+      max-width: 40%;
+      padding: 5%;
+    }
   }
+
 }
 
   .bodywrapper {
@@ -572,11 +584,11 @@
       }
 
       .Cecilia3{
-        grid-column: 1/4;
+        grid-column: 1/2;
         grid-row: 1/4;
         display: grid;
         justify-items: center;
-        margin-top: 2em;
+        margin-top: 6em;
 
 
         img{
