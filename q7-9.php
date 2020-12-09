@@ -120,15 +120,15 @@ elseif (count($checked) > 1 and count($checked) < 3) {
   $other ="";
 
   for($i=1; $i < count($checked); $i++){
-      $other = $other . " OR GameChallengeID = " . $checked[$i];
+      $other = $other . " OR ga.GameChallengeID = " . $checked[$i];
   }
 
-  $_SESSION['challengeSelect'] = " AND (GameChallengeID = " . $first . $other . ")";
+  $_SESSION['challengeSelect'] = " AND (ga.GameChallengeID = " . $first . $other . ")";
 }
 
 // if only 1 is chosen
 elseif (count($checked) == 1) {
-  $_SESSION['challengeSelect'] = " AND GameChallengeID = " . $checked[0];
+  $_SESSION['challengeSelect'] = " AND ga.GameChallengeID = " . $checked[0];
 
 }
 
