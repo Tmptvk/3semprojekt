@@ -34,6 +34,15 @@
                 er guruen en go' kammerat!
               </p>
             </div>
+
+            <div class="arrow-upwrapper">
+              <div class="pilop2">
+                <img id="pilopimg2"src="media\Pil-op.png" alt="">
+
+              </div>
+
+            </div>
+
             <div class="selectwrapper">
             <ul>
               <label class="listwrapper3">Yes! Giv mig et spil!<input id="q4-1" type ="radio" value="1" name="select-q4[]" ><span class="underline"></span> </label>
@@ -41,6 +50,17 @@
 
             </ul>
             </div>
+
+            <div class="arrow-downwrapper">
+              <div class="nedad">
+                <img id="pilnedimg"src="media\Pil-ned.png" alt="">
+              </div>
+
+            </div>
+
+
+
+
             <div class="btnwrapper3">
            <a href="q3-5.php"> <button type="button" class="tilbage btn-style" name="btn-start">Tilbage</button> </a>
           </div>

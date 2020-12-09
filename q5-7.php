@@ -55,6 +55,7 @@ session_start();
                 Guruerne er til for at hjælpe dig <br> med at finde et mere defineret spil.
               </p>
             </div>
+            
             <div class="selectwrapper mt-10p ">
             <ul>
               <label class="listwrapper3">Cecilia den Trygsomme<input id="q5-1" type ="radio" value="cecilia" name="select-q5[]" ><span class="underline"></span> </label>
