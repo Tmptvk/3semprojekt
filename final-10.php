@@ -21,22 +21,21 @@ echo $numPlayersSelect;
 echo $_SESSION['numPlayersSelect'];
 
 if (isset($_SESSION['qCheck'])) {
-
+  $genreSelect = $_SESSION['genreSelect'];
+  $challengeSelect = $_SESSION['challengeSelect'];
   if ($_SESSION['genreSelect'] === "") {
-    $sql = "SELECT GameID, Name, GameChallengeID FROM games WHERE MinPlayers <= $numPlayersSelect AND MaxPlayers >= $numPlayersSelect $pTimeSelect $pStyleSelect AND (GameChallengeID = 1 OR GameChallengeID = 2) ORDER BY AvgRating DESC;";
+    $sql = "SELECT GameID, Name, GameChallengeID FROM games WHERE MinPlayers <= $numPlayersSelect AND MaxPlayers >= $numPlayersSelect $pTimeSelect $pStyleSelect AND $challengeSelect ORDER BY AvgRating DESC LIMIT 3;";
 
   }
   else {
-    $sql = "SELECT ga.GameID, ga.Name, ga.GameChallengeID FROM games AS ga INNER JOIN gamegenre AS gg ON ga.GameID = gg.GameID WHERE MinPlayers <= $numPlayersSelect AND MaxPlayers >= $numPlayersSelect $pTimeSelect $pStyleSelect AND (GameChallengeID = 1 OR GameChallengeID = 2) ORDER BY AvgRating DESC;";
+
+    $sql = "SELECT ga.GameID, ga.Name, ga.GameChallengeID FROM games AS ga INNER JOIN gamegenre AS gg ON ga.GameID = gg.GameID WHERE MinPlayers <= $numPlayersSelect AND MaxPlayers >= $numPlayersSelect $pTimeSelect $pStyleSelect $genreSelect $challengeSelect ORDER BY AvgRating DESC LIMIT 3;";
 
   }
-  }
+}
 
 else {
-  $genreSelect = $_SESSION['genreSelect'];
-  $challengeSelect = $_SESSION['challengeSelect'];
-
-$sql = "SELECT GameID, Name, GameChallengeID FROM games WHERE MinPlayers <= $numPlayersSelect AND MaxPlayers >= $numPlayersSelect $pTimeSelect $pStyleSelect $genreSelect $challengeSelect ORDER BY AvgRating DESC;";
+$sql = "SELECT GameID, Name, GameChallengeID FROM games WHERE MinPlayers <= $numPlayersSelect AND MaxPlayers >= $numPlayersSelect $pTimeSelect $pStyleSelect AND (GameChallengeID = 1 OR GameChallengeID = 2) ORDER BY AvgRating DESC LIMIT 3;";
 
 
 }
@@ -44,17 +43,7 @@ echo $sql;
 $result = mysqli_query($conn, $sql);
 $resultCheck = mysqli_num_rows($result);
 
-if ($resultCheck > 0) {
-  while ($row = mysqli_fetch_assoc($result)) {
-    echo $row['GameID'] . "<br>";
-    echo $row['Name'] . "<br>";
-    echo $row['GameChallengeID'] . "<br>" . "<br>";
-  }
 
-}
-else {
-  echo "0 results";
-}
 
 $conn->close();
 
@@ -87,6 +76,18 @@ $conn->close();
               <!--Udskriftlig tekst-->
               <p>
                 Et par spil er nu valgt helt specielt til jer!
+                <?php if ($resultCheck > 0) {
+                  while ($row = mysqli_fetch_assoc($result)) {
+                    echo $row['GameID'] . "<br>";
+                    echo $row['Name'] . "<br>";
+                    echo $row['GameChallengeID'] . "<br>" . "<br>";
+                  }
+
+                }
+                else {
+                  echo "0 results";
+                }
+                ?>
               </p>
             </div>
             <div class="displaywrapper">
