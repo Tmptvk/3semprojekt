@@ -59,17 +59,11 @@ $conn->close();
   </head>
   <body>
     <div class="bodywrapper">
-      <div class="bgwrapper3">
+      <div class="bgwrapper6">
         <div class="home2">
           <a href="index.php"><img src="media/logo.PNG" alt=""></a>
         </div>
           <!--baggrund to biledder, i et grid, det ene over det andet, brug z indeks, og øverste billed hus-->
-          <div class="Cecilia">
-          </div>
-          <div class="Malik">
-          </div>
-          <div class="Sarah">
-          </div>
           <div class="paperwrapper6">
             <div class="headingwrapper">
               <h1>Pappa anbefaler</h1>
@@ -98,12 +92,14 @@ $conn->close();
               }
               ?>
             </div>
-            <div class="btnwrapper3">
-           <a href="q7-9.php"> <button  class="tilbage btn-style" type="button" name="btn-start">Tilbage</button> </a>
-          </div>
-            <div class="btnwrapper2">
-           <a href="index.php"> <button type="button" class="tilbage-til-start btn-style2 "name="btn-start">Til start</button> </a>
-          </div>
+            <div class="buttonswrapper">
+              <div class="btnwrapper">
+             <a href="q7-9.php"> <button  class="tilbage btn-style" type="button" name="btn-start">Tilbage</button> </a>
+            </div>
+              <div class="btnwrapper2">
+             <a href="index.php"> <button type="button" class="tilbage-til-start btn-style2 "name="btn-start">Til start</button> </a>
+            </div>
+            </div>
 
           </div>
       </div>
