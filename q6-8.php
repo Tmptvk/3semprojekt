@@ -34,7 +34,7 @@ elseif ($guru === "sarah") {
 
       $guruImg =' <div class="guruwrapper">
               <div class="Sarah2">
-              <img src="media\guru-3.png" alt="">
+              <img src="media\guru-3-small.png" alt="">
             </div>
             </div> ';
 
