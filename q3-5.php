@@ -29,6 +29,14 @@ session_start(); ?>
             <div class="headingwrapper">
               <h1>Hvilken spillestil?</h1>
             </div>
+
+            <div class="arrow-upwrapper">
+              <div class="pilop">
+                <img id="pilopimg"src="media\Pil-op.png" alt="">
+
+              </div>
+
+            </div>
             <div id="alittleup" class="selectwrapper">
             <ul>
               <label class="listwrapper3">Overrask mig!<input id="q3-0" type ="checkbox" value="not-set" name="select-q3[]" ><span class="underline"></span> </label>
@@ -38,6 +46,14 @@ session_start(); ?>
 
             </ul>
             </div>
+
+            <div class="arrow-downwrapper">
+              <div class="nedad">
+                <img id="pilnedimg"src="media\Pil-ned.png" alt="">
+              </div>
+
+            </div>
+
             <div class="btnwrapper3">
            <a href="q2-4.php"> <button type="button" class="tilbage btn-style" name="btn-start">Tilbage</button> </a>
           </div>

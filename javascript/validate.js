@@ -21,7 +21,8 @@ function validateForm2() {
     cbox[0].checked == false &&
     cbox[1].checked == false &&
     cbox[2].checked == false &&
-    cbox[3].checked == false
+    cbox[3].checked == false &&
+    cbox[4].checked == false
   ) {
 
     // skal vores validerings div vise sig
@@ -123,6 +124,3 @@ function validateForm4() {
         return true;
       }
     }
-
-
-  

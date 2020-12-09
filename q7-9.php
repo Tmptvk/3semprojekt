@@ -74,6 +74,15 @@ elseif ($guru === "sarah") {
 
               </p>
             </div>
+
+            <div class="arrow-upwrapper">
+              <div class="pilop">
+                <img id="pilopimg"src="media\Pil-op.png" alt="">
+
+              </div>
+
+            </div>
+
             <div class="selectwrapper">
             <ul>
               <label id="q7-0" class="q1 listwrapper3">Overrask mig!<input class="q1"  type ="checkbox" value="not-set" name="select-q7[]" ><span class="underline"></span> </label>
@@ -84,7 +93,16 @@ elseif ($guru === "sarah") {
 
 
             </ul>
+          </div>
+
+          <div class="arrow-downwrapper">
+            <div class="nedad">
+              <img id="pilnedimg"src="media\Pil-ned.png" alt="">
             </div>
+
+          </div>
+
+
             <div class="btnwrapper3">
            <a href="q6-8.php"> <button class="tilbage btn-style" type="button" name="btn-start">Tilbage</button> </a>
           </div>
