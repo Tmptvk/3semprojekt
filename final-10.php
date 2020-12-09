@@ -11,7 +11,7 @@ $conn = new mysqli($servername, $username, $password, $db);
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
-echo "Connected successfully";
+// echo "Connected successfully";
 
 $numPlayersSelect = $_SESSION['numPlayersSelect'];
 $pTimeSelect = $_SESSION['pTimeSelect'];
@@ -39,7 +39,9 @@ $sql = "SELECT ga.GameID, ga.Name, gc.GameChaName, ga.MaxPlayers, ga.MinPlayers 
 
 
 }
-echo $sql;
+
+//sends query to database and gets results
+// echo $sql;
 $result = mysqli_query($conn, $sql);
 $resultCheck = mysqli_num_rows($result);
 
