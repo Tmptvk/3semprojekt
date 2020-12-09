@@ -58,7 +58,7 @@ elseif ($guru === "sarah") {
       <div class="bgwrapper4">
          <?php echo $guruImg; ?>
 
-        <div class="home">
+        <div class="home2">
             <a href="index.php"><img src="media/hjem.png" alt=""></a>
         </div>
           <!--baggrund to biledder, i et grid, det ene over det andet, brug z indeks, og øverste billed hus-->
