@@ -78,9 +78,9 @@ $conn->close();
                 Et par spil er nu valgt helt specielt til jer!
                 <?php if ($resultCheck > 0) {
                   while ($row = mysqli_fetch_assoc($result)) {
-                    echo "<img src=\"" . $row['GameID'] . ".png\" alt=\"image not found\"> <br>";
-                    echo $row['Name'] . "<br>";
-                    echo $row['GameChaName'] . "<br>" . "<br>";
+                    echo "<img src=\"media/game-photos/" . $row['GameID'] . ".png\" alt=\"billede af ". $row['Name'] . ", resultat fra Papas Brætspilsanbefaler\"> <br>";
+                    echo $row['Name'] . "<br>" . "Spillere: " . $row['MinPlayers'] . " - " . $row['MaxPlayers'] . "<br>";
+                    echo "Udfordringsniveau: " . $row['GameChaName'] . "<br>" . "<br>";
                   }
 
                 }
