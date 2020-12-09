@@ -24,18 +24,18 @@ if (isset($_SESSION['qCheck'])) {
   $genreSelect = $_SESSION['genreSelect'];
   $challengeSelect = $_SESSION['challengeSelect'];
   if ($_SESSION['genreSelect'] === "") {
-    $sql = "SELECT GameID, Name, GameChallengeID FROM games WHERE MinPlayers <= $numPlayersSelect AND MaxPlayers >= $numPlayersSelect $pTimeSelect $pStyleSelect AND $challengeSelect ORDER BY AvgRating DESC LIMIT 3;";
+    $sql = "SELECT ga.GameID, ga.Name, gc.GameChaName, ga.MaxPlayers, ga.MinPlayers FROM games AS ga INNER JOIN gamechallenge AS gc ON ga.GameChallengeID = gc.GameChallengeID WHERE MinPlayers <= $numPlayersSelect AND MaxPlayers >= $numPlayersSelect $pTimeSelect $pStyleSelect AND $challengeSelect ORDER BY AvgRating DESC LIMIT 3;";
 
   }
   else {
 
-    $sql = "SELECT ga.GameID, ga.Name, ga.GameChallengeID FROM games AS ga INNER JOIN gamegenre AS gg ON ga.GameID = gg.GameID WHERE MinPlayers <= $numPlayersSelect AND MaxPlayers >= $numPlayersSelect $pTimeSelect $pStyleSelect $genreSelect $challengeSelect ORDER BY AvgRating DESC LIMIT 3;";
+    $sql = "SELECT ga.GameID, ga.Name, gc.GameChaName, ga.MaxPlayers, ga.MinPlayers FROM games AS ga INNER JOIN gamegenre AS gg ON ga.GameID = gg.GameID INNER JOIN gamechallenge AS gc ON ga.GameChallengeID = gc.GameChallengeID WHERE MinPlayers <= $numPlayersSelect AND MaxPlayers >= $numPlayersSelect $pTimeSelect $pStyleSelect $genreSelect $challengeSelect ORDER BY AvgRating DESC LIMIT 3;";
 
   }
 }
 
 else {
-$sql = "SELECT GameID, Name, GameChallengeID FROM games WHERE MinPlayers <= $numPlayersSelect AND MaxPlayers >= $numPlayersSelect $pTimeSelect $pStyleSelect AND (GameChallengeID = 1 OR GameChallengeID = 2) ORDER BY AvgRating DESC LIMIT 3;";
+$sql = "SELECT ga.GameID, ga.Name, gc.GameChaName, ga.MaxPlayers, ga.MinPlayers FROM games AS ga INNER JOIN gamechallenge AS gc ON ga.GameChallengeID = gc.GameChallengeID WHERE MinPlayers <= $numPlayersSelect AND MaxPlayers >= $numPlayersSelect $pTimeSelect $pStyleSelect AND (GameChallengeID = 1 OR GameChallengeID = 2) ORDER BY AvgRating DESC LIMIT 3;";
 
 
 }
@@ -78,9 +78,9 @@ $conn->close();
                 Et par spil er nu valgt helt specielt til jer!
                 <?php if ($resultCheck > 0) {
                   while ($row = mysqli_fetch_assoc($result)) {
-                    echo $row['GameID'] . "<br>";
+                    echo "<img src=\"" . $row['GameID'] . ".png\" alt=\"image not found\"> <br>";
                     echo $row['Name'] . "<br>";
-                    echo $row['GameChallengeID'] . "<br>" . "<br>";
+                    echo $row['GameChaName'] . "<br>" . "<br>";
                   }
 
                 }
