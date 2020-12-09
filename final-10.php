@@ -11,18 +11,18 @@ $conn = new mysqli($servername, $username, $password, $db);
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
-echo "Connected successfully";
+// echo "Connected successfully";
 
 $numPlayersSelect = $_SESSION['numPlayersSelect'];
 $pTimeSelect = $_SESSION['pTimeSelect'];
 $pStyleSelect = $_SESSION['pStyleSelect'];
 
-echo $numPlayersSelect;
-echo $_SESSION['numPlayersSelect'];
-
+// checks if user has chosen to speak with a guru
 if (isset($_SESSION['qCheck'])) {
   $genreSelect = $_SESSION['genreSelect'];
   $challengeSelect = $_SESSION['challengeSelect'];
+
+  //checks if a genre is chosen. If so adds an inner join for genre table and $genreSelect
   if ($_SESSION['genreSelect'] === "") {
     $sql = "SELECT ga.GameID, ga.Name, gc.GameChaName, ga.MaxPlayers, ga.MinPlayers FROM games AS ga INNER JOIN gamechallenge AS gc ON ga.GameChallengeID = gc.GameChallengeID WHERE MinPlayers <= $numPlayersSelect AND MaxPlayers >= $numPlayersSelect $pTimeSelect $pStyleSelect $challengeSelect ORDER BY AvgRating DESC LIMIT 3;";
 
@@ -39,7 +39,9 @@ $sql = "SELECT ga.GameID, ga.Name, gc.GameChaName, ga.MaxPlayers, ga.MinPlayers 
 
 
 }
-echo $sql;
+
+//sends query to database and gets results
+// echo $sql;
 $result = mysqli_query($conn, $sql);
 $resultCheck = mysqli_num_rows($result);
 
@@ -80,7 +82,9 @@ $conn->close();
 
             </div>
             <div class="displaywrapper">
-              <?php if ($resultCheck > 0) {
+              <?php
+              //here results of Mysql query is displayed
+              if ($resultCheck > 0) {
                 while ($row = mysqli_fetch_assoc($result)) {
                   echo "<div class=\"gameresultwrapper\"><div class=\"gameresultimg\"><img src=\"media/game-photos/" . $row['GameID'] . ".png\" alt=\"Billede af ". $row['Name'] . ", resultat fra Papas Brætspilsanbefaler\"></div> <br>";
                   echo "<h2>" . $row['Name'] . "</h2><br><p>" . "Spillere: " . $row['MinPlayers'] . " - " . $row['MaxPlayers'] . "<br>";
@@ -88,8 +92,9 @@ $conn->close();
                 }
 
               }
+              //in case of 0 results
               else {
-                echo "0 results";
+                echo "Der er ingen resultater fra din søgning.";
               }
               ?>
             </div>

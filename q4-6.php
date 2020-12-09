@@ -3,6 +3,7 @@
   <head>
     <?php include 'psecs/head.php';?>
     <script src="javascript/validate.js" defer></script>
+            <script src="javascript/playnow.js" defer></script>
     <title></title>
   </head>
   <body>
