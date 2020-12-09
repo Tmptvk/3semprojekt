@@ -24,7 +24,7 @@ if (isset($_SESSION['qCheck'])) {
   $genreSelect = $_SESSION['genreSelect'];
   $challengeSelect = $_SESSION['challengeSelect'];
   if ($_SESSION['genreSelect'] === "") {
-    $sql = "SELECT ga.GameID, ga.Name, gc.GameChaName, ga.MaxPlayers, ga.MinPlayers FROM games AS ga INNER JOIN gamechallenge AS gc ON ga.GameChallengeID = gc.GameChallengeID WHERE MinPlayers <= $numPlayersSelect AND MaxPlayers >= $numPlayersSelect $pTimeSelect $pStyleSelect AND $challengeSelect ORDER BY AvgRating DESC LIMIT 3;";
+    $sql = "SELECT ga.GameID, ga.Name, gc.GameChaName, ga.MaxPlayers, ga.MinPlayers FROM games AS ga INNER JOIN gamechallenge AS gc ON ga.GameChallengeID = gc.GameChallengeID WHERE MinPlayers <= $numPlayersSelect AND MaxPlayers >= $numPlayersSelect $pTimeSelect $pStyleSelect $challengeSelect ORDER BY AvgRating DESC LIMIT 3;";
 
   }
   else {
@@ -35,7 +35,7 @@ if (isset($_SESSION['qCheck'])) {
 }
 
 else {
-$sql = "SELECT ga.GameID, ga.Name, gc.GameChaName, ga.MaxPlayers, ga.MinPlayers FROM games AS ga INNER JOIN gamechallenge AS gc ON ga.GameChallengeID = gc.GameChallengeID WHERE MinPlayers <= $numPlayersSelect AND MaxPlayers >= $numPlayersSelect $pTimeSelect $pStyleSelect AND (GameChallengeID = 1 OR GameChallengeID = 2) ORDER BY AvgRating DESC LIMIT 3;";
+$sql = "SELECT ga.GameID, ga.Name, gc.GameChaName, ga.MaxPlayers, ga.MinPlayers FROM games AS ga INNER JOIN gamechallenge AS gc ON ga.GameChallengeID = gc.GameChallengeID WHERE MinPlayers <= $numPlayersSelect AND MaxPlayers >= $numPlayersSelect $pTimeSelect $pStyleSelect  AND (ga.GameChallengeID = 1 OR ga.GameChallengeID = 2) ORDER BY AvgRating DESC LIMIT 3;";
 
 
 }
