@@ -782,9 +782,13 @@
 
         .txtwrapperit{
           grid-column: 1/2;
-          grid-row: 3/4;
+          grid-row: 2/4;
+          margin-top: 2em;
         }
 
+        .noResult{
+          grid-column: 2/3;
+        }
         .displaywrapper{
           grid-row: 4/ span 8;
           grid-column: 1/-1;
@@ -871,69 +875,5 @@
       }
     }
 
-  /*  .bgwrapper3 {
-      grid-template-rows: 20vh 20vh 10vh 10vh 20vh 20vh;
-      .paperwrapper6{
-        @extend .paperwrapper2;
-        grid-template-rows: 20% 10% 25% 20% 25%;
-
-        .btnwrapper2 {
-
-          .btn-style2{
-            margin-right: 17.4%;
-            background-image: url('../media/ikon3-1.png');
-            background-size: 100%;
-            background-repeat: no-repeat;
-            background-color: transparent;
-            border: none;
-            color: $col-brown;
-            padding: 7px 30px;
-            text-align: center;
-            text-decoration: none;
-            cursor: pointer;
-            font-size: $btnfontsize;
-          }
-        }
-
-        .buttonswrapper{
-          grid-row: 3/-1;
-          grid-column: 1/-1;
-          display: grid;
-        }
-        .displaywrapper{
-          grid-row: 3/-1;
-          grid-column: 1/-1;
-          display: grid;
-          grid-template-columns: 10% 1fr 10%;
-          grid-auto-rows: 50vh;
-          margin-top: 2em;
-          grid-row-gap: 2em;
-
-          .gameresultwrapper {
-            grid-column: 2/3;
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: 30vh 10vh 10vh;
-
-            .gameresultimg{
-              grid-column: 1/-1;
-              grid-row: 1/2;
-              img {
-                max-width: 60vw;
-              }
-            }
-             h2 {
-               grid-row: 2/3;
-             }
-            p {
-              grid-column: 1/-1;
-              grid-row: 3/4;
-            }
-
-          }
-        }
-      }
-    }
-*/
   }
 }

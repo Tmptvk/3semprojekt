@@ -88,7 +88,8 @@ $conn->close();
               }
               //in case of 0 results
               else {
-                echo "Der er ingen resultater fra din søgning.";
+
+                echo "<div class=\"noResult\">  Der er ingen resultater fra din søgning. <br> <br> Papa registrede jeres ønsker <br> men kunne desværre ikke mønstre <br> et par spil til jer <br> I kan starte søgningen igen og vælge lidt mer' </div> ";
               }
               ?>
             </div>
